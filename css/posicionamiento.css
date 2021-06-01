@@ -25,7 +25,7 @@ aside {
 }
 
 /* a=0 b=1 c=1 especificidad: 011 */
-img.cartelPublicitario {
+img.periodicoDigital {
 	max-width: 12em;
 }
 
