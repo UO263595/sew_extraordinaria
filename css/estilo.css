@@ -1,0 +1,155 @@
+/* a=0 b=0 c=2 especificidad: 002 */
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* a=0 b=0 c=3 especificidad: 003 */
+nav li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* a=0 b=1 c=3 especificidad: 013 */
+nav li a:hover {
+	background-color: #111;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+header {
+    background-color: gray;  
+	text-align: center;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+h1 {
+	font-family: "Arial Black", "Gadget", sans-serif;
+	font-size: 4em;
+	color: black;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+h2 {
+	font-family: "Arial", sans-serif;
+	font-size: 2em;
+	color: black;
+}
+
+/* a=0 b=0 c=2 especificidad: 002 */
+h3::first-letter {
+	font-size: 130%;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+h3, h4, h5, h6 {
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	color: #1C2833;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+p {
+	font-family: "Times New Roman", serif;
+	text-align: left;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+body {
+	background-color: silver;
+	border: 5px red solid;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+table {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+th {
+  background-color: #3E1F1F;
+  color: white;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+tr:nth-child(odd) {
+	background-color: #AAB9FF;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+tr:nth-child(even) {
+	background-color: white;
+}
+
+/* a=0 b=0 c=3 especificidad: 003 */
+table tr td, table tr th {
+    border: 3px solid black;
+    text-align: center;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+/* a=0 b=1 c=2 especificidad: 012 */
+footer a:link {
+    text-decoration: none;
+	font-weight: bold;
+    color: #1E00FF;
+}
+
+/* a=0 b=1 c=2 especificidad: 012 */
+footer a:visited {
+    text-decoration: none;
+    color: #9E0000;
+}
+
+/* a=0 b=1 c=2 especificidad: 012 */
+footer a:hover {
+	color: #9E0000;
+}
+
+/* a=0 b=0 c=2 especificidad: 002 */
+footer p {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* a=0 b=1 c=2 especificidad: 012 */
+footer p:last-child {
+    text-align: right;  
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+footer {
+	background-color: #F2F4F4;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+figcaption {
+    background-color: rgb(25, 30, 30);
+    color: white;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+aside {
+	border: 5px black solid;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+ol {
+	list-style-type: upper-roman;
+}
+
+/* a=0 b=1 c=2 especificidad: 012 */
+section.bibliografia li {
+	padding-bottom: 2em;
+}

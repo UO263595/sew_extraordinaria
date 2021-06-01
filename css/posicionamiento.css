@@ -1,0 +1,88 @@
+/* a=0 b=0 c=2 especificidad: 002 */
+nav li {
+	float: left;
+}
+
+/* a=0 b=0 c=3 especificidad: 003 */
+nav li a {
+	display: block;
+  	padding: 1.3em 2.95em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+figure {
+    float: left;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+aside {
+	float: right;
+	padding: 3em 2em;
+	margin: 1em 2em;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+img.cartelPublicitario {
+	max-width: 12em;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+img.actores {
+	max-width: 25em;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+img.rodaje {
+	max-width: 30em;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+img.fan {
+	max-width: 16em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+video {
+	max-width: 28em;
+	float: right;
+	margin: 3em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+audio {
+	margin: 3em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+body {
+	padding: 1.2em 2em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+footer {
+	margin-top: 3em;
+	padding: 0.5em 1em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+section {
+	display: inline-block;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+section.especial {
+	display: initial;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+figure.izquierda {
+	float: left;
+}
+
+/* a=0 b=1 c=1 especificidad: 011 */
+figure.derecha {
+	float: right;
+}
