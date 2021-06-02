@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<peliculas>
+	<pelicula nombre="Kill Bill" genero="Acción">
+		<estreno fecha="2003-10-10"/>
+		<cines>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+		</cines>
+		<descripcion>
+			<duracion minutos=""/>
+			<sinopsis>
+				Aquí va la sinopsis
+			</sinopsis>
+			<recomendacion publico="" puntuacion="">
+				<critica autor="">
+					Aquí va la crítica
+				</critica>
+				<critica autor="">
+					Aquí va la crítica
+				</critica>
+			</recomendacion>
+		</descripcion>
+		<actores>
+			<actor nombre="" apellidos="">
+				<nacimiento fecha="" lugar=""/>
+				<premios>
+					<premio>
+						Aquí van los premios
+					</premio>
+				</premios>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+			<actor nombre="" apellidos="">
+				<informacion>
+					<nacimiento fecha="" lugar=""/>
+				</informacion>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+			<actor nombre="" apellidos="">
+				<informacion>
+					<nacimiento fecha="" lugar=""/>
+				</informacion>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+		</actores>
+		<bibliografía>
+			<referencia enlace=""/>
+			<referencia enlace=""/>
+			<referencia enlace=""/>
+		</bibliografía>
+	</pelicula>
+	
+	<pelicula nombre="Kill Bill" genero="Acción">
+		<estreno fecha="2003-10-10"/>
+		<cines>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+		</cines>
+		<descripcion>
+			<duracion minutos=""/>
+			<sinopsis>
+				Aquí va la sinopsis
+			</sinopsis>
+			<recomendacion publico="" puntuacion="">
+				<critica autor="">
+					Aquí va la crítica
+				</critica>
+				<critica autor="">
+					Aquí va la crítica
+				</critica>
+			</recomendacion>
+		</descripcion>
+		<actores>
+			<actor nombre="" apellidos="">
+				<nacimiento fecha="" lugar=""/>
+				<premios>
+					<premio>
+						Aquí van los premios
+					</premio>
+				</premios>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+			<actor nombre="" apellidos="">
+				<informacion>
+					<nacimiento fecha="" lugar=""/>
+				</informacion>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+			<actor nombre="" apellidos="">
+				<informacion>
+					<nacimiento fecha="" lugar=""/>
+				</informacion>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+		</actores>
+		<bibliografía>
+			<referencia enlace=""/>
+			<referencia enlace=""/>
+			<referencia enlace=""/>
+		</bibliografía>
+	</pelicula>
+	
+	<pelicula nombre="Kill Bill" genero="Acción">
+		<estreno fecha="2003-10-10"/>
+		<cines>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+			<cine nombre="">
+				<direccion ciudad="" calle=""/>
+				<programacion fecha="" hora=""/>
+			</cine>
+		</cines>
+		<descripcion>
+			<duracion minutos=""/>
+			<sinopsis>
+				Aquí va la sinopsis
+			</sinopsis>
+			<recomendacion publico="" puntuacion="">
+				<critica autor="">
+					Aquí va la crítica
+				</critica>
+				<critica autor="">
+					Aquí va la crítica
+				</critica>
+			</recomendacion>
+		</descripcion>
+		<actores>
+			<actor nombre="" apellidos="">
+				<nacimiento fecha="" lugar=""/>
+				<premios>
+					<premio>
+						Aquí van los premios
+					</premio>
+				</premios>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+			<actor nombre="" apellidos="">
+				<informacion>
+					<nacimiento fecha="" lugar=""/>
+				</informacion>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+			<actor nombre="" apellidos="">
+				<informacion>
+					<nacimiento fecha="" lugar=""/>
+				</informacion>
+				<galería>
+					<fotografia enlace=""/>
+					<fotografia enlace=""/>
+					<video enlace=""/>
+				</galería>
+			</actor>
+		</actores>
+		<bibliografía>
+			<referencia enlace=""/>
+			<referencia enlace=""/>
+			<referencia enlace=""/>
+		</bibliografía>
+	</pelicula>
+</peliculas>
