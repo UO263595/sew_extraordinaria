@@ -30,7 +30,7 @@ img.periodicoDigital {
 }
 
 /* a=0 b=1 c=1 especificidad: 011 */
-img.actores {
+img.equipo {
 	max-width: 25em;
 }
 
