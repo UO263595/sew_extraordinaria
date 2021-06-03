@@ -2,218 +2,348 @@
 
 <peliculas>
 	<pelicula nombre="Kill Bill" genero="Acción">
-		<estreno fecha="2003-10-10"/>
+		<estreno fecha="10-10-2003"/>
 		<cines>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Yelmo Cines">
+				<direccion ciudad="Oviedo (Asturias)" calle="Calle Fernández Ladreda"/>
+				<programacion fecha="18-07-2021" hora="16:00"/>
 			</cine>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Cine Planelles">
+				<direccion ciudad="Marchena (Sevilla)" calle="Calle Rojas Marcos"/>
+				<programacion fecha="16-07-2021" hora="18:00"/>
 			</cine>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Cines Van Golem Arlanzón">
+				<direccion ciudad="Burgos (Cáceres)" calle="Avenida del Arlanzón"/>
+				<programacion fecha="28-07-2021" hora="12:20"/>
 			</cine>
 		</cines>
 		<descripcion>
-			<duracion minutos=""/>
+			<duracion minutos="247"/>
 			<sinopsis>
-				Aquí va la sinopsis
+				Una mujer (Uma Thurman) despierta del coma cuatro años después de haber recibido una bala 
+				en la cabeza durante el ensayo de su boda. Todos los asistentes murieron acribillados, 
+				incluido el que iba a ser su marido. La matanza fue perpetrada por el Escuadrón Asesino Víbora Letal, 
+				unos asesinos profesionales liderados por Bill (David Carradine). La mujer, conocida como La Novia, 
+				pone en marcha su venganza contra Bill y todos sus secuaces.
 			</sinopsis>
-			<recomendacion publico="" puntuacion="">
-				<critica autor="">
-					Aquí va la crítica
+			<recomendacion publico="+18" puntuacion="8.7">
+				<critica autor="Chicago Sun-Times">
+					Quentin Tarantino muestra 'Kill Bill: Volumen 1' con poco esfuerzo y de manera brillante al mando de su técnica.
 				</critica>
-				<critica autor="">
-					Aquí va la crítica
+				<critica autor="The globe and mail">
+					Es al mismo tiempo una espectacular realización y una película ligera.
+				</critica>
+				<critica autor="Rolling Stone">
+					En 'Kill Bill', Tarantino lleva el delicioso pecado de regreso al cine; la emoción que se obtiene de algo, sucio y peligroso.
 				</critica>
 			</recomendacion>
 		</descripcion>
 		<actores>
-			<actor nombre="" apellidos="">
-				<nacimiento fecha="" lugar=""/>
+			<actor nombre="Uma" apellidos="Thurman">
+				<nacimiento fecha="29-04-2970" pais="Estados Unidos"/>
 				<premios>
-					<premio>
-						Aquí van los premios
-					</premio>
+					<premio 
+						fecha="1994" 
+						categoria="Mejor Actriz de Reparto" 
+						pelicula="Pulp Fiction"
+						resultado="Nominada"
+					/>
+					<premio 
+						fecha="2002" 
+						categoria="Mejor actriz - Miniserie o telefilme" 
+						pelicula="Ciegas de amor"
+						resultado="Ganadora"
+					/>
+					<premio 
+						fecha="2003" 
+						categoria="Mejor actriz - Drama" 
+						pelicula="Kill Bill"
+						resultado="Nominada"
+					/>
 				</premios>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://www.tonica.la/__export/1589315374646/sites/debate/img/2020/05/12/uma_thurman_quentin_tarantino_kill_bill_vol_3.jpg_1902800913.jpg"/>
+					<fotografia enlace="https://sm.ign.com/ign_es/screenshot/default/blob_96fh.jpg"/>
+					<fotografia enlace="https://www.lahiguera.net/cinemania/actores/uma_thurman/fotos/371/uma_thurman.jpg"/>
+					<video enlace="https://www.youtube.com/watch?v=Upwg6JMtyCg"/>
 				</galería>
 			</actor>
-			<actor nombre="" apellidos="">
-				<informacion>
-					<nacimiento fecha="" lugar=""/>
-				</informacion>
+			<actor nombre="David" apellidos="Carradine">
+				<nacimiento fecha="08-12-1936" pais="Estados Unidos"/>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="http://hoyhevisto.files.wordpress.com/2008/07/kill_bill.jpg"/>
+					<fotografia enlace="https://i.pinimg.com/originals/98/ae/3e/98ae3e5184f8d4b4ee127104338ecc8e.jpg"/>
+					<video enlace="https://www.youtube.com/watch?v=eWTJIBGNId0"/>
 				</galería>
 			</actor>
-			<actor nombre="" apellidos="">
-				<informacion>
-					<nacimiento fecha="" lugar=""/>
-				</informacion>
+			<actor nombre="Chiaki" apellidos="Kuriyama">
+				<nacimiento fecha="10-10-1984" pais="Japón"/>
+				<premios>
+					<premio
+						fecha="2004"
+						Categoria="MTV Movie Award a la Mejor Pelea"
+						resultado="Ganadora"
+					/>
+					<premio
+						fecha="2014"
+						Categoria="AFA Rising Star of Asia Award"
+						resultado="Ganadora"
+					/>
+				</premios>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://i.pinimg.com/originals/c5/06/ac/c506acd7115447f181962c03a529614c.jpg"/>
+					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/81j6n4MopcL._AC_SL1494_.jpg"/>
 				</galería>
 			</actor>
 		</actores>
 		<bibliografía>
-			<referencia enlace=""/>
-			<referencia enlace=""/>
-			<referencia enlace=""/>
+			<referencia enlace="https://www.filmaffinity.com/es/film524439.html"/>
+			<referencia enlace="https://es.wikipedia.org/wiki/Wikipedia"/>
+			<referencia enlace="https://www.sensacine.com/peliculas/pelicula-28541/reparto/"/>
 		</bibliografía>
 	</pelicula>
 	
-	<pelicula nombre="Kill Bill" genero="Acción">
-		<estreno fecha="2003-10-10"/>
+	<pelicula nombre="The Shawshank Redemption" genero="Drama">
+		<estreno fecha="24-02-1995"/>
 		<cines>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Cine Salamero">
+				<direccion ciudad="Graus (Huesca)" calle="Calle Ángel Samblancat"/>
+				<programacion fecha="22-08-2021" hora="15:40"/>
 			</cine>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Cine 7 Infantes">
+				<direccion ciudad="Logroño (La Rioja)" calle="Parque San Adrián"/>
+				<programacion fecha="21-08-2021" hora="21:00"/>
 			</cine>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Artesiete Segovia">
+				<direccion ciudad="Segovia (Segovia)" calle="Calle Dámaso Alonso"/>
+				<programacion fecha="23-07-2021" hora="17:00"/>
 			</cine>
 		</cines>
 		<descripcion>
-			<duracion minutos=""/>
+			<duracion minutos="142"/>
 			<sinopsis>
-				Aquí va la sinopsis
+				Basada en la novela corta de Stephen King, Rita Hayworth y la redención de Shawshank, 
+				el film abarca una mirada optimista de la vida, contando la historia de dos amigos, 
+				Robbins y Freeman, en una prisión. Se enfatiza en el no perder las esperanzas, incluso en la más inhóspitas situaciones.
 			</sinopsis>
-			<recomendacion publico="" puntuacion="">
-				<critica autor="">
-					Aquí va la crítica
+			<recomendacion publico="+13" puntuacion="8.6">
+				<critica autor="Chicago Reader">
+					Un apasionante drama carcelario de 1994, dirigido y adaptado con habilidad por Frank Darabont.
 				</critica>
-				<critica autor="">
-					Aquí va la crítica
+				<critica autor="Diario El País">
+					Un clásico del cine carcelario que huye del espectáculo barato para ahondar en la amistad de la pareja protagonista.
+				</critica>
+				<critica autor="Time out">
+					Un regreso a la clase de dramas serios y literarios que Hollywood solía hacer (...) una fábula absorbente y soberbiamente interpretada.
+				</critica>
+				<critica autor="Chicago Tribune">
+					Simplemente, un entretenimiento maravilloso.
 				</critica>
 			</recomendacion>
 		</descripcion>
 		<actores>
-			<actor nombre="" apellidos="">
-				<nacimiento fecha="" lugar=""/>
+			<actor nombre="Morgan" apellidos="Freeman">
+				<nacimiento fecha="01-06-1937" pais="Estados Unidos"/>
 				<premios>
-					<premio>
-						Aquí van los premios
-					</premio>
+					<premio
+						fecha="1990"
+						Categoria="Mejor Actor"
+						pelicula="Driving Miss Daisy"
+						resultado="Nominado"
+					/>
+					<premio
+						fecha="1988"
+						Categoria="Mejor Actor de Reparto"
+						pelicula="Street Smart"
+						resultado="Nominado"
+					/>
+					<premio
+						fecha="2005"
+						Categoria="Mejor Actor de Reparto"
+						pelicula="Million Dollar Baby"
+						resultado="Ganador"
+					/>
+					<premio
+						fecha="2010"
+						Categoria="Mejor Actor"
+						pelicula="Invictus"
+						resultado="Nominado"
+					/>
+					<premio
+						fecha="2016"
+						Categoria="Mejor Serie o Especial Informativo"
+						pelicula="The Story Of God With Morgan Freeman"
+						resultado="Nominado"
+					/>
 				</premios>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://assets.adnradio.cl/2019/12/3157152_n_vir2-437x470.jpg"/>
+					<video enlace="https://www.youtube.com/watch?v=cGo5rXUAH2o"/>
 				</galería>
 			</actor>
-			<actor nombre="" apellidos="">
-				<informacion>
-					<nacimiento fecha="" lugar=""/>
-				</informacion>
+			<actor nombre="Tim" apellidos="Robbins">
+				<nacimiento fecha="16-10-1958" pais="Estados Unidos"/>
+				<premios>
+					<premio
+						fecha="1994"
+						Categoria="Mejor Reparto"
+						pelicula="Vidas Cruzadas"
+						resultado="Ganador"
+					/>
+					<premio
+						fecha="2004"
+						Categoria="Mejor Actor de Reparto"
+						pelicula="Mystic River"
+						resultado="Ganador"
+					/>
+					<premio
+						fecha="2011"
+						Categoria="Mejor Actor de Reparto de Serie, Miniserie o Telefilme"
+						pelicula="Cinema Verite"
+						resultado="Nominado"
+					/>
+					<premio
+						fecha="2015"
+						Categoria="Mejor Actor de Reparto"
+						pelicula="Un Día Perfecto"
+						resultado="Nominado"
+					/>
+				</premios>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://img.allvipp.com/www-promipool-de/image/upload/c_fill,g_faces,h_357,w_634,q_auto:eco,f_jpg/Tim_Robbins_The_Shawshank_Redemption_que_esta_haciendo_hoy_200810_ghlr5rsjy1"/>
+					<fotografia enlace="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1530803171517-1N3BEPHH8Q8L481LFSX5/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/image-asset.jpeg?format=2500w"/>
 				</galería>
 			</actor>
-			<actor nombre="" apellidos="">
-				<informacion>
-					<nacimiento fecha="" lugar=""/>
-				</informacion>
+			<actor nombre="Bob" apellidos="Gunton">
+				<nacimiento fecha="15-11-1945" pais="Estados Unidos"/>
+				<premios>
+					<premio
+						fecha="1980"
+						Categoria="Premio Obie"
+						pelicula="How I Got That Story"
+						resultado="Ganador"
+					/>
+					<premio
+						fecha="2004"
+						Categoria="Premio Barrymore"
+						pelicula="El Gran Ostrovsky"
+						resultado="Nominado"
+					/>
+				</premios>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://i2.wp.com/25lists.com/wp-content/uploads/2020/07/3b6b5ed66d89e544163621534a45116f.jpg"/>
+					<fotografia enlace="https://mediad.publicbroadcasting.net/p/shared/npr/201908/752357582.jpg"/>
+					<fotografia enlace="https://static.wikia.nocookie.net/movie-villains/images/f/fb/Warden_Norton.jpg/revision/latest?cb=20140623174206"/>
 				</galería>
 			</actor>
 		</actores>
 		<bibliografía>
-			<referencia enlace=""/>
-			<referencia enlace=""/>
-			<referencia enlace=""/>
+			<referencia enlace="https://www.filmaffinity.com/cr/reviews/68/161026.html?orderby=1"/>
+			<referencia enlace="https://es.wikipedia.org/wiki/Wikipedia"/>
+			<referencia enlace="http://diccionario.sensagent.com/The%20Shawshank%20Redemption/es-es/"/>
 		</bibliografía>
 	</pelicula>
 	
-	<pelicula nombre="Kill Bill" genero="Acción">
-		<estreno fecha="2003-10-10"/>
+	<pelicula nombre="El Mago de Oz" genero="Fantasía">
+		<estreno fecha="25-08-1939"/>
 		<cines>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Cultura Azuqueca">
+				<direccion ciudad="Azuqueca de Henares (Guadalajara)" calle="Av. Francisco Vives"/>
+				<programacion fecha="21-08-2021" hora="15:30"/>
 			</cine>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="Cine Arenas">
+				<direccion ciudad="Arenas de San Pedro (Ávila)" calle="Calle Sorpresa"/>
+				<programacion fecha="31-08-2021" hora="11:00"/>
 			</cine>
-			<cine nombre="">
-				<direccion ciudad="" calle=""/>
-				<programacion fecha="" hora=""/>
+			<cine nombre="La Dehesa Ponferrada">
+				<direccion ciudad="Pongerrada (León)" calle="Centro Comercial El Rosal - Av. Constitución"/>
+				<programacion fecha="14-08-2021" hora="19:10"/>
 			</cine>
 		</cines>
 		<descripcion>
-			<duracion minutos=""/>
+			<duracion minutos="101"/>
 			<sinopsis>
-				Aquí va la sinopsis
+				Dorothy, que sueña con viajar "más allá del arco iris", ve su deseo hecho realidad cuando un tornado 
+				se la lleva con su perrito al mundo de Oz. Pero la aventura sólo acaba de comenzar: tras ofender 
+				a la Malvada Bruja del Oeste (Margaret Hamilton), aconsejada por la Bruja Buena del Norte (Billie Burke), 
+				la niña se dirige por el Camino Amarillo hacia la Ciudad Esmeralda, donde vive el todopoderoso Mago de Oz, 
+				que puede ayudarla a regresar a Kansas. Durante el viaje, se hace amiga del Espantapájaros (Ray Bolger), 
+				el Hombre de Hojalata (Jack Haley) y el León Cobarde (Bert Lahr). El Espantapájaros desea un cerebro, 
+				el Hombre de Hojalata quiere un corazón, y el León, el coraje que le falta; convencidos de que el Mago 
+				también les puede ayudar a ellos, deciden unirse a Dorothy en su odisea hasta la Ciudad Esmeralda.
 			</sinopsis>
-			<recomendacion publico="" puntuacion="">
-				<critica autor="">
-					Aquí va la crítica
+			<recomendacion publico="Todos los públicos" puntuacion="7.4">
+				<critica autor="Variety">
+					Es una película vintage que vive plenamente su condición de clásico y debería funcionar con gran éxito entre el público contemporáneo de todas las edades.
 				</critica>
-				<critica autor="">
-					Aquí va la crítica
+				<critica autor="The New York Times">
+					Una deliciosa y maravillosa obra que hizo que los ojos de los jóvenes brillaran, y que trajo un tranquilo destello de diversión a los más sabios de los mayores.
+				</critica>
+				<critica autor="Diario El País">
+					Magnífico espectáculo de color y música que se ha convertido por méritos propios en un clásico del cine musical. Bien dirigida, con una banda sonora de altura y con una protagonista, Judy Garland, acertadísima.
 				</critica>
 			</recomendacion>
 		</descripcion>
 		<actores>
-			<actor nombre="" apellidos="">
-				<nacimiento fecha="" lugar=""/>
+			<actor nombre="Judy" apellidos="Garland">
+				<nacimiento fecha="10-06-1922" pais="Estados Unidos"/>
 				<premios>
-					<premio>
-						Aquí van los premios
-					</premio>
+					<premio
+						fecha="1940"
+						Categoria="Premio Juvenil de la Academia"
+						pelicula="El Mago de Oz"
+						resultado="Ganadora"
+					/>
+					<premio
+						fecha="1955"
+						Categoria="Mejor Actriz"
+						pelicula="Ha Nacido una Estrella"
+						resultado="Nominada"
+					/>
+					<premio
+						fecha="1961"
+						Categoria="Mejor Actriz de Reparto"
+						pelicula="Judgment at Nuremberg"
+						resultado="Nominada"
+					/>
+					<premio
+						fecha="1961"
+						Categoria="Álbum del Año"
+						pelicula="Judy at Carnegie Hall"
+						resultado="Ganadora"
+					/>
 				</premios>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://ep00.epimg.net/elpais/imagenes/2015/11/24/estilo/1448364038_599502_1448365835_noticia_normal.jpg"/>
+					<video enlace="https://www.youtube.com/watch?v=s00OXic4mS8"/>
 				</galería>
 			</actor>
-			<actor nombre="" apellidos="">
-				<informacion>
-					<nacimiento fecha="" lugar=""/>
-				</informacion>
+			<actor nombre="Ray" apellidos="Bolger">
+				<nacimiento fecha="15-01-1904" pais="Estados Unidos"/>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://i.ebayimg.com/images/g/2MEAAOxy1yZSMOMn/s-l300.jpg"/>
+					<fotografia enlace="https://3.bp.blogspot.com/-kx-E8xEuaKo/WfzyyKVTjyI/AAAAAAABrWc/c0Xdmdhtf38LQE5JfGVXlSkmBQpuTjXbwCLcBGAs/s320/6a014e8b29c8c3970d01a3fcf5cefb970b-600wi.jpg"/>
 				</galería>
 			</actor>
-			<actor nombre="" apellidos="">
-				<informacion>
-					<nacimiento fecha="" lugar=""/>
-				</informacion>
+			<actor nombre="Jack" apellidos="Haley">
+				<nacimiento fecha="10-08-1898" pais="Estados Unidos"/>
 				<galería>
-					<fotografia enlace=""/>
-					<fotografia enlace=""/>
-					<video enlace=""/>
+					<fotografia enlace="https://image.posterlounge.es/images/big/1873379.jpg"/>
+					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/51AuCxOFMCL._AC_.jpg"/>
+				</galería>
+			</actor>
+			<actor nombre="Bert" apellidos="Lahr">
+				<nacimiento fecha="13-08-1895" pais="Estados Unidos"/>
+				<galería>
+					<fotografia enlace="https://i.ebayimg.com/images/g/UwQAAMXQKQhRHpQ1/s-l300.jpg"/>
+					<fotografia enlace="https://www.datosfreak.org/wp-content/uploads/2019/01/Disfraz_Zeke_Bert_Lahr_Mago_de_Oz_leon_real-1.jpg"/>
 				</galería>
 			</actor>
 		</actores>
 		<bibliografía>
-			<referencia enlace=""/>
-			<referencia enlace=""/>
-			<referencia enlace=""/>
+			<referencia enlace="https://www.filmaffinity.com/es/film615537.html"/>
+			<referencia enlace="https://es.wikipedia.org/wiki/Wikipedia"/>
+			<referencia enlace="https://eneagramadelapersonalidad.com/2014/11/06/analisis-del-estilo-de-personalidad-de-los-personajes-de-el-mago-de-oz/"/>
 		</bibliografía>
 	</pelicula>
 </peliculas>
