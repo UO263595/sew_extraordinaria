@@ -1,0 +1,61 @@
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (estreno, cines, descripcion, actores, bibliografia)>
+<!ELEMENT estreno (#PCDATA)>
+<!ELEMENT cines (cine+)>
+<!ELEMENT cine (direccion, programacion)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT programacion (#PCDATA)>
+<!ELEMENT descripcion (duracion, sinopsis, recomendacion)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT recomendacion (critica+)>
+<!ELEMENT critica (#PCDATA)>
+<!ELEMENT actores (actor+)>
+<!ELEMENT actor (nacimiento, premios*, galeria)>
+<!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT premios (premio+)>
+<!ELEMENT premio (#PCDATA)>
+<!ELEMENT galeria (fotografia+, video*)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT bibliografia (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ATTLIST pelicula
+	nombre CDATA #REQUIRED
+	genero (Acción|Fantasía|Comedia|Drama|Suspense|Terror|Musical) #REQUIRED>
+<!ATTLIST estreno
+	fecha NMTOKEN #REQUIRED>
+<!ATTLIST cine
+	nombre CDATA #REQUIRED>
+<!ATTLIST direccion
+	ciudad CDATA #REQUIRED
+	calle CDATA #REQUIRED>
+<!ATTLIST programacion
+	fecha NMTOKEN #REQUIRED
+	hora NMTOKEN #REQUIRED>
+<!ATTLIST duracion
+	minutos NMTOKEN #REQUIRED>
+<!ATTLIST recomendacion
+	publico CDATA #REQUIRED
+	puntuacion NMTOKEN #REQUIRED>
+<!ATTLIST critica
+	autor CDATA #REQUIRED>
+<!ATTLIST actor
+	nombre CDATA #REQUIRED
+	apellidos CDATA #REQUIRED>
+<!ATTLIST nacimiento
+	fecha NMTOKEN #REQUIRED
+	pais CDATA #REQUIRED>
+<!ATTLIST premio
+	fecha NMTOKEN #REQUIRED
+	categoria CDATA #REQUIRED
+	pelicula CDATA #IMPLIED
+	resultado (Nominado|Nominada|Ganador|Ganadora) #REQUIRED>
+<!ATTLIST fotografia
+	enlace CDATA #REQUIRED>
+<!ATTLIST video
+	enlace CDATA #REQUIRED>
+<!ATTLIST referencia
+	enlace CDATA #REQUIRED>
+	

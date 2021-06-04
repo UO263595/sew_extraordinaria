@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE peliculas SYSTEM "peliculas.dtd">
 
 <peliculas>
 	<pelicula nombre="Kill Bill" genero="Acción">
@@ -61,46 +62,46 @@
 						resultado="Nominada"
 					/>
 				</premios>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://www.tonica.la/__export/1589315374646/sites/debate/img/2020/05/12/uma_thurman_quentin_tarantino_kill_bill_vol_3.jpg_1902800913.jpg"/>
 					<fotografia enlace="https://sm.ign.com/ign_es/screenshot/default/blob_96fh.jpg"/>
 					<fotografia enlace="https://www.lahiguera.net/cinemania/actores/uma_thurman/fotos/371/uma_thurman.jpg"/>
 					<video enlace="https://www.youtube.com/watch?v=Upwg6JMtyCg"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="David" apellidos="Carradine">
 				<nacimiento fecha="08-12-1936" pais="Estados Unidos"/>
-				<galería>
+				<galeria>
 					<fotografia enlace="http://hoyhevisto.files.wordpress.com/2008/07/kill_bill.jpg"/>
 					<fotografia enlace="https://i.pinimg.com/originals/98/ae/3e/98ae3e5184f8d4b4ee127104338ecc8e.jpg"/>
 					<video enlace="https://www.youtube.com/watch?v=eWTJIBGNId0"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="Chiaki" apellidos="Kuriyama">
 				<nacimiento fecha="10-10-1984" pais="Japón"/>
 				<premios>
 					<premio
 						fecha="2004"
-						Categoria="MTV Movie Award a la Mejor Pelea"
+						categoria="MTV Movie Award a la Mejor Pelea"
 						resultado="Ganadora"
 					/>
 					<premio
 						fecha="2014"
-						Categoria="AFA Rising Star of Asia Award"
+						categoria="AFA Rising Star of Asia Award"
 						resultado="Ganadora"
 					/>
 				</premios>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://i.pinimg.com/originals/c5/06/ac/c506acd7115447f181962c03a529614c.jpg"/>
 					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/81j6n4MopcL._AC_SL1494_.jpg"/>
-				</galería>
+				</galeria>
 			</actor>
 		</actores>
-		<bibliografía>
+		<bibliografia>
 			<referencia enlace="https://www.filmaffinity.com/es/film524439.html"/>
 			<referencia enlace="https://es.wikipedia.org/wiki/Wikipedia"/>
 			<referencia enlace="https://www.sensacine.com/peliculas/pelicula-28541/reparto/"/>
-		</bibliografía>
+		</bibliografia>
 	</pelicula>
 	
 	<pelicula nombre="The Shawshank Redemption" genero="Drama">
@@ -147,101 +148,101 @@
 				<premios>
 					<premio
 						fecha="1990"
-						Categoria="Mejor Actor"
+						categoria="Mejor Actor"
 						pelicula="Driving Miss Daisy"
 						resultado="Nominado"
 					/>
 					<premio
 						fecha="1988"
-						Categoria="Mejor Actor de Reparto"
+						categoria="Mejor Actor de Reparto"
 						pelicula="Street Smart"
 						resultado="Nominado"
 					/>
 					<premio
 						fecha="2005"
-						Categoria="Mejor Actor de Reparto"
+						categoria="Mejor Actor de Reparto"
 						pelicula="Million Dollar Baby"
 						resultado="Ganador"
 					/>
 					<premio
 						fecha="2010"
-						Categoria="Mejor Actor"
+						categoria="Mejor Actor"
 						pelicula="Invictus"
 						resultado="Nominado"
 					/>
 					<premio
 						fecha="2016"
-						Categoria="Mejor Serie o Especial Informativo"
+						categoria="Mejor Serie o Especial Informativo"
 						pelicula="The Story Of God With Morgan Freeman"
 						resultado="Nominado"
 					/>
 				</premios>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://assets.adnradio.cl/2019/12/3157152_n_vir2-437x470.jpg"/>
 					<video enlace="https://www.youtube.com/watch?v=cGo5rXUAH2o"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="Tim" apellidos="Robbins">
 				<nacimiento fecha="16-10-1958" pais="Estados Unidos"/>
 				<premios>
 					<premio
 						fecha="1994"
-						Categoria="Mejor Reparto"
+						categoria="Mejor Reparto"
 						pelicula="Vidas Cruzadas"
 						resultado="Ganador"
 					/>
 					<premio
 						fecha="2004"
-						Categoria="Mejor Actor de Reparto"
+						categoria="Mejor Actor de Reparto"
 						pelicula="Mystic River"
 						resultado="Ganador"
 					/>
 					<premio
 						fecha="2011"
-						Categoria="Mejor Actor de Reparto de Serie, Miniserie o Telefilme"
+						categoria="Mejor Actor de Reparto de Serie, Miniserie o Telefilme"
 						pelicula="Cinema Verite"
 						resultado="Nominado"
 					/>
 					<premio
 						fecha="2015"
-						Categoria="Mejor Actor de Reparto"
+						categoria="Mejor Actor de Reparto"
 						pelicula="Un Día Perfecto"
 						resultado="Nominado"
 					/>
 				</premios>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://img.allvipp.com/www-promipool-de/image/upload/c_fill,g_faces,h_357,w_634,q_auto:eco,f_jpg/Tim_Robbins_The_Shawshank_Redemption_que_esta_haciendo_hoy_200810_ghlr5rsjy1"/>
 					<fotografia enlace="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1530803171517-1N3BEPHH8Q8L481LFSX5/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/image-asset.jpeg?format=2500w"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="Bob" apellidos="Gunton">
 				<nacimiento fecha="15-11-1945" pais="Estados Unidos"/>
 				<premios>
 					<premio
 						fecha="1980"
-						Categoria="Premio Obie"
+						categoria="Premio Obie"
 						pelicula="How I Got That Story"
 						resultado="Ganador"
 					/>
 					<premio
 						fecha="2004"
-						Categoria="Premio Barrymore"
+						categoria="Premio Barrymore"
 						pelicula="El Gran Ostrovsky"
 						resultado="Nominado"
 					/>
 				</premios>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://i2.wp.com/25lists.com/wp-content/uploads/2020/07/3b6b5ed66d89e544163621534a45116f.jpg"/>
 					<fotografia enlace="https://mediad.publicbroadcasting.net/p/shared/npr/201908/752357582.jpg"/>
 					<fotografia enlace="https://static.wikia.nocookie.net/movie-villains/images/f/fb/Warden_Norton.jpg/revision/latest?cb=20140623174206"/>
-				</galería>
+				</galeria>
 			</actor>
 		</actores>
-		<bibliografía>
+		<bibliografia>
 			<referencia enlace="https://www.filmaffinity.com/cr/reviews/68/161026.html?orderby=1"/>
 			<referencia enlace="https://es.wikipedia.org/wiki/Wikipedia"/>
 			<referencia enlace="http://diccionario.sensagent.com/The%20Shawshank%20Redemption/es-es/"/>
-		</bibliografía>
+		</bibliografia>
 	</pelicula>
 	
 	<pelicula nombre="El Mago de Oz" genero="Fantasía">
@@ -290,60 +291,60 @@
 				<premios>
 					<premio
 						fecha="1940"
-						Categoria="Premio Juvenil de la Academia"
+						categoria="Premio Juvenil de la Academia"
 						pelicula="El Mago de Oz"
 						resultado="Ganadora"
 					/>
 					<premio
 						fecha="1955"
-						Categoria="Mejor Actriz"
+						categoria="Mejor Actriz"
 						pelicula="Ha Nacido una Estrella"
 						resultado="Nominada"
 					/>
 					<premio
 						fecha="1961"
-						Categoria="Mejor Actriz de Reparto"
+						categoria="Mejor Actriz de Reparto"
 						pelicula="Judgment at Nuremberg"
 						resultado="Nominada"
 					/>
 					<premio
 						fecha="1961"
-						Categoria="Álbum del Año"
+						categoria="Álbum del Año"
 						pelicula="Judy at Carnegie Hall"
 						resultado="Ganadora"
 					/>
 				</premios>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://ep00.epimg.net/elpais/imagenes/2015/11/24/estilo/1448364038_599502_1448365835_noticia_normal.jpg"/>
 					<video enlace="https://www.youtube.com/watch?v=s00OXic4mS8"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="Ray" apellidos="Bolger">
 				<nacimiento fecha="15-01-1904" pais="Estados Unidos"/>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://i.ebayimg.com/images/g/2MEAAOxy1yZSMOMn/s-l300.jpg"/>
 					<fotografia enlace="https://3.bp.blogspot.com/-kx-E8xEuaKo/WfzyyKVTjyI/AAAAAAABrWc/c0Xdmdhtf38LQE5JfGVXlSkmBQpuTjXbwCLcBGAs/s320/6a014e8b29c8c3970d01a3fcf5cefb970b-600wi.jpg"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="Jack" apellidos="Haley">
 				<nacimiento fecha="10-08-1898" pais="Estados Unidos"/>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://image.posterlounge.es/images/big/1873379.jpg"/>
 					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/51AuCxOFMCL._AC_.jpg"/>
-				</galería>
+				</galeria>
 			</actor>
 			<actor nombre="Bert" apellidos="Lahr">
 				<nacimiento fecha="13-08-1895" pais="Estados Unidos"/>
-				<galería>
+				<galeria>
 					<fotografia enlace="https://i.ebayimg.com/images/g/UwQAAMXQKQhRHpQ1/s-l300.jpg"/>
 					<fotografia enlace="https://www.datosfreak.org/wp-content/uploads/2019/01/Disfraz_Zeke_Bert_Lahr_Mago_de_Oz_leon_real-1.jpg"/>
-				</galería>
+				</galeria>
 			</actor>
 		</actores>
-		<bibliografía>
+		<bibliografia>
 			<referencia enlace="https://www.filmaffinity.com/es/film615537.html"/>
 			<referencia enlace="https://es.wikipedia.org/wiki/Wikipedia"/>
 			<referencia enlace="https://eneagramadelapersonalidad.com/2014/11/06/analisis-del-estilo-de-personalidad-de-los-personajes-de-el-mago-de-oz/"/>
-		</bibliografía>
+		</bibliografia>
 	</pelicula>
 </peliculas>
