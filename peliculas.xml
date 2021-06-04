@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE peliculas SYSTEM "peliculas.dtd">
 
-<peliculas>
+<peliculas
+	xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es peliculas.xsd">
 	<pelicula nombre="Kill Bill" genero="Acción">
-		<estreno fecha="10-10-2003"/>
+		<estreno fecha="2003-10-10"/>
 		<cines>
 			<cine nombre="Yelmo Cines">
 				<direccion ciudad="Oviedo (Asturias)" calle="Calle Fernández Ladreda"/>
-				<programacion fecha="18-07-2021" hora="16:00"/>
+				<programacion fecha="2021-07-18" hora="16:00:00"/>
 			</cine>
 			<cine nombre="Cine Planelles">
 				<direccion ciudad="Marchena (Sevilla)" calle="Calle Rojas Marcos"/>
-				<programacion fecha="16-07-2021" hora="18:00"/>
+				<programacion fecha="2021-07-16" hora="18:00:00"/>
 			</cine>
 			<cine nombre="Cines Van Golem Arlanzón">
 				<direccion ciudad="Burgos (Cáceres)" calle="Avenida del Arlanzón"/>
-				<programacion fecha="28-07-2021" hora="12:20"/>
+				<programacion fecha="2021-07-28" hora="12:20:00"/>
 			</cine>
 		</cines>
 		<descripcion>
@@ -41,7 +44,7 @@
 		</descripcion>
 		<actores>
 			<actor nombre="Uma" apellidos="Thurman">
-				<nacimiento fecha="29-04-2970" pais="Estados Unidos"/>
+				<nacimiento fecha="2970-04-29" pais="Estados Unidos"/>
 				<premios>
 					<premio 
 						fecha="1994" 
@@ -70,7 +73,7 @@
 				</galeria>
 			</actor>
 			<actor nombre="David" apellidos="Carradine">
-				<nacimiento fecha="08-12-1936" pais="Estados Unidos"/>
+				<nacimiento fecha="1936-12-08" pais="Estados Unidos"/>
 				<galeria>
 					<fotografia enlace="http://hoyhevisto.files.wordpress.com/2008/07/kill_bill.jpg"/>
 					<fotografia enlace="https://i.pinimg.com/originals/98/ae/3e/98ae3e5184f8d4b4ee127104338ecc8e.jpg"/>
@@ -78,7 +81,7 @@
 				</galeria>
 			</actor>
 			<actor nombre="Chiaki" apellidos="Kuriyama">
-				<nacimiento fecha="10-10-1984" pais="Japón"/>
+				<nacimiento fecha="2984-10-10" pais="Japón"/>
 				<premios>
 					<premio
 						fecha="2004"
@@ -105,19 +108,19 @@
 	</pelicula>
 	
 	<pelicula nombre="The Shawshank Redemption" genero="Drama">
-		<estreno fecha="24-02-1995"/>
+		<estreno fecha="1995-02-24"/>
 		<cines>
 			<cine nombre="Cine Salamero">
 				<direccion ciudad="Graus (Huesca)" calle="Calle Ángel Samblancat"/>
-				<programacion fecha="22-08-2021" hora="15:40"/>
+				<programacion fecha="2021-08-22" hora="15:40:00"/>
 			</cine>
 			<cine nombre="Cine 7 Infantes">
 				<direccion ciudad="Logroño (La Rioja)" calle="Parque San Adrián"/>
-				<programacion fecha="21-08-2021" hora="21:00"/>
+				<programacion fecha="2021-08-21" hora="21:00:00"/>
 			</cine>
 			<cine nombre="Artesiete Segovia">
 				<direccion ciudad="Segovia (Segovia)" calle="Calle Dámaso Alonso"/>
-				<programacion fecha="23-07-2021" hora="17:00"/>
+				<programacion fecha="2021-07-23" hora="17:00:00"/>
 			</cine>
 		</cines>
 		<descripcion>
@@ -144,7 +147,7 @@
 		</descripcion>
 		<actores>
 			<actor nombre="Morgan" apellidos="Freeman">
-				<nacimiento fecha="01-06-1937" pais="Estados Unidos"/>
+				<nacimiento fecha="1937-06-01" pais="Estados Unidos"/>
 				<premios>
 					<premio
 						fecha="1990"
@@ -183,7 +186,7 @@
 				</galeria>
 			</actor>
 			<actor nombre="Tim" apellidos="Robbins">
-				<nacimiento fecha="16-10-1958" pais="Estados Unidos"/>
+				<nacimiento fecha="1958-10-16" pais="Estados Unidos"/>
 				<premios>
 					<premio
 						fecha="1994"
@@ -216,7 +219,7 @@
 				</galeria>
 			</actor>
 			<actor nombre="Bob" apellidos="Gunton">
-				<nacimiento fecha="15-11-1945" pais="Estados Unidos"/>
+				<nacimiento fecha="1945-11-15" pais="Estados Unidos"/>
 				<premios>
 					<premio
 						fecha="1980"
@@ -246,19 +249,19 @@
 	</pelicula>
 	
 	<pelicula nombre="El Mago de Oz" genero="Fantasía">
-		<estreno fecha="25-08-1939"/>
+		<estreno fecha="1939-08-25"/>
 		<cines>
 			<cine nombre="Cultura Azuqueca">
 				<direccion ciudad="Azuqueca de Henares (Guadalajara)" calle="Av. Francisco Vives"/>
-				<programacion fecha="21-08-2021" hora="15:30"/>
+				<programacion fecha="2021-08-21" hora="15:30:00"/>
 			</cine>
 			<cine nombre="Cine Arenas">
 				<direccion ciudad="Arenas de San Pedro (Ávila)" calle="Calle Sorpresa"/>
-				<programacion fecha="31-08-2021" hora="11:00"/>
+				<programacion fecha="2021-08-31" hora="11:00:00"/>
 			</cine>
 			<cine nombre="La Dehesa Ponferrada">
 				<direccion ciudad="Pongerrada (León)" calle="Centro Comercial El Rosal - Av. Constitución"/>
-				<programacion fecha="14-08-2021" hora="19:10"/>
+				<programacion fecha="2021-08-14" hora="19:10:00"/>
 			</cine>
 		</cines>
 		<descripcion>
@@ -287,7 +290,7 @@
 		</descripcion>
 		<actores>
 			<actor nombre="Judy" apellidos="Garland">
-				<nacimiento fecha="10-06-1922" pais="Estados Unidos"/>
+				<nacimiento fecha="1922-06-10" pais="Estados Unidos"/>
 				<premios>
 					<premio
 						fecha="1940"
@@ -320,21 +323,21 @@
 				</galeria>
 			</actor>
 			<actor nombre="Ray" apellidos="Bolger">
-				<nacimiento fecha="15-01-1904" pais="Estados Unidos"/>
+				<nacimiento fecha="1904-01-15" pais="Estados Unidos"/>
 				<galeria>
 					<fotografia enlace="https://i.ebayimg.com/images/g/2MEAAOxy1yZSMOMn/s-l300.jpg"/>
 					<fotografia enlace="https://3.bp.blogspot.com/-kx-E8xEuaKo/WfzyyKVTjyI/AAAAAAABrWc/c0Xdmdhtf38LQE5JfGVXlSkmBQpuTjXbwCLcBGAs/s320/6a014e8b29c8c3970d01a3fcf5cefb970b-600wi.jpg"/>
 				</galeria>
 			</actor>
 			<actor nombre="Jack" apellidos="Haley">
-				<nacimiento fecha="10-08-1898" pais="Estados Unidos"/>
+				<nacimiento fecha="1898-08-10" pais="Estados Unidos"/>
 				<galeria>
 					<fotografia enlace="https://image.posterlounge.es/images/big/1873379.jpg"/>
 					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/51AuCxOFMCL._AC_.jpg"/>
 				</galeria>
 			</actor>
 			<actor nombre="Bert" apellidos="Lahr">
-				<nacimiento fecha="13-08-1895" pais="Estados Unidos"/>
+				<nacimiento fecha="1895-08-13" pais="Estados Unidos"/>
 				<galeria>
 					<fotografia enlace="https://i.ebayimg.com/images/g/UwQAAMXQKQhRHpQ1/s-l300.jpg"/>
 					<fotografia enlace="https://www.datosfreak.org/wp-content/uploads/2019/01/Disfraz_Zeke_Bert_Lahr_Mago_de_Oz_leon_real-1.jpg"/>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://www.uniovi.es" elementFormDefault="qualified" targetNamespace="http://www.uniovi.es" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="peliculas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="pelicula" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pelicula">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="estreno" />
+        <xs:element ref="cines" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="actores" />
+        <xs:element ref="bibliografia" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+      <xs:attribute name="genero" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Acción" />
+            <xs:enumeration value="Fantasía" />
+            <xs:enumeration value="Comedia" />
+            <xs:enumeration value="Drama" />
+            <xs:enumeration value="Suspense" />
+            <xs:enumeration value="Terror" />
+            <xs:enumeration value="Musical" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="estreno">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="fecha" type="xs:date" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cines">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="cine" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cine">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="direccion" />
+        <xs:element ref="programacion" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="direccion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="ciudad" type="xs:string" use="required" />
+          <xs:attribute name="calle" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="programacion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="fecha" type="xs:date" use="required" />
+          <xs:attribute name="hora" type="xs:time" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="descripcion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="duracion" />
+        <xs:element ref="sinopsis" />
+        <xs:element ref="recomendacion" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="duracion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="minutos" type="xs:integer" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sinopsis" type="xs:string" />
+  <xs:element name="recomendacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="critica" />
+      </xs:sequence>
+      <xs:attribute name="publico" type="xs:string" default="Todos los públicos" />
+      <xs:attribute name="puntuacion" use="required" >
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:minInclusive value="0.0"/>
+				<xs:maxInclusive value="10.0"/>
+			</xs:restriction>
+		</xs:simpleType>
+	  </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="critica">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="autor" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="actores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="actor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="actor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nacimiento" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="premios" />
+        <xs:element ref="galeria" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+      <xs:attribute name="apellidos" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nacimiento">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="fecha" type="xs:date" use="required" />
+          <xs:attribute name="pais" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="premios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="premio" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="premio">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="fecha" type="xs:integer" use="required" />
+          <xs:attribute name="categoria" type="xs:string" use="required" />
+          <xs:attribute name="pelicula" type="xs:string" />
+          <xs:attribute name="resultado" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:NMTOKEN">
+                <xs:enumeration value="Nominado" />
+                <xs:enumeration value="Nominada" />
+                <xs:enumeration value="Ganador" />
+                <xs:enumeration value="Ganadora" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="galeria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="5" ref="fotografia" />
+        <xs:element minOccurs="0" maxOccurs="3" ref="video" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotografia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="enlace" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="video">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="enlace" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bibliografia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="referencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="referencia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="enlace" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
