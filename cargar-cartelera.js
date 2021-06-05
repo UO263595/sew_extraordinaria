@@ -23,7 +23,9 @@ class ArchivoXML {
 				console.log(totalPeliculas);
 				for (let i=0; i<totalPeliculas; i++) {
 					console.log($('pelicula', datos).attr("nombre"));
+					console.log("entra en bucle");
 				}	
+				console.log("sale del bucle");
 			},
 			
 			error:function() {
