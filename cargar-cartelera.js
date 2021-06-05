@@ -46,7 +46,7 @@ class ArchivoXML {
 					stringDatos += "<h4>Descripción</h4>";
 					let datosDescripcion = $('descripcion', datosPelicula).get(0);
 					stringDatos += "<p>Duración: "+$('duracion', datosDescripcion).get(0).getAttribute("minutos")+" minutos</p>";
-					stringDatos += "<p>Sinopsis: "+$('sinopsis', datosDescripcion).get(0).value()+"</p>";
+					stringDatos += "<p>Sinopsis: "+$('sinopsis', datosDescripcion).get(0).value+"</p>";
 					stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
 					stringDatos += "<h5>Críticas</h5>";
