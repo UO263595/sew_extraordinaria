@@ -28,6 +28,7 @@ class ArchivoXML {
 					stringDatos += "<h3>"+nombrePelicula+"</h3>";
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
 					console.log($('pelicula', datos).get(i));
+					console.log($('pelicula', datos).get(i).childNodes());
 				}	
 				$("section").html(stringDatos);
 			},
