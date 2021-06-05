@@ -31,7 +31,9 @@ class ArchivoXML {
 					stringDatos += "<p>Fecha de estreno: "+$('estreno', datosPelicula).get(0).getAttribute("fecha")+"</p>";
 					
 					let datosCines = $('cines', datosPelicula).get(0);
-					let totalCines = $('estreno', datosPelicula).get(0).length;
+					console.log(datosCines);
+					let totalCines = $('cine', datosCines).length;
+					console.log(totalCines);
 					// Se recorren los cines
 					for (let j=0; j<totalCines; j++) {
 						console.log("cine "+j);
