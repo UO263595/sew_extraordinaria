@@ -46,7 +46,7 @@ class ArchivoXML {
 					stringDatos += "<h4>Descripción</h4>";
 					let datosDescripcion = $('descripcion', datosPelicula).get(0);
 					stringDatos += "<p>Duración: "+$('duracion', datosDescripcion).get(0).getAttribute("minutos")+" minutos</p>";
-//					stringDatos += "<p>Sinopsis: "+$('sinopsis', datosDescripcion).get(0).getText()+"</p>";
+					stringDatos += "<p>Sinopsis: "+$('sinopsis', datosDescripcion).get(0).value()+"</p>";
 					stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
 					stringDatos += "<h5>Críticas</h5>";
@@ -63,6 +63,8 @@ class ArchivoXML {
 					for (let l=0; l<totalActores; l++) {
 						let datosActor = $('actor', datosActores).get(l);
 						stringDatos += "<p><b>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</b></p>";
+						stringDatos += "<p>Fecha de nacimiento: "+$('nacimiento', datosActor).get(0).getAttribute("fecha")+"</p>";
+						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
 					}
 					
 					stringDatos += "<h4>Bibliografía</h4>";
