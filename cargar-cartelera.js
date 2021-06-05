@@ -39,13 +39,23 @@ class ArchivoXML {
 					for (let j=0; j<totalCines; j++) {
 						let datosCine = $('cine', datosCines).get(j);
 						stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
-						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("ciudad")+" - "+$('direccion', datosCine).get(0).getAttribute("calle")+"</p>";
+						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("calle")+", "+$('direccion', datosCine).get(0).getAttribute("ciudad")+"</p>";
 						stringDatos += "<p>Programación: "+$('programacion', datosCine).get(0).getAttribute("fecha")+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
 					}
 					
 					stringDatos += "<h4>Descripción</h4>";
 					let datosDescripcion = $('descripcion', datosPelicula).get(0);
 					stringDatos += "<p>Duración: "+$('duracion', datosDescripcion).get(0).getAttribute("minutos")+" minutos</p>";
+					stringDatos += "<p>Sinopsis: "+$('sinopsis', datosDescripcion).get(0).getText()+"</p>";
+					stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
+					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
+					stringDatos += "<h5>Críticas</h5>";
+					let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
+					for (let k=0; k<totalCriticas; k++) {
+						let datosCritica = $('critica', $('recomendacion', datosDescripcion)).get(k);
+						stringDatos += "<p>"+datosCritica.getText()+"</p>";
+						stringDatos += "<p>- "+datosCritica.getAttribute("autor")+"</p>";
+					}
 					
 					//console.log(datos);
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
