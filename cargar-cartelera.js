@@ -18,21 +18,15 @@ class ArchivoXML {
 			success: function(datos) {
 				// Pasar el archivo XML a un string
 				var str = (new XMLSerializer()).serializeToString(datos);
-				// Cadena con todos los datos recogidos del XML
-				var stringDatos = "";
 				
 				var totalPeliculas = $('pelicula', datos).length;// cuenta el número de películas
 				console.log(totalPeliculas);
 				for (int i=0; i<totalPeliculas; i++) {
-					let nombrePelicula = $('pelicula', datos).get(i).getAttribute("nombre");
-					stringDatos += "<h1>"+nombrePelicula+"</h1>";
-					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
+					console.log($('pelicula', datos).get(1).getAttribute("nombre"));
 				}	
-				$("section").html(stringDatos);
 			},
 			
 			error:function() {
-				$("section").remove();
 				$("h3").html("¡Tenemos problemas! No se pudo cargar el archivo XML");
 			}
 		});
@@ -49,9 +43,7 @@ class ArchivoXML {
 	
 	// Muestra el archivo recibido
 	verXML() {
-		$("section").remove();
 		$("h3").remove();
-		this.crearElemento("section","","h2");
 		this.crearElemento("h3",this.correcto,"h2");
 		this.cargarDatos();
 	}
