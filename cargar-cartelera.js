@@ -40,7 +40,7 @@ class ArchivoXML {
 						let datosCine = $('cine', datosCines).get(j);
 						stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
 						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("calle")+", "+$('direccion', datosCine).get(0).getAttribute("ciudad")+"</p>";
-						stringDatos += "<p>Programación: "+$('programacion', datosCine).get(0).getAttribute("fecha")+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
+						stringDatos += "<p>Programación: "+$('programacion', datosCine).get(0).getAttribute("fecha")+" // "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
 					}
 					
 					stringDatos += "<h4>Descripción</h4>";
@@ -57,10 +57,17 @@ class ArchivoXML {
 						stringDatos += "<p>- "+datosCritica.getAttribute("autor")+"</p>";
 					}
 					
+					stringDatos += "<h4>Bibliografía</h4>";
+					let datosBibliografia = $('bibliografia', datosPelicula).get(0);
+					let totalReferencias = $('referencia', datosBibliografia).length;
+					for (let l=0; l<totalReferencias; l++) {
+						let datosReferencia = $('referencia', datosBibliografia).get(l);
+						stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">referencia</a></p>";
+					}
+
 					//console.log(datos);
-					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
-					
-					console.log(datosPelicula);
+					//console.log($('pelicula', datos).get(i).getAttribute("nombre"));
+					//console.log(datosPelicula);
 					//console.log($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 				}	
 				// Mostrar todos los datos
