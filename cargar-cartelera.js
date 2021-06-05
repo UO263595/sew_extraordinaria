@@ -21,7 +21,7 @@ class ArchivoXML {
 				
 				var totalPeliculas = $('pelicula', datos).length;// cuenta el número de películas
 				console.log(totalPeliculas);
-				for (int i=0; i<totalPeliculas; i++) {
+				for (let i=0; i<totalPeliculas; i++) {
 					console.log($('pelicula', datos).get(1).getAttribute("nombre"));
 				}	
 			},
