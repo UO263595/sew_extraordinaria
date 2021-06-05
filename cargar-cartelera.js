@@ -16,7 +16,11 @@ class ArchivoXML {
 			url: this.nombre,
 			method: 'GET',
 			success: function(datos) {
-	
+				// Pasar el archivo XML a un string
+				var str = (new XMLSerializer()).serializeToString(datos);
+				
+				var totalPeliculas = $('pelicula', datos).length;// cuenta el número de películas
+				console.log(totalPeliculas);
 			},
 			
 			error:function() {
@@ -36,9 +40,10 @@ class ArchivoXML {
 	
 	// Muestra el archivo recibido
 	verXML() {
+		$("h3").remove();
 		this.crearElemento("h3",this.correcto,"h2");
 		this.cargarDatos();
 	}
 }
 
-var archivoXML = new ArchivoXML();
+var archivoXML = new ArchivoXML("peliculas.xml");

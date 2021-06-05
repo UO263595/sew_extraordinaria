@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<title>Periódico digital</title>
+    <meta charset="UTF-8"/>
+<!--	<base href="https://uo263595.github.io/sew_extraordinaria/">	-->
+	<meta name="author" content="María Fernández Rojo">
+	<meta name="description" content="Periódico digital con información sobre noticias, el mercado actual y el tiempo"/>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="multimedia/icono.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/> <!--hoja de estilo por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/posicionamiento.css"/> <!--hoja de estilo adicional-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="cargar-cartelera.js"></script>
+</head>
+
+<body>
+	<nav>
+		<ul>
+            <li><a href=index.html>Página principal</a></li>
+            <li><a href=noticias.html>Noticias</a></li>
+			<li><a href=buscador.html>Buscador de noticias</a></li>
+			<li><a href=mercado.html>Mercado</a></li>
+			<li><a href=tiempo.html>El tiempo</a></li>
+        </ul>
+	</nav>
+	<header>
+        <h1>Periódico Digital</h1>
+    </header>
+	
+	<main>
+	<h2>Cartelera</h2>
+	<button onclick = "archivoXML.verXML()">Cargar archivo XML</button>
+	</main>
+	
+	<footer>
+		<h4>Más información</h4>
+		<p>
+			Acerca de:
+			<a href="informacion.html">Miembros del equipo</a>
+		</p>
+		<p>Autora: María Fernández Rojo - UO263595</p>
+    </footer>
+</body>
+</html>
