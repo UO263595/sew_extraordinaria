@@ -22,7 +22,7 @@ class ArchivoXML {
 				var stringDatos = "";
 				
 				var totalPeliculas = $('pelicula', datos).length;// cuenta el número de películas
-				console.log(totalPeliculas);
+				//console.log(totalPeliculas);
 				// Se recorren las películas
 				for (let i=0; i<totalPeliculas; i++) {
 					let datosPelicula = $('pelicula', datos).get(i);
@@ -42,7 +42,7 @@ class ArchivoXML {
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
 					
 					console.log(datosPelicula);
-					console.log($('estreno', datosPelicula).get(0).getAttribute("fecha"));
+					//console.log($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 				}	
 				// Mostrar todos los datos
 				$("section").html(stringDatos);
