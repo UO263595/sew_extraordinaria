@@ -41,4 +41,4 @@ class ArchivoXML {
 	}
 }
 
-var archivoXML = new archivoXML();
+var archivoXML = new ArchivoXML();
