@@ -22,7 +22,7 @@ class ArchivoXML {
 				var totalPeliculas = $('pelicula', datos).length;// cuenta el número de películas
 				console.log(totalPeliculas);
 				for (let i=0; i<totalPeliculas; i++) {
-					console.log($('pelicula', datos).get(1));
+					console.log($('pelicula', datos).get(1).nombre);
 					console.log("entra en bucle");
 				}	
 				console.log("sale del bucle");
