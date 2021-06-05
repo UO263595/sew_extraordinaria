@@ -29,9 +29,10 @@ class ArchivoXML {
 					stringDatos += "<p>Fecha de estreno: "+"</p>";
 				
 				
+					console.log(datos);
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
 					console.log($('pelicula', datos).get(i));
-					console.log($'cines', ($('pelicula', datos).get(i).childNodes()));
+					console.log($('pelicula', datos).get(i).childNodes());
 				}	
 				$("section").html(stringDatos);
 			},
