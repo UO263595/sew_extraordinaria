@@ -56,7 +56,7 @@ class ArchivoXML {
 						let datosCritica = $('critica', $('recomendacion', datosDescripcion)).get(k);
 						console.log(datosCritica);
 						console.log($('critica', $('recomendacion', datosDescripcion)));
-//						console.log(datosCritica.text());
+						console.log(datosCritica.textContent);
 						console.log($('critica', $('recomendacion', datosDescripcion)).text());
 						stringDatos += "<p>"+$('critica', $('recomendacion', datosDescripcion)).text()+"</p>";
 						stringDatos += "<p>- "+datosCritica.getAttribute("autor")+"</p>";
