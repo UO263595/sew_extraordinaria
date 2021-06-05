@@ -25,8 +25,9 @@ class ArchivoXML {
 				console.log(totalPeliculas);
 				for (let i=0; i<totalPeliculas; i++) {
 					let nombrePelicula = $('pelicula', datos).get(i).getAttribute("nombre");
-					stringDatos += "<h1>"+nombrePelicula+"</h1>";
+					stringDatos += "<h3>"+nombrePelicula+"</h3>";
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
+					console.log($('pelicula', datos).get(i));
 				}	
 				$("section").html(stringDatos);
 			},
@@ -52,7 +53,7 @@ class ArchivoXML {
 		$("section").remove();
 		$("h3").remove();
 		this.crearElemento("section","","h2");
-		this.crearElemento("h3",this.correcto,"h2");
+		//this.crearElemento("h3",this.correcto,"h2");
 		this.cargarDatos();
 	}
 }
