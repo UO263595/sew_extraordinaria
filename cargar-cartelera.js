@@ -38,13 +38,14 @@ class ArchivoXML {
 					// Se recorren los cines
 					for (let j=0; j<totalCines; j++) {
 						let datosCine = $('cine', datosCines).get(j);
-						stringDatos += "<p><b>Nombre: "+datosCine.getAttribute("nombre")+"</b></p>";	
+						stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
 						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("ciudad")+" - "+$('direccion', datosCine).get(0).getAttribute("calle")+"</p>";
 						stringDatos += "<p>Programación: "+$('programacion', datosCine).get(0).getAttribute("fecha")+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
 					}
 					
 					stringDatos += "<h4>Descripción</h4>";
 					let datosDescripcion = $('descripcion', datosPelicula).get(0);
+					stringDatos += "<p>Duración: "+$('duracion', datosDescripcion).get(0).getAttribute("minutos")+" minutos</p>";
 					
 					//console.log(datos);
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
