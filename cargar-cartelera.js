@@ -31,8 +31,9 @@ class ArchivoXML {
 				
 					console.log(datos);
 					console.log($('pelicula', datos).get(i).getAttribute("nombre"));
-					console.log($('pelicula', datos).get(i));
-					console.log($('pelicula', datos).get(i).childNodes());
+					let datosPelicula = $('pelicula', datos).get(i);
+					console.log(datosPelicula);
+					console.log($('cines', datosPelicula));
 				}	
 				$("section").html(stringDatos);
 			},
