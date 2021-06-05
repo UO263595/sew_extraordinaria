@@ -57,12 +57,20 @@ class ArchivoXML {
 						stringDatos += "<p>- "+datosCritica.getAttribute("autor")+"</p>";
 					}
 					
+					stringDatos += "<h4>Actores</h4>";
+					let datosActores = $('actores', datosPelicula).get(0);
+					let totalActores = $('actor', datosActores).length;
+					for (let l=0; l<totalActores; l++) {
+						let datosActor = $('actor', datosActores).get(l);
+						stringDatos += "<p><b>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</b></p>";
+					}
+					
 					stringDatos += "<h4>Bibliografía</h4>";
 					let datosBibliografia = $('bibliografia', datosPelicula).get(0);
 					let totalReferencias = $('referencia', datosBibliografia).length;
-					for (let l=0; l<totalReferencias; l++) {
-						let datosReferencia = $('referencia', datosBibliografia).get(l);
-						stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">referencia</a></p>";
+					for (let m=0; m<totalReferencias; m++) {
+						let datosReferencia = $('referencia', datosBibliografia).get(m);
+						stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 					}
 
 					//console.log(datos);
