@@ -54,10 +54,11 @@ class ArchivoXML {
 					let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 					for (let k=0; k<totalCriticas; k++) {
 						let datosCritica = $('critica', $('recomendacion', datosDescripcion)).get(k);
-						console.log(datosCritica.value);
+						console.log(datosCritica);
+						console.log($('critica', $('recomendacion', datosDescripcion)));
 //						console.log(datosCritica.text());
 						console.log($('critica', $('recomendacion', datosDescripcion)).text());
-						stringDatos += "<p>"+datosCritica.text()+"</p>";
+						stringDatos += "<p>"+$('critica', $('recomendacion', datosDescripcion)).text()+"</p>";
 						stringDatos += "<p>- "+datosCritica.getAttribute("autor")+"</p>";
 					}
 					
