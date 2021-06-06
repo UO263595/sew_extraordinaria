@@ -89,7 +89,7 @@ class ArchivoXML {
 					let datosBibliografia = $('bibliografia', datosPelicula).get(0);
 					let totalReferencias = $('referencia', datosBibliografia).length;
 					for (let p=0; p<totalReferencias; p++) {
-						let datosReferencia = $('referencia', datosBibliografia).get(m);
+						let datosReferencia = $('referencia', datosBibliografia).get(p);
 						stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 					}
 					stringDatos += "</section>";
