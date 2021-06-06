@@ -49,6 +49,7 @@
 					<premio 
 						fecha="1994" 
 						categoria="Mejor Actriz de Reparto" 
+						pelicula="Pulp Fiction"
 						resultado="Nominada"
 					/>
 					<premio 

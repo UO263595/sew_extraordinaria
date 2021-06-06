@@ -10,7 +10,7 @@ class ArchivoXML {
 		this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
 	
-	cargarDatos(){
+	cargarDatos() {
 		$.ajax({
 			dataType: "xml",
 			url: this.nombre,

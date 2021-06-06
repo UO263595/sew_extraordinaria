@@ -15,7 +15,7 @@ class BuscadorNoticias {
 			  keywords: this.busqueda,
 			}
 		  }).done(function(data) {
-			console.log(data);
+			console.log(JSON.parse(data));
 		});
 		/*
 		$.ajax({
