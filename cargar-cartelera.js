@@ -25,6 +25,7 @@ class ArchivoXML {
 				//console.log(totalPeliculas);
 				// Se recorren las películas
 				for (let i=0; i<totalPeliculas; i++) {
+					stringDatos += "<section>";
 					let datosPelicula = $('pelicula', datos).get(i);
 					stringDatos += "<h3>"+datosPelicula.getAttribute("nombre")+"</h3>";
 					stringDatos += "<p>Género: "+datosPelicula.getAttribute("genero")+"</p>";
@@ -52,6 +53,7 @@ class ArchivoXML {
 					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
 					stringDatos += "<h5>Críticas</h5>";
 					let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
+					// Se recorren las críticas
 					for (let k=0; k<totalCriticas; k++) {
 						let datosCritica = $('critica', $('recomendacion', datosDescripcion)).get(k);
 						console.log(datosCritica);
@@ -65,20 +67,32 @@ class ArchivoXML {
 					stringDatos += "<h4>Actores</h4>";
 					let datosActores = $('actores', datosPelicula).get(0);
 					let totalActores = $('actor', datosActores).length;
+					// Se recorren los actores
 					for (let l=0; l<totalActores; l++) {
 						let datosActor = $('actor', datosActores).get(l);
 						stringDatos += "<p><b>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</b></p>";
 						stringDatos += "<p>Fecha de nacimiento: "+$('nacimiento', datosActor).get(0).getAttribute("fecha")+"</p>";
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
+					
+						// Se recorren los premios
+						let totalPremios = $('premio', datosActor.getAttribute("premios")).length;
+						for (let m=0; m<totalPremios; m++) {
+							let datosPremio = $('premio', datosActor.getAttribute("premios")).get(m);
+							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("fecha")+"</p>";
+							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("categoria")+"</p>";
+							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("pelicula")+"</p>";
+							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("resultado")+"</p>";
+						}
 					}
 					
 					stringDatos += "<h4>Bibliografía</h4>";
 					let datosBibliografia = $('bibliografia', datosPelicula).get(0);
 					let totalReferencias = $('referencia', datosBibliografia).length;
-					for (let m=0; m<totalReferencias; m++) {
+					for (let p=0; p<totalReferencias; p++) {
 						let datosReferencia = $('referencia', datosBibliografia).get(m);
 						stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 					}
+					stringDatos += "</section>";
 
 					//console.log(datos);
 					//console.log($('pelicula', datos).get(i).getAttribute("nombre"));
