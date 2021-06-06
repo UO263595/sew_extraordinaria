@@ -12,7 +12,7 @@ class BuscadorNoticias {
 			  access_key: '8244169070c7a2fada685c65ea3a54c9',
 			  languages: 'es',
 			  orden: 'published_desc',
-			  keywords: busqueda,
+			  keywords: this.busqueda,
 			}
 		  }).done(function(data) {
 			console.log(JSON.parse(data));
