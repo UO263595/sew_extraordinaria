@@ -16,7 +16,7 @@ class BuscadorNoticias {
 			}
 		  }).done(function(data) {
 			console.log(data);
-			console.log(data[0].author);
+			console.log(data.get(0));
 		});
 		/*
 		$.ajax({
