@@ -77,7 +77,7 @@ class ArchivoXML {
 						stringDatos += "<h5>Actores</h5>";
 						let datosPremios =  $('premios', datosActor).get(0);
 						let totalPremios = $('premio', datosPremios).length;
-						console.log(totalPremios);
+						//console.log(totalPremios);
 						// Se recorren los premios
 						for (let m=0; m<totalPremios; m++) {
 							let datosPremio = $('premio', datosPremios).get(m);
@@ -86,6 +86,22 @@ class ArchivoXML {
 							if (datosPremio.getAttribute("pelicula") != null)
 								stringDatos += "<p>Película: "+datosPremio.getAttribute("pelicula")+"</p>";
 							stringDatos += "<p>Resultado: "+datosPremio.getAttribute("resultado")+"</p>";
+						}
+						
+						stringDatos += "<h5>Galería</h5>";
+						let datosGaleria =  $('galeria', datosActor).get(0);
+						let totalFotografias = $('fotografia', datosGaleria).length;
+						// Se recorren las fotografias
+						for (let n=0; n<totalFotografias; n++) {
+							let datosFotografia = $('fotografia', datosGaleria).get(n);
+							stringDatos += "<figure><img src="+datosFotografia.getAttribute("enlace")+"/></figure>";
+						}
+						
+						let totalVideos = $('video', datosGaleria).length;
+						// Se recorren los videos
+						for (let o=0; o<totalVideos; o++) {
+							let datosVideo = $('video', datosGaleria).get(o);
+							stringDatos += "<video controls preload='auto'><source src="+datosVideo.getAttribute("enlace")+"type='video/mp4'></video>";
 						}
 					}
 					
