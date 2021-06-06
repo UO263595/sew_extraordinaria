@@ -75,14 +75,15 @@ class ArchivoXML {
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
 					
 						// Se recorren los premios
-						let totalPremios = $('premio', $('premios', datosActor).get(0)).length;
+						let datosPremios =  $('premios', datosActor).get(0);
+						let totalPremios = $('premio', datosPremios).length;
 						console.log(totalPremios);
 						for (let m=0; m<totalPremios; m++) {
-							let datosPremio = $('premio', datosActor.getAttribute("premios")).get(m);
+							let datosPremio = $('premio', datosPremios).get(m);
 							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("fecha")+"</p>";
-							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("categoria")+"</p>";
-							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("pelicula")+"</p>";
-							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("resultado")+"</p>";
+							stringDatos += "<p>Categoría: "+datosPremio.getAttribute("categoria")+"</p>";
+							stringDatos += "<p>Película: "+datosPremio.getAttribute("pelicula")+"</p>";
+							stringDatos += "<p>Resultado: "+datosPremio.getAttribute("resultado")+"</p>";
 						}
 					}
 					
