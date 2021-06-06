@@ -83,7 +83,8 @@ class ArchivoXML {
 							let datosPremio = $('premio', datosPremios).get(m);
 							stringDatos += "<p><b>"+datosPremio.getAttribute("categoria")+"</b></p>";
 							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("fecha")+"</p>";
-							stringDatos += "<p>Película: "+datosPremio.getAttribute("pelicula")+"</p>";
+							if (datosPremio.getAttribute("pelicula") != null)
+								stringDatos += "<p>Película: "+datosPremio.getAttribute("pelicula")+"</p>";
 							stringDatos += "<p>Resultado: "+datosPremio.getAttribute("resultado")+"</p>";
 						}
 					}
