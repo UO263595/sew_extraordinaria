@@ -75,7 +75,7 @@ class ArchivoXML {
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
 					
 						// Se recorren los premios
-						let totalPremios = ('premio', $('premios', datosActor).get(0)).length;
+						let totalPremios = $('premio', $('premios', datosActor).get(0)).length;
 						console.log(totalPremios);
 						for (let m=0; m<totalPremios; m++) {
 							let datosPremio = $('premio', datosActor.getAttribute("premios")).get(m);
