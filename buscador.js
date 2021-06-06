@@ -7,7 +7,7 @@
 class BuscadorNoticias {
 	cargarDatos() {
 		$.ajax({
-			url: 'https://api.mediastack.com/v1/news',
+			url: 'http://api.mediastack.com/v1/news',
 			data: {
 			  access_key: '8244169070c7a2fada685c65ea3a54c9',
 			  languages: 'es',
@@ -15,7 +15,7 @@ class BuscadorNoticias {
 			  keywords: this.busqueda,
 			}
 		  }).done(function(data) {
-			console.log(JSON.parse(data));
+			console.log(data);
 		});
 		/*
 		$.ajax({
