@@ -5,13 +5,19 @@
 "use strict";
 
 class BuscadorNoticias {
-	constructor() {
-		this.apikey = "ac89e850d0fce1d544cba3aa5f886995";
-		this.idioma = "&lang=es";
-		this.orden = "&sortBy=publishedAt"; // ordena las noticias por fecha de publicación
-	}
-	
-	cargarDatos(){
+	cargarDatos() {
+		$.ajax({
+			url: 'https://api.mediastack.com/v1/news',
+			data: {
+			  access_key: '8244169070c7a2fada685c65ea3a54c9',
+			  languages: 'es',
+			  orden: 'published_desc',
+			  keywords: busqueda,
+			}
+		  }).done(function(data) {
+			console.log(JSON.parse(data));
+		});
+		/*
 		$.ajax({
 			dataType: "json",
 			url: this.url,
@@ -28,11 +34,12 @@ class BuscadorNoticias {
 				$("div").html(stringArticulos);
 				$("h4").html("Total resultados: " + datos.totalArticles);
 			},
-			error:function(){
+			error:function() {
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://gnews.io/'>GNews</a>"); 
 
 			}
 		});
+		*/
 	}
 	
 	// Crea un nuevo elemento modificando el árbol DOM
