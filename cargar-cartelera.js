@@ -56,10 +56,10 @@ class ArchivoXML {
 					// Se recorren las críticas
 					for (let k=0; k<totalCriticas; k++) {
 						let datosCritica = $('critica', $('recomendacion', datosDescripcion)).get(k);
-						console.log(datosCritica);
-						console.log($('critica', $('recomendacion', datosDescripcion)));
-						console.log(datosCritica.textContent);
-						console.log($('critica', $('recomendacion', datosDescripcion)).text());
+						//console.log(datosCritica);
+						//console.log($('critica', $('recomendacion', datosDescripcion)));
+						//console.log(datosCritica.textContent);
+						//console.log($('critica', $('recomendacion', datosDescripcion)).text());
 						stringDatos += "<p>"+datosCritica.textContent+"</p>";
 						stringDatos += "<p>- "+datosCritica.getAttribute("autor")+"</p>";
 					}
@@ -75,7 +75,8 @@ class ArchivoXML {
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
 					
 						// Se recorren los premios
-						let totalPremios = $('premio', datosActor.getAttribute("premios")).length;
+						let totalPremios = $('premio', datosActor.getAttribute("premios").get(0)).length;
+						console.log(totalPremios);
 						for (let m=0; m<totalPremios; m++) {
 							let datosPremio = $('premio', datosActor.getAttribute("premios")).get(m);
 							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("fecha")+"</p>";
