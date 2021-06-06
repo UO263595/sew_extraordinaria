@@ -18,11 +18,11 @@ class BuscadorNoticias {
 			method: 'GET',
 			success: function(datos) {
 				var stringArticulos = "";
-				for (var i = 0; i < datos.articles.length; i+=1) {
-					stringArticulos += "<h3>" + datos.articles[i].title + " - " + datos.articles[i].source.name + "</h3>";
-					stringArticulos += "<img src='" + datos.articles[i].image + "'/>";
-					stringArticulos += "<p>" + datos.articles[i].description + "</p>";
-					stringArticulos += "<a href='" + datos.articles[i].url + "'>Ver noticia</a>";
+				for (let i = 0; i < datos.data.length; i++) {
+					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
+					stringArticulos += "<img src='" + datos.data[i].image + "'/>";
+					stringArticulos += "<p>" + datos.data[i].description + "</p>";
+					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
 				}
 				
 				$("div").html(stringArticulos);
@@ -50,7 +50,7 @@ class BuscadorNoticias {
 		$("h3").remove();
 		$("h4").remove();
 		var busqueda = $("#inputBusqueda").val();
-		// https://gnews.io/api/v4/search?q=example&token=API-Token
+		// http://api.mediastack.com/v1/news?keywords=example&access_key=API-Token
 		this.url = "http://api.mediastack.com/v1/news?keywords=" + busqueda + this.idioma + this.orden + "&access_key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
 		this.crearElemento("h4","","#bBuscar");
