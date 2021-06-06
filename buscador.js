@@ -1,10 +1,16 @@
+/* buscador.js */
+// Realiza una búsqueda de noticias relacionadas con la palabra que se introduce
+// Ordena las noticias por fecha de publicación
+
 "use strict";
+
 class BuscadorNoticias {
 	constructor() {
 		this.apikey = "ac89e850d0fce1d544cba3aa5f886995";
 		this.idioma = "&lang=es";
 		this.orden = "&sortBy=publishedAt"; // ordena las noticias por fecha de publicación
 	}
+	
 	cargarDatos(){
 		$.ajax({
 			dataType: "json",
@@ -28,11 +34,17 @@ class BuscadorNoticias {
 			}
 		});
 	}
+	
+	// Crea un nuevo elemento modificando el árbol DOM
+	// El elemento creado es de 'tipoElemento' con un 'texto'
+	// El elemento se coloca después del elemnto 'insertarDespuesDe'
 	crearElemento(tipoElemento, texto, insertarDespuesDe) {
 		var elemento = document.createElement(tipoElemento); 
 		elemento.innerHTML = texto;
 		$(insertarDespuesDe).after(elemento);
 	}
+	
+	// Realiza la búsqueda
 	buscar() {
 		$("div").remove();
 		$("h3").remove();
