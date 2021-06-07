@@ -10,7 +10,9 @@ class BuscadorMercado {
 		let time = Date.now();
 		let today = new Date(time).toLocaleDateString();
 		console.log(today);
-		$("#fechaInicial").attr("max", "2021-06-10");
+		$("#inputBusqueda").attr("value","OTRO TEXTO");
+		
+		$("#fechaInicial").attr("max", "2021-07-10");
 		$("#fechaFinal").attr("max", today);
 		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
