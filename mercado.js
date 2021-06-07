@@ -5,7 +5,8 @@
 "use strict";
 
 class BuscadorMercado {
-		console.log(document.getElementById("fechaInicial").max);
+		console.log($("#fechaInicial").attr());
+		console.log($("#fechaInicial").attr("max"));
 	
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
