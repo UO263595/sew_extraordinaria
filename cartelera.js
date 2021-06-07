@@ -144,7 +144,7 @@ class ArchivoXML {
 	verXML() {
 		$("section").remove();
 		$("h3").remove();
-		this.crearElemento("section","","#descarga");
+		this.crearElemento("section","","#archivo");
 		//this.crearElemento("h3",this.correcto,"h2");
 		this.cargarDatos();
 	}
