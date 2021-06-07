@@ -10,8 +10,8 @@ class BuscadorMercado {
 		let time = Date.now();
 		let today = new Date(time).toISOString();
 		console.log(today);
-		document.getElementById("fechaInicial").setAttribute("max", today);
-		$("#fechaFinal").setAttribute("max", today);
+		$("#fechaInicial").attr("max", today);
+		$("#fechaFinal").attr("max", today);
 		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
