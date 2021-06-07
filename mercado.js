@@ -10,7 +10,7 @@ class BuscadorMercado {
 		let time = Date.now();
 		let today = new Date(time).toISOString();
 		console.log(today);
-		$("#fechaInicial").setAttribute("max", today);
+		document.getElementById("fechaInicial").setAttribute("max", today);
 		$("#fechaFinal").setAttribute("max", today);
 		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
