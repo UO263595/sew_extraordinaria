@@ -162,7 +162,7 @@ class ArchivoXML {
 		var lector = new FileReader();
 		lector.onload = function (evento) {
 			console.log(lector.result);
-			datos = lector.result;
+			let datos = lector.result;
 			// Cadena con todos los datos recogidos del XML
 			var stringDatos = "";
 			
