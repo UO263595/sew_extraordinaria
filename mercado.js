@@ -8,7 +8,7 @@ class BuscadorMercado {
 	constructor() {
 		// Establecer los límites de fechas
 		let time = Date.now();
-		let today = new Date(time).toISOString();
+		let today = new Date(time).toLocaleDateString();
 		console.log(today);
 		$("#fechaInicial").attr("max", "2021-06-10");
 		$("#fechaFinal").attr("max", today);
