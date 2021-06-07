@@ -5,19 +5,8 @@
 "use strict";
 
 class BuscadorMercado {
-	constructor() {
-		// Establecer los límites de fechas
-		let time = Date.now();
-		let today = new Date(time).toLocaleDateString();
-		console.log(today);
-		
-		document.getElementsById("fechaInicial")[0].setAttribute('min', today);
-		console.log($("#fechaInicial").attr('max'));
-		console.log($("#fechaInicial").attr.max);
-		
-		$("#fechaInicial").attr("max", "2021-07-10");
-		$("#fechaFinal").attr("max", today);
-		
+		console.log(document.getElementById("fechaInicial").max);
+	
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
 	}
