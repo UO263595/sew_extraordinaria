@@ -20,8 +20,15 @@ class BuscadorNoticias {
 				var stringArticulos = "";
 				for (let i = 0; i < datos.data.length; i++) {
 					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
-					if (datos.data[i].image != null)
-						stringArticulos += "<img src='" + datos.data[i].image + "'/>";
+					if (datos.data[i].image != null) {
+						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
+						if (extension == "mp3")
+							stringArticulos += "<audio controls><source src='"+datos.data[i].image+"' 'multimedia/resumen2020.mp3' type='audio/mpeg'/></audio>";
+						else if (extension == "mp4") 
+							stringArticulos += "<video controls preload='auto'><source src='"+datos.data[i].image+" type='video/mp4'></video>";
+						else
+							stringArticulos += "<img src='"+datos.data[i].image+"'/>";
+					}
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
 				}
@@ -30,7 +37,7 @@ class BuscadorNoticias {
 				$("h4").html("Total resultados: " + datos.pagination.total);
 			},
 			error:function() {
-				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://gnews.io/'>GNews</a>"); 
+				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
 
 			}
 		});
