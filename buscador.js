@@ -22,7 +22,6 @@ class BuscadorNoticias {
 					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
 					if (datos.data[i].image != null) {
 						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
-						console.log(extension);
 						if (extension == "mp3")
 							stringArticulos += "<audio controls><source src='"+datos.data[i].image+"' 'multimedia/resumen2020.mp3' type='audio/mpeg'/></audio>";
 						else if (extension == "mp4") 
