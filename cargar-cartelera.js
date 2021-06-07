@@ -10,26 +10,7 @@ class ArchivoXML {
 		this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
 	
-	cargarDatos() {
-		$.ajax({
-			dataType: "xml",
-			url: this.nombre,
-			method: 'GET',
-			success: function(datos) {
-				// Pasar el archivo XML a un string
-				//var str = (new XMLSerializer()).serializeToString(datos);
-				console.log(datos);
-				mostrarDatos(datos);
-			},
-			
-			error:function() {
-				$("section").remove();
-				$("h3").html("¡Tenemos problemas! No se pudo cargar el archivo XML");
-			}
-		});
-	}
-	
-	// Imprime por pantalla el contenido de un archivo
+		// Imprime por pantalla el contenido de un archivo
 	mostrarDatos(datos) {
 		// Cadena con todos los datos recogidos del XML
 		var stringDatos = "";
@@ -134,6 +115,25 @@ class ArchivoXML {
 		}	
 		// Mostrar todos los datos
 		$("section").html(stringDatos);
+	}
+	
+	cargarDatos() {
+		$.ajax({
+			dataType: "xml",
+			url: this.nombre,
+			method: 'GET',
+			success: function(datos) {
+				// Pasar el archivo XML a un string
+				//var str = (new XMLSerializer()).serializeToString(datos);
+				console.log(datos);
+				mostrarDatos(datos);
+			},
+			
+			error:function() {
+				$("section").remove();
+				$("h3").html("¡Tenemos problemas! No se pudo cargar el archivo XML");
+			}
+		});
 	}
 	
 	// Crea un nuevo elemento modificando el árbol DOM
