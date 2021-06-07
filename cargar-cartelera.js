@@ -159,12 +159,13 @@ class ArchivoXML {
 		var archivo = files[0];
 		console.log(archivo);
 		
+		$("section").remove();
+		$("h3").remove();
+		this.crearElemento("section","","h2");
+		
 		var lector = new FileReader();
 		lector.onload = function (evento) {
 			console.log(lector.result);
-			$("section").remove();
-			$("h3").remove();
-			this.crearElemento("section","","h2");
 			let datos = lector.result;
 			// Cadena con todos los datos recogidos del XML
 			var stringDatos = "";
