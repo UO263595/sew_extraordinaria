@@ -33,6 +33,8 @@
 	<main>
 	<h2>Cartelera</h2>
 	<button onclick = "archivoXML.verXML()">Cargar archivo XML</button>
+	<label for="archivo">Selecciona un archivo XML para visualizarlo: </label>
+	<input type="file" id="archivo" onchange="archivoXML.cargarArchivo(this.files)">
 	</main>
 	
 	<footer>

@@ -5,7 +5,7 @@
 "use strict";
 
 class ArchivoXML {
-	constructor(nombre){
+	constructor(nombre) {
 		this.nombre = nombre;
 		this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
@@ -139,13 +139,33 @@ class ArchivoXML {
 		$(insertarDespuesDe).after(elemento);
 	}
 	
-	// Muestra el archivo recibido
+	// Muestra el archivo por defecto
 	verXML() {
 		$("section").remove();
 		$("h3").remove();
 		this.crearElemento("section","","h2");
 		//this.crearElemento("h3",this.correcto,"h2");
 		this.cargarDatos();
+	}
+	
+	// Carga un archivo
+	cargarArchivo(files) {
+		var archivo = files[0];
+		console.log(archivo);
+		/*
+		var img = new Image();
+		var reader = new FileReader();
+		reader.onload = function(event) {
+			img.src = event.target.result;
+		}
+		reader.readAsDataURL(archivo);
+		
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+		img.onload = function(){
+			ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+		}	
+		*/		
 	}
 }
 
