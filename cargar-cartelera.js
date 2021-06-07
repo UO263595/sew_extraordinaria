@@ -152,6 +152,12 @@ class ArchivoXML {
 	cargarArchivo(files) {
 		var archivo = files[0];
 		console.log(archivo);
+		
+		var lector = new FileReader();
+		lector.onload = function (evento) {
+			console.log(lector.result);
+		}      
+		lector.readAsText(archivo);
 		/*
 		var img = new Image();
 		var reader = new FileReader();
