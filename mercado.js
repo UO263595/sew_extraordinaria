@@ -11,6 +11,7 @@ class BuscadorMercado {
 		let today = new Date(time).toLocaleDateString();
 		console.log(today);
 		$("#inputBusqueda").attr("placeholder","OTRO TEXTO");
+		console.log($("#inputBusqueda").attr("placeholder"));
 		
 		$("#fechaInicial").attr("max", "2021-07-10");
 		$("#fechaFinal").attr("max", today);
