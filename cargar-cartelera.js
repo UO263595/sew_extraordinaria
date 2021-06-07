@@ -18,6 +18,7 @@ class ArchivoXML {
 			success: function(datos) {
 				// Pasar el archivo XML a un string
 				var str = (new XMLSerializer()).serializeToString(datos);
+				console.log(str);
 				// Cadena con todos los datos recogidos del XML
 				var stringDatos = "";
 				
@@ -157,21 +158,7 @@ class ArchivoXML {
 		lector.onload = function (evento) {
 			console.log(lector.result);
 		}      
-		lector.readAsText(archivo);
-		/*
-		var img = new Image();
-		var reader = new FileReader();
-		reader.onload = function(event) {
-			img.src = event.target.result;
-		}
-		reader.readAsDataURL(archivo);
-		
-		var canvas = document.getElementById("canvas");
-		var ctx = canvas.getContext("2d");
-		img.onload = function(){
-			ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-		}	
-		*/		
+		lector.readAsText(archivo);		
 	}
 }
 
