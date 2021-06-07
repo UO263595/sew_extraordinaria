@@ -18,7 +18,7 @@ class ArchivoXML {
 			success: function(datos) {
 				// Pasar el archivo XML a un string
 				var str = (new XMLSerializer()).serializeToString(datos);
-				console.log(str);
+				console.log(datos);
 				// Cadena con todos los datos recogidos del XML
 				var stringDatos = "";
 				
