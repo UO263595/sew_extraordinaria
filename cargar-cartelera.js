@@ -10,7 +10,7 @@ class ArchivoXML {
 		this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
 	
-		// Imprime por pantalla el contenido de un archivo
+	// Imprime por pantalla el contenido de un archivo
 	mostrarDatos(datos) {
 		// Cadena con todos los datos recogidos del XML
 		var stringDatos = "";
@@ -126,7 +126,7 @@ class ArchivoXML {
 				// Pasar el archivo XML a un string
 				//var str = (new XMLSerializer()).serializeToString(datos);
 				console.log(datos);
-				mostrarDatos(datos);
+				this.mostrarDatos(datos);
 			},
 			
 			error:function() {
