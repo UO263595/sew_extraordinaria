@@ -5,6 +5,7 @@
 "use strict";
 
 class BuscadorMercado {
+	constructor() {
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
 	}
