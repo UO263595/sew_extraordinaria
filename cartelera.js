@@ -10,11 +10,6 @@ class ArchivoXML {
 		this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
 	
-	// Imprime por pantalla el contenido de un archivo
-	mostrarDatos(datos) {
-		
-	}
-	
 	cargarDatos() {
 		$.ajax({
 			dataType: "xml",
