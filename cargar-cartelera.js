@@ -11,7 +11,7 @@ class ArchivoXML {
 	}
 	
 	// Imprime por pantalla el contenido de un archivo
-	function mostrarDatos(datos) {
+	mostrarDatos(datos) {
 		// Cadena con todos los datos recogidos del XML
 		var stringDatos = "";
 		
