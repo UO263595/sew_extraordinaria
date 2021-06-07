@@ -122,12 +122,7 @@ class ArchivoXML {
 			dataType: "xml",
 			url: this.nombre,
 			method: 'GET',
-			success: function(datos) {
-				// Pasar el archivo XML a un string
-				//var str = (new XMLSerializer()).serializeToString(datos);
-				console.log(datos);
-				this.mostrarDatos(datos);
-			},
+			success: this.mostrarDatos(datos),
 			
 			error:function() {
 				$("section").remove();
