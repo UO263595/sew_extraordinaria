@@ -10,6 +10,8 @@ class BuscadorMercado {
 		let time = Date.now();
 		let today = new Date(time).toLocaleDateString();
 		console.log(today);
+		
+		document.getElementsById("fechaInicial")[0].setAttribute('min', today);
 		console.log($("#fechaInicial").attr('max'));
 		console.log($("#fechaInicial").attr.max);
 		
