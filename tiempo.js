@@ -49,7 +49,7 @@ class InfoTiempo {
 				stringDatos += "<h3>Tiempo Previsto</h3>";
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
-					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[0].weather.icon+".png";
+					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
 					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
 					stringDatos += "<img src='"+icono+"'/>";
