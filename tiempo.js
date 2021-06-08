@@ -43,9 +43,9 @@ class InfoTiempo {
     }
    
 	// Muestra toda la información disponible
-    verTodo(dondeVerlo) {
-        var ubicacion=document.getElementById(sectionTiempo);
-        var datos='<h2>' + this.mensaje + '</h2>'; 
+    verTodo() {
+        var ubicacion=document.getElementById('sectionTiempo');
+        var datos='<h3>' + this.mensaje + '</h3>'; 
         datos+='<p>Longitud (grados): ' + this.checkParam(this.longitud) + '</p>'; 
         datos+='<p>Latitud (grados): ' + this.checkParam(this.latitud) + '</p>';
         ubicacion.innerHTML = datos;
