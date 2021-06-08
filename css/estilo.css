@@ -155,9 +155,16 @@ section.bibliografia li {
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
-img {
-	max-width: 30em;
+img.buscadorNoticias {
+	max-width: 20em;
 	padding: 5px;
 	display: inline;
-	margin: 3em auto;
+	margin: auto auto;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+video.buscadorNoticias {
+	max-width: 28em;
+	float: left;
+	margin: 3em;
 }
