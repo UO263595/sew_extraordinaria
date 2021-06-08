@@ -77,8 +77,8 @@ class InfoTiempo {
 			success: function(datos) {
 				let stringDatos = "";
 				stringDatos += "<h3>Tiempo Historico</h3>";
-				stringDatos += "<p>Localización: "+datos.timezone.city_name+"</p>";
-				for (let i = 0; i < datos.length; i++) {
+				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
+				for (let i = 0; i < datos.data.length; i++) {
 					stringDatos += "<p><b>Fecha: "+datos.data[i].datetime+"</b></p>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
