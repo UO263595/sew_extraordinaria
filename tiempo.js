@@ -86,7 +86,6 @@ class InfoTiempo {
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
-				stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
 				}
 				document.getElementById('tiempoPrevision').innerHTML = stringDatos;
 			},
