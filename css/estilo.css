@@ -156,7 +156,7 @@ section.bibliografia li {
 
 /* a=0 b=0 c=1 especificidad: 001 */
 img {
-    width: 20em;
+    width: 10em;
 	padding: 5px;
 	display: block;
 	margin: 3em auto;
