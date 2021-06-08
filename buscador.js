@@ -5,12 +5,14 @@
 "use strict";
 
 class BuscadorNoticias {
+	// Constructor de la clase
 	constructor() {
 		this.apikey = "8244169070c7a2fada685c65ea3a54c9";
 		this.idioma = "&languages=es";
 		this.orden = "&orden=published_desc"; // ordena las noticias por fecha de publicación
 	}
 	
+	// Carga y muestra los datos de las noticias
 	cargarDatos() {
 		$.ajax({
 			dataType: "json",
@@ -23,11 +25,11 @@ class BuscadorNoticias {
 					if (datos.data[i].image != null) {
 						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
 						if (extension == "mp3")
-							stringArticulos += "<audio controls><source src='"+datos.data[i].image+"' 'multimedia/resumen2020.mp3' type='audio/mpeg'/></audio>";
+							stringArticulos += "<audio controls><source src='"+datos.data[i].image+"' type='audio/mpeg'/></audio>";
 						else if (extension == "mp4") 
 							stringArticulos += "<video controls preload='auto'><source src='"+datos.data[i].image+" type='video/mp4'></video>";
 						else
-							stringArticulos += "<img src='"+datos.data[i].image+"'/>";
+							stringArticulos += "<figure class='izquierda'><img class='imgBuscador' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/></figure>";
 					}
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
@@ -37,8 +39,8 @@ class BuscadorNoticias {
 				$("h4").html("Total resultados: " + datos.pagination.total);
 			},
 			error:function() {
+				this.crearElemento("h3","","#bBuscar");
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
-
 			}
 		});
 	}
