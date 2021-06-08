@@ -15,8 +15,11 @@ class InfoTiempo {
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
-				var stringDatos = "";
-				stringDatos += "<h3>Tiempo Actual</h3>";
+				let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[0].weather.icon+".png";
+				console.log("El valor actual del icono es " + icono);
+				
+				let stringDatos = "";
+				stringDatos += "<h3>Tiempo Actual <img src='"+icono+"'/></h3>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
 				stringDatos += "<p>Descripción: "+datos.data[0].weather.description+"</p>";
@@ -41,11 +44,14 @@ class InfoTiempo {
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
-				var stringDatos = "";
-				stringDatos += "<h3>Tiempo Actual</h3>";
+				let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[0].weather.icon+".png";
+				console.log("El valor actual del icono es " + icono);
+				
+				let stringDatos = "";
+				stringDatos += "<h3>Tiempo Previsto</h3>";
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
-					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
+					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b><img src='"+icono+"'/></p>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].low_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
 					stringDatos += "<p>Descripción: "+datos.data[i].weather.description+"</p>";
