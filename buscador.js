@@ -21,6 +21,7 @@ class BuscadorNoticias {
 			success: function(datos) {
 				var stringArticulos = "";
 				for (let i = 0; i < datos.data.length; i++) {
+					stringArticulos += "<section>";
 					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
 					if (datos.data[i].image != null) {
 						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
@@ -33,6 +34,7 @@ class BuscadorNoticias {
 					}
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
+					stringArticulos += "</section>";
 				}
 				
 				$("div").html(stringArticulos);
