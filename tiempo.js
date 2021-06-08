@@ -20,7 +20,7 @@ class InfoTiempo {
 				stringDatos += "<h3>"+mensajeTiempo+"</h3>";
 				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir+"</p>";
 
-				document.getElementById('sectionTiempo').innerHTML = stringDatos;
+				document.getElementById('tiempoActual').innerHTML = stringDatos;
 			},
 			error:function() {
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
