@@ -18,13 +18,20 @@ class InfoTiempo {
 			success: function(datos) {
 				var stringDatos = "";
 				stringDatos += "<h3>"+mensajeTiempo+"</h3>";
-				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir+"</p>";
+				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
+				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
+				stringDatos += "<p>Descripción: "+datos.data[0].weather.description+"</p>";
+				stringDatos += "<p>Nubes: "+datos.data[0].clouds+" %</p>";
+				stringDatos += "<p>Precipitaciones: "+datos.data[0].precip+" mm</p>";
+				stringDatos += "<p>Velocidad del viento: "+datos.data[0].wind_spd+" Km/h</p>";
+				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir_full+"</p>";
+				stringDatos += "<p>Salida del sol: "+datos.data[0].sunrise+"</p>";
+				stringDatos += "<p>Puesta de sol: "+datos.data[0].sunset+"</p>";
 
 				document.getElementById('tiempoActual').innerHTML = stringDatos;
 			},
 			error:function() {
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
-
 			}
 		});
 	}
