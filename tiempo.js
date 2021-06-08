@@ -26,7 +26,7 @@ class InfoTiempo {
 				stringDatos += "<p>Descripción: "+datos.data[0].weather.description+"</p>";
 				stringDatos += "<p>Nubes: "+datos.data[0].clouds+" %</p>";
 				stringDatos += "<p>Precipitaciones: "+datos.data[0].precip+" mm</p>";
-				stringDatos += "<p>Velocidad del viento: "+datos.data[0].wind_spd+" Km/h</p>";
+				stringDatos += "<p>Velocidad del viento: "+datos.data[0].wind_spd+" m/s</p>";
 				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir_full+"</p>";
 				stringDatos += "<p>Salida del sol: "+datos.data[0].sunrise+"</p>";
 				stringDatos += "<p>Puesta de sol: "+datos.data[0].sunset+"</p>";
@@ -53,12 +53,38 @@ class InfoTiempo {
 					console.log("El valor actual del icono es " + icono);
 					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
 					stringDatos += "<img src='"+icono+"'/>";
-					stringDatos += "<p>Temperatura mínima: "+datos.data[i].low_temp+" ºC</p>";
+					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
 					stringDatos += "<p>Descripción: "+datos.data[i].weather.description+"</p>";
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
-					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" Km/h</p>";
+					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
+				stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
+				}
+				document.getElementById('tiempoPrevision').innerHTML = stringDatos;
+			},
+			error:function() {
+				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+			}
+		});
+	}
+	
+	cargarDatosHistoricos() {
+		$.ajax({
+			dataType: "json",
+			url: this.url,
+			method: 'GET',
+			success: function(datos) {
+				let stringDatos = "";
+				stringDatos += "<h3>Tiempo Historico</h3>";
+				stringDatos += "<p>Localización: "+datos.timezone.city.name+"</p>";
+				for (let i = 0; i < datos.length; i++) {
+					stringDatos += "<p><b>Fecha: "+datos.data[i].datetime+"</b></p>";
+					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
+					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
+					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
+					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
+					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
 				stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
 				}
 				document.getElementById('tiempoPrevision').innerHTML = stringDatos;
@@ -145,7 +171,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/history/daily
 		this.url = "https://api.weatherbit.io/v2.0/history/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&start_date=" + fechaInicial + "&end_date=" + fechaFinal + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.cargarDatosPrevistos();
+		this.cargarDatosHistoricos();
 	}
 }
 
