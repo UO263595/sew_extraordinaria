@@ -19,7 +19,8 @@ class InfoTiempo {
 				console.log("El valor actual del icono es " + icono);
 				
 				let stringDatos = "";
-				stringDatos += "<h3>Tiempo Actual <img src='"+icono+"'/></h3>";
+				stringDatos += "<h3>Tiempo Actual</h3>";
+				stringDatos += "<img src='"+icono+"'/>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
 				stringDatos += "<p>Descripción: "+datos.data[0].weather.description+"</p>";
@@ -51,7 +52,8 @@ class InfoTiempo {
 				stringDatos += "<h3>Tiempo Previsto</h3>";
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
-					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b><img src='"+icono+"'/></p>";
+					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
+					stringDatos += "<img src='"+icono+"'/>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].low_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
 					stringDatos += "<p>Descripción: "+datos.data[i].weather.description+"</p>";
