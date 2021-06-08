@@ -137,6 +137,16 @@ class InfoTiempo {
 		console.log("El valor actual de la url es " + this.url);
 		this.cargarDatosPrevistos();
 	}
+	
+	// Muestra los datos del tiempo históricos
+	tiempoHistorico() {
+		var fechaInicial = $("#fechaInicial").val();
+		var fechaFinal = $("#fechaFinal").val();
+		// https://api.weatherbit.io/v2.0/history/daily
+		this.url = "https://api.weatherbit.io/v2.0/history/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&start_date=" + fechaInicial + "&end_date=" + fechaFinal + "&key=" + this.apikey;
+		console.log("El valor actual de la url es " + this.url);
+		this.cargarDatosPrevistos();
+	}
 }
 
 var infoTiempo = new InfoTiempo();
