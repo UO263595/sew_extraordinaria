@@ -7,17 +7,16 @@ class InfoTiempo {
     constructor() {
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), this.verErrores.bind(this));
 		this.apikey = "187343ea60ec406387d3986333ad19f1";
-		this.idioma = "&lang=es";
 	}
 	
-	cargarDatos(mensajeTiempo) {
+	cargarDatosActuales() {
 		$.ajax({
 			dataType: "json",
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<h3>"+mensajeTiempo+"</h3>";
+				stringDatos += "<h3>Tiempo Actual</h3>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
 				stringDatos += "<p>Descripción: "+datos.data[0].weather.description+"</p>";
@@ -29,6 +28,33 @@ class InfoTiempo {
 				stringDatos += "<p>Puesta de sol: "+datos.data[0].sunset+"</p>";
 
 				document.getElementById('tiempoActual').innerHTML = stringDatos;
+			},
+			error:function() {
+				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+			}
+		});
+	}
+	
+	cargarDatosPrevistos() {
+		$.ajax({
+			dataType: "json",
+			url: this.url,
+			method: 'GET',
+			success: function(datos) {
+				var stringDatos = "";
+				stringDatos += "<h3>Tiempo Actual</h3>";
+				stringDatos += "<p>Localización: "+datos.data.city_name+"</p>";
+				for (let i = 0; i < datos.data.length; i++) {
+					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
+					stringDatos += "<p>Temperatura mínima: "+datos.data[i].weather.low_temp+" ºC</p>";
+					stringDatos += "<p>Temperatura máxima: "+datos.data[i].weather.max_temp+" ºC</p>";	
+					stringDatos += "<p>Descripción: "+datos.data[i].weather.description+"</p>";
+					stringDatos += "<p>Nubes: "+datos.data[i].clouds_mid+" %</p>";
+					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
+					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" Km/h</p>";
+				stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
+				}
+				document.getElementById('tiempoPrevision').innerHTML = stringDatos;
 			},
 			error:function() {
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
@@ -93,7 +119,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/current
 		this.url = "https://api.weatherbit.io/v2.0/current?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.cargarDatos("Tiempo actual");
+		this.cargarDatosActuales();
 	}
 	
 	// Muestra los datos del tiempo previsto
@@ -102,7 +128,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/forecast
 		this.url = "https://api.weatherbit.io/v2.0/forecast/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&days=" + dias + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.cargarDatos("Tiempo previsto");
+		this.cargarDatosPrevistos();
 	}
 }
 
