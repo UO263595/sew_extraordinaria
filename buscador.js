@@ -30,7 +30,7 @@ class BuscadorNoticias {
 						else if (extension == "mp4") 
 							stringArticulos += "<video controls preload='auto'><source src='"+datos.data[i].image+" type='video/mp4'></video>";
 						else
-							stringArticulos += "<figure><img class='imgBuscador' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/></figure>";
+							stringArticulos += "<figure><img alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/></figure>";
 					}
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
