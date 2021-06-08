@@ -168,3 +168,14 @@ video.buscadorNoticias {
 	float: left;
 	margin: 3em;
 }
+
+/* a=0 b=0 c=1 especificidad: 001 */
+section.buscadorNoticias {
+	display: block;
+}
+
+figure.buscadorNoticias {
+    display: block;
+    flex-flow: column;
+    padding: 5px;
+}

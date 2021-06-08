@@ -21,7 +21,7 @@ class BuscadorNoticias {
 			success: function(datos) {
 				var stringArticulos = "";
 				for (let i = 0; i < datos.data.length; i++) {
-					stringArticulos += "<section>";
+					stringArticulos += "<section class='buscadorNoticias'>";
 					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
 					if (datos.data[i].image != null) {
 						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
@@ -30,7 +30,7 @@ class BuscadorNoticias {
 						else if (extension == "mp4") 
 							stringArticulos += "<video class='buscadorNoticias' controls preload='auto'><source src='"+datos.data[i].image+" type='video/mp4'></video>";
 						else
-							stringArticulos += "<figure><img class='buscadorNoticias' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/></figure>";
+							stringArticulos += "<figure class='buscadorNoticias'><img class='buscadorNoticias' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/></figure>";
 					}
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
