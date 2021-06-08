@@ -77,6 +77,7 @@ class InfoTiempo {
 			success: function(datos) {
 				let stringDatos = "";
 				stringDatos += "<h3>Tiempo Historico</h3>";
+				console.log(datos);
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					stringDatos += "<p><b>Fecha: "+datos.data[i].datetime+"</b></p>";
