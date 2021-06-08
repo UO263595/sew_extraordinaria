@@ -43,13 +43,13 @@ class InfoTiempo {
 			success: function(datos) {
 				var stringDatos = "";
 				stringDatos += "<h3>Tiempo Actual</h3>";
-				stringDatos += "<p>Localización: "+datos.data.city_name+"</p>";
+				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
-					stringDatos += "<p>Temperatura mínima: "+datos.data[i].weather.low_temp+" ºC</p>";
-					stringDatos += "<p>Temperatura máxima: "+datos.data[i].weather.max_temp+" ºC</p>";	
+					stringDatos += "<p>Temperatura mínima: "+datos.data[i].low_temp+" ºC</p>";
+					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
 					stringDatos += "<p>Descripción: "+datos.data[i].weather.description+"</p>";
-					stringDatos += "<p>Nubes: "+datos.data[i].clouds_mid+" %</p>";
+					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" Km/h</p>";
 				stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
