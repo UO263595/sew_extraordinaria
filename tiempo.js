@@ -95,6 +95,15 @@ class InfoTiempo {
 		console.log("El valor actual de la url es " + this.url);
 		this.cargarDatos("Tiempo actual");
 	}
+	
+	// Muestra los datos del tiempo previsto
+	tiempoActual() {
+		var dias = $("#inputDias").val();
+		// https://api.weatherbit.io/v2.0/forecast
+		this.url = "https://api.weatherbit.io/v2.0/forecast?lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&days=" + dias + "&key=" + this.apikey;
+		console.log("El valor actual de la url es " + this.url);
+		this.cargarDatos("Tiempo previsto");
+	}
 }
 
 var infoTiempo = new InfoTiempo();
