@@ -5,11 +5,13 @@
 "use strict";
 
 class BuscadorMercado {
+	// Constructor de la clase
 	constructor() {
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
 	}
 	
+	// Carga y muestra los datos del mercado
 	cargarDatos() {
 		$.ajax({
 			dataType: "json",
@@ -18,12 +20,15 @@ class BuscadorMercado {
 			success: function(datos) {
 				var stringDatos = "";
 				for (let i = 0; i < datos.data.length; i++) {
+					console.log(Date.parse(datos.data[i].date));
+					stringArticulos += "<section>";
 					stringDatos += "<h3>" + datos.data[i].symbol + " - " + datos.data[i].date + "</h3>";
 					stringDatos += "<p>Open: " + datos.data[i].open + "</p>";
 					stringDatos += "<p>High: " + datos.data[i].high + "</p>";
 					stringDatos += "<p>Low: " + datos.data[i].low + "</p>";
 					stringDatos += "<p>Close: " + datos.data[i].close + "</p>";
 					stringDatos += "<p>Volume: " + datos.data[i].volume + "</p>";
+					stringArticulos += "</section>";
 				}
 				stringDatos += "<h4>Total resultados: "+datos.pagination.total+"</h4>";
 				
