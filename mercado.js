@@ -20,15 +20,15 @@ class BuscadorMercado {
 			success: function(datos) {
 				var stringDatos = "";
 				for (let i = 0; i < datos.data.length; i++) {
-					console.log(Date.parse(datos.data[i].date));
-					stringArticulos += "<section>";
+					console.log(Date.parse(datos.data[i].date).toLocaleDateString());
+					stringDatos += "<section>";
 					stringDatos += "<h3>" + datos.data[i].symbol + " - " + datos.data[i].date + "</h3>";
 					stringDatos += "<p>Open: " + datos.data[i].open + "</p>";
 					stringDatos += "<p>High: " + datos.data[i].high + "</p>";
 					stringDatos += "<p>Low: " + datos.data[i].low + "</p>";
 					stringDatos += "<p>Close: " + datos.data[i].close + "</p>";
 					stringDatos += "<p>Volume: " + datos.data[i].volume + "</p>";
-					stringArticulos += "</section>";
+					stringDatos += "</section>";
 				}
 				stringDatos += "<h4>Total resultados: "+datos.pagination.total+"</h4>";
 				
