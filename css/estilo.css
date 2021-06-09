@@ -156,13 +156,14 @@ section.bibliografia li {
 
 /* a=0 b=0 c=1 especificidad: 001 */
 img.buscadorNoticias {
-	max-width: 21em;
+	max-width: 300px;
+	max-height: 250px;
 	text-align: center;
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
 figcaption.buscadorNoticias {
-	max-width: 18em;
+	max-width: 300px;
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
