@@ -18,16 +18,16 @@ class BuscadorMercado {
 			success: function(datos) {
 				var stringDatos = "";
 				for (let i = 0; i < datos.data.length; i++) {
-					stringDatos += "<h3>" + datos.data[i].symbol + " - " + datos.data[i].date + "</h3>";
+					stringDatos += "<h3>" + datos.data[i].symbol + " - " + datos.data[i].date.toLocaleDateString() + "</h3>";
 					stringDatos += "<p>Open: " + datos.data[i].open + "</p>";
 					stringDatos += "<p>High: " + datos.data[i].high + "</p>";
 					stringDatos += "<p>Low: " + datos.data[i].low + "</p>";
 					stringDatos += "<p>Close: " + datos.data[i].close + "</p>";
 					stringDatos += "<p>Volume: " + datos.data[i].volume + "</p>";
 				}
+				stringDatos += "<h4>Total resultados: "+datos.pagination.total+"</h4>";
 				
 				$("div").html(stringDatos);
-				$("h4").html("Total resultados: " + datos.pagination.total);
 			},
 			error:function() {
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a>"); 
@@ -48,15 +48,12 @@ class BuscadorMercado {
 	// Realiza la búsqueda
 	buscar() {
 		$("div").remove();
-		$("h3").remove();
-		$("h4").remove();
 		var busqueda = $("#inputBusqueda").val();
 		var fechaInicial = $("#fechaInicial").val();
 		var fechaFinal = $("#fechaFinal").val();
 		// http://api.marketstack.com/v1/eod?symbols=example&access_key=API-Token
 		this.url = "http://api.marketstack.com/v1/eod?symbols=" + busqueda + "&date_from=" + fechaInicial + "&date_to=" + fechaFinal + "&access_key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("h4","","#bBuscar");
 		this.crearElemento("div","","#bBuscar");
 		this.cargarDatos();
 	}
