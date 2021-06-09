@@ -29,7 +29,7 @@ class BuscadorNoticias {
 						else if (extension == "mp4") 
 							stringArticulos += "<video class='buscadorNoticias' controls preload='auto'><source src='"+datos.data[i].image+" type='video/mp4'></video>";
 						else
-							stringArticulos += "<figure class='buscadorNoticias'><img class='buscadorNoticias' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/><figcaption>"+datos.data[i].title+"</figcaption></figure>";
+							stringArticulos += "<figure class='buscadorNoticias'><img class='buscadorNoticias' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/><figcaption class='buscadorNoticias'>"+datos.data[i].title+"</figcaption></figure>";
 					}
 					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
