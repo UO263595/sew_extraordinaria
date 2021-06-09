@@ -41,6 +41,8 @@ class BuscadorNoticias {
 				$("h4").html("Total resultados: " + datos.pagination.total);
 			},
 			error:function() {
+				$("h3").remove();
+				$("p").remove();
 				this.crearElemento("h3","","#bBuscar");
 				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
 			}
