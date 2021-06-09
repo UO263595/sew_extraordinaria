@@ -156,6 +156,12 @@ section.bibliografia li {
 
 /* a=0 b=0 c=1 especificidad: 001 */
 img.buscadorNoticias {
+	max-width: 21em;
+	text-align: center;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+figcaption.buscadorNoticias {
 	max-width: 18em;
 }
 
