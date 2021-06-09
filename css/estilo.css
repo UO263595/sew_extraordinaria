@@ -178,6 +178,12 @@ section.buscadorNoticias {
 	display: block;
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
 figure.buscadorNoticias {
     padding: 5px;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+p.advertencia {
+	display: inline-block;
 }
