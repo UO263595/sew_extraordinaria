@@ -176,6 +176,5 @@ section.buscadorNoticias {
 
 figure.buscadorNoticias {
     display: block;
-    flex-flow: column;
     padding: 5px;
 }
