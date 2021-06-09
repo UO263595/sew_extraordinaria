@@ -20,10 +20,9 @@ class BuscadorMercado {
 			success: function(datos) {
 				var stringDatos = "";
 				for (let i = 0; i < datos.data.length; i++) {
-					let fecha = new Date(datos.data[i].date); 
-					console.log(fecha.toLocaleDateString());
+					let fecha = new Date(datos.data[i].date);
 					stringDatos += "<section class='mercado'>";
-					stringDatos += "<h3>" + datos.data[i].symbol + " - " + datos.data[i].date + "</h3>";
+					stringDatos += "<h3>" + datos.data[i].symbol + " - " + fecha.toLocaleDateString() + "</h3>";
 					stringDatos += "<p>Open: " + datos.data[i].open + "</p>";
 					stringDatos += "<p>High: " + datos.data[i].high + "</p>";
 					stringDatos += "<p>Low: " + datos.data[i].low + "</p>";
