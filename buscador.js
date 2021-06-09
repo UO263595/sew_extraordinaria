@@ -60,6 +60,8 @@ class BuscadorNoticias {
 	buscar() {
 		$("div").remove();
 		$("h3").remove();
+		this.crearElemento("h3","","#bBuscar");
+		$("h3").html("¡Advertencia!");
 		$("h4").remove();
 		var busqueda = $("#inputBusqueda").val();
 		// http://api.mediastack.com/v1/news?keywords=example&access_key=API-Token
