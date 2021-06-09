@@ -187,3 +187,8 @@ figure.buscadorNoticias {
 p.advertencia {
 	display: inline-block;
 }
+
+/* a=0 b=0 c=1 especificidad: 001 */
+h3.advertencia {
+	display: inline-block;
+}
