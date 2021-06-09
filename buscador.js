@@ -41,7 +41,7 @@ class BuscadorNoticias {
 				$("h4").html("Total resultados: " + datos.pagination.total);
 			},
 			error:function() {
-				$("p").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
 			}
 		});
 	}
@@ -68,6 +68,7 @@ class BuscadorNoticias {
 		console.log("El valor actual de la url es " + this.url);
 		this.crearElemento("h4","","#bBuscar");
 		this.crearElemento("div","","#bBuscar");
+		this.crearElemento("h3","","#bBuscar");
 		this.cargarDatos();
 	}
 }
