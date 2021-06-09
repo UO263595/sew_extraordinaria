@@ -36,12 +36,12 @@ class BuscadorNoticias {
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
 					stringArticulos += "</section>";
 				}
+				stringArticulos += "<h4>Total resultados: "+datos.pagination.total+"</h4>";
 				
 				$("div").html(stringArticulos);
-				$("h4").html("Total resultados: " + datos.pagination.total);
 			},
 			error:function() {
-				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+				$("h3").html("¡Tenemos problemas! No se pudo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
 			}
 		});
 	}
@@ -58,17 +58,11 @@ class BuscadorNoticias {
 	// Realiza la búsqueda
 	buscar() {
 		$("div").remove();
-		$("h3").remove();
-		this.crearElemento("h3","","#bBuscar");
-		$("h3").html("¡Advertencia!");
-		$("h4").remove();
 		var busqueda = $("#inputBusqueda").val();
 		// http://api.mediastack.com/v1/news?keywords=example&access_key=API-Token
 		this.url = "http://api.mediastack.com/v1/news?keywords=" + busqueda + this.idioma + this.orden + "&access_key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("h4","","#bBuscar");
 		this.crearElemento("div","","#bBuscar");
-		this.crearElemento("h3","","#bBuscar");
 		this.cargarDatos();
 	}
 }
