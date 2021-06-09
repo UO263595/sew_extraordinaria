@@ -7,7 +7,7 @@
 class BuscadorNoticias {
 	// Constructor de la clase
 	constructor() {
-		this.apikey = "8244169070c7a2fada685c65ea3a54c";
+		this.apikey = "8244169070c7a2fada685c65ea3a54c9";
 		this.idioma = "&languages=es";
 		this.orden = "&orden=published_desc"; // ordena las noticias por fecha de publicación
 	}
