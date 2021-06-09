@@ -156,10 +156,7 @@ section.bibliografia li {
 
 /* a=0 b=0 c=1 especificidad: 001 */
 img.buscadorNoticias {
-	max-width: 20em;
-	padding: 5px;
-	display: inline;
-	margin: auto auto;
+	max-width: 18em;
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
