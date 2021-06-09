@@ -20,7 +20,8 @@ class BuscadorMercado {
 			success: function(datos) {
 				var stringDatos = "";
 				for (let i = 0; i < datos.data.length; i++) {
-					console.log(Date.parse(datos.data[i].date).toLocaleDateString());
+					let fecha = new Date(datos.data[i].date); 
+					console.log(fecha);
 					stringDatos += "<section>";
 					stringDatos += "<h3>" + datos.data[i].symbol + " - " + datos.data[i].date + "</h3>";
 					stringDatos += "<p>Open: " + datos.data[i].open + "</p>";
