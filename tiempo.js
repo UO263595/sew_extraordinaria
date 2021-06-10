@@ -182,6 +182,7 @@ class InfoTiempo {
 	
 	// Muestra los datos del tiempo actual
 	tiempoActual() {
+		$("div").remove();
 		// https://api.weatherbit.io/v2.0/current
 		this.url = "https://api.weatherbit.io/v2.0/current?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
@@ -191,6 +192,7 @@ class InfoTiempo {
 	
 	// Muestra los datos del tiempo previsto
 	tiempoPrevision() {
+		$("div").remove();
 		var dias = $("#inputDias").val();
 		// https://api.weatherbit.io/v2.0/forecast
 		this.url = "https://api.weatherbit.io/v2.0/forecast/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&days=" + dias + "&key=" + this.apikey;
@@ -201,6 +203,7 @@ class InfoTiempo {
 	
 	// Muestra los datos del tiempo históricos
 	tiempoHistorico() {
+		$("div").remove();
 		var fechaInicial = $("#fechaInicial").val();
 		var fechaFinal = $("#fechaFinal").val();
 		// https://api.weatherbit.io/v2.0/history/daily
