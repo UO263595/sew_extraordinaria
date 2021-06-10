@@ -175,7 +175,7 @@ video.buscadorNoticias {
 
 /* a=0 b=0 c=1 especificidad: 001 */
 section.buscadorNoticias {
-	display: block;
+	display: inline-block;
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
