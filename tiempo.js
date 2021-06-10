@@ -112,10 +112,10 @@ class InfoTiempo {
 				$("div").html(stringDatos);
 			},
 			error:function(datos) {
-				console.log(datos);
+				console.log(datos.responseJSON.error);
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
-				stringDatos += "<p>Error: " + datos.error + "</p>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
 
 				$("div").html(stringDatos);
 			}
