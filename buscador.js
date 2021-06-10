@@ -27,7 +27,7 @@ class BuscadorNoticias {
 					if (datos.data[i].image != null) {
 						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
 						if (extension == "mp3")
-							stringArticulos += "<audio controls><source src='"+datos.data[i].image+"' type='audio/mpeg'/></audio>";
+							stringArticulos += "<audio controls class='buscadorNoticias'><source src='"+datos.data[i].image+"' type='audio/mpeg'/></audio>";
 						else if (extension == "mp4") 
 							stringArticulos += "<video class='buscadorNoticias' controls preload='auto'><source src='"+datos.data[i].image+" type='video/mp4'></video>";
 						else
