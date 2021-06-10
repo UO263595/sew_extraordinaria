@@ -38,8 +38,8 @@ class BuscadorMercado {
 				
 				$("div").html(stringDatos);
 			},
-			error:function() {
-				$("h3").html(datos.error.message); 
+			error:function(datos) {
+				$("h3").html(datos.error[0].message); 
 			}
 		});
 	}
