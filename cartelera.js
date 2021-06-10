@@ -5,11 +5,13 @@
 "use strict";
 
 class ArchivoXML {
+	// Constructor de la clase
 	constructor(nombre) {
 		this.nombre = nombre;
 		this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
 	
+	// Carga y muestra la cartelera
 	cargarDatos() {
 		$.ajax({
 			dataType: "xml",
@@ -121,12 +123,15 @@ class ArchivoXML {
 					//console.log($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 				}	
 				// Mostrar todos los datos
-				$("section").html(stringDatos);
+				$("div").html(stringDatos);
 			},
 			
 			error:function() {
-				$("section").remove();
-				$("h3").html("¡Tenemos problemas! No se pudo cargar el archivo XML");
+				var stringDatos = "";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
+
+				$("div").html(stringDatos);
 			}
 		});
 	}
@@ -142,21 +147,19 @@ class ArchivoXML {
 	
 	// Muestra el archivo por defecto
 	verXML() {
-		$("section").remove();
-		$("h3").remove();
-		this.crearElemento("section","","#archivo");
+		$("div").remove();
+		this.crearElemento("div","","h2");
 		//this.crearElemento("h3",this.correcto,"h2");
 		this.cargarDatos();
 	}
 	
-	// Carga un archivo
+	// Carga un archivo externo
 	cargarArchivo(files) {
 		var archivo = files[0];
 		console.log(archivo);
 		
-		$("section").remove();
-		$("h3").remove();
-		this.crearElemento("section","","h2");
+		$("div").remove();
+		this.crearElemento("div","","h2");
 		
 		var lector = new FileReader();
 		lector.onload = function (evento) {
@@ -264,7 +267,7 @@ class ArchivoXML {
 				//console.log($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 			}	
 			// Mostrar todos los datos
-			$("section").html(stringDatos);			
+			$("div").html(stringDatos);			
 		}      
 		lector.readAsText(archivo);		
 	}

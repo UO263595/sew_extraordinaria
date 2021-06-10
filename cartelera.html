@@ -32,15 +32,18 @@
 	
 	<main>
 	<h2>Cartelera</h2>
-	<p><button onclick = "archivoXML.verXML()">Cargar archivo XML</button></p>
+	<h3>Visualiza la cartelera actual, o carga una propia</h3>
+	<button onclick = "archivoXML.verXML()">Cargar cartelera actual</button>
 	<label for="archivo">Selecciona un archivo XML para visualizarlo: </label>
-	<p><input type="file" id="archivo" onchange="archivoXML.cargarArchivo(this.files)"></p>
-	<p><a id="descarga" download="pelicula.xml" href="peliculas.xml">Descarga la cartelera</a></p>
+	<input type="file" id="archivo" onchange="archivoXML.cargarArchivo(this.files)">
+	<a id="descarga" download="pelicula.xml" href="peliculas.xml">Descarga la cartelera actual</a>
 	</main>
 	
 	<footer>
 		<h4>Más información</h4>
 		<p>
+			Cinema:
+			<a href="cartelera.html">Ver cartelera</a>
 			Acerca de:
 			<a href="informacion.html">Miembros del equipo</a>
 		</p>
