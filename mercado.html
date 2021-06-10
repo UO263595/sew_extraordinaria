@@ -32,10 +32,12 @@
 	
 	<main>
 	<h2>Buscador de datos de mercado</h2>
-	<label for="inputBusqueda">Stock Ticker: </label><input type="text" id="inputBusqueda" placeholder="Ejemplo: MSFT"/>
-	<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" />
-	<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" />
-	<button id="bBuscar" onclick = "buscadorMercado.buscar()">Buscar</button>
+	<form action='buscadorMercado.buscar()' method='post' id='fBuscar'>
+		<label for="inputBusqueda">Stock Ticker: </label><input type="text" id="inputBusqueda" placeholder="Ejemplo: MSFT"/>
+		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" />
+		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" />
+		<button id="bBuscar" type="submit">Buscar</button>
+	</form>
 	<section class='advertencia' id='advertencia'>
 	<h3>¡Advertencia!</h3>
 	<p>Es posible que para visualizar el contenido correctamente se deba conceder a la página el permiso de "contenido no seguro", esto es debido a que la API utiliza el protocolo HTTP en lugar de HTTPS.</p>
