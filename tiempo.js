@@ -4,11 +4,13 @@
 "use strict";
 
 class InfoTiempo {
+	// Constructor de la clase
     constructor() {
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), this.verErrores.bind(this));
 		this.apikey = "187343ea60ec406387d3986333ad19f1";
 	}
 	
+	// Carga y muestra los datos actuales
 	cargarDatosActuales() {
 		$.ajax({
 			dataType: "json",
@@ -18,7 +20,8 @@ class InfoTiempo {
 				let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[0].weather.icon+".png";
 				console.log("El valor actual del icono es " + icono);
 				
-				let stringDatos = "";
+				var stringDatos = "";
+				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Actual</h3>";
 				stringDatos += "<img src='"+icono+"'/>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
@@ -30,22 +33,29 @@ class InfoTiempo {
 				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir_full+"</p>";
 				stringDatos += "<p>Salida del sol: "+datos.data[0].sunrise+"</p>";
 				stringDatos += "<p>Puesta de sol: "+datos.data[0].sunset+"</p>";
+				stringDatos += "</section>";
 
-				document.getElementById('tiempoActual').innerHTML = stringDatos;
+				$("div").html(stringDatos);
 			},
-			error:function() {
-				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+			error:function(datos) {
+				var stringDatos = "";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
+
+				$("div").html(stringDatos);
 			}
 		});
 	}
 	
+	// Carga y muestra los datos previstos
 	cargarDatosPrevistos() {
 		$.ajax({
 			dataType: "json",
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
-				let stringDatos = "";
+				var stringDatos = "";
+				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Previsto</h3>";
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
@@ -59,23 +69,31 @@ class InfoTiempo {
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
-				stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
+					stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
 				}
-				document.getElementById('tiempoPrevision').innerHTML = stringDatos;
+				stringDatos += "</section>";
+				
+				$("div").html(stringDatos);
 			},
-			error:function() {
-				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+			error:function(datos) {
+				var stringDatos = "";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
+
+				$("div").html(stringDatos);
 			}
 		});
 	}
 	
+	// Carga y muestra los datos históricos
 	cargarDatosHistoricos() {
 		$.ajax({
 			dataType: "json",
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
-				let stringDatos = "";
+				var stringDatos = "";
+				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Historico</h3>";
 				console.log(datos);
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
@@ -87,10 +105,16 @@ class InfoTiempo {
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
 				}
-				document.getElementById('tiempoPrevision').innerHTML = stringDatos;
+				stringDatos += "</section>";
+				
+				$("div").html(stringDatos);
 			},
-			error:function() {
-				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+			error:function(datos) {
+				var stringDatos = "";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error.message + "</p>";
+
+				$("div").html(stringDatos);
 			}
 		});
 	}
@@ -152,6 +176,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/current
 		this.url = "https://api.weatherbit.io/v2.0/current?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
+		this.crearElemento("div","","#tiempoHistorico");
 		this.cargarDatosActuales();
 	}
 	
@@ -161,6 +186,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/forecast
 		this.url = "https://api.weatherbit.io/v2.0/forecast/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&days=" + dias + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
+		this.crearElemento("div","","#tiempoHistorico");
 		this.cargarDatosPrevistos();
 	}
 	
@@ -171,6 +197,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/history/daily
 		this.url = "https://api.weatherbit.io/v2.0/history/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&start_date=" + fechaInicial + "&end_date=" + fechaFinal + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
+		this.crearElemento("div","","#tiempoHistorico");
 		this.cargarDatosHistoricos();
 	}
 }
