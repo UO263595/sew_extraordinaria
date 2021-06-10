@@ -7,7 +7,7 @@
 class BuscadorNoticias {
 	// Constructor de la clase
 	constructor() {
-		this.apikey = "8244169070c7a2fada685c65ea3a54c9";
+		this.apikey = "8244169070c7a2fada685c65ea3a54c";
 		this.idioma = "&languages=es";
 		this.orden = "&orden=published_desc"; // ordena las noticias por fecha de publicación
 	}
@@ -40,8 +40,12 @@ class BuscadorNoticias {
 				
 				$("div").html(stringArticulos);
 			},
-			error:function() {
-				$("h3").html("¡Tenemos problemas! No se pudo obtener JSON de <a href='https://mediastack.com/'>Mediastack</a>"); 
+			error: function(datos) {
+				var stringDatos = "";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error.message + "</p>";
+
+				$("div").html(stringDatos);
 			}
 		});
 	}

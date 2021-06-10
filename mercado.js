@@ -40,7 +40,7 @@ class BuscadorMercado {
 			},
 			error: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<h3>¡Tenemos problemas! No puedo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
 				stringDatos += "<p>Error: " + datos.responseJSON.error.message + "</p>";
 
 				$("div").html(stringDatos);
