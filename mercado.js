@@ -2,7 +2,7 @@
 // Realiza una búsqueda de mercado del ticker introducido
 // Ordena los datos por fecha
 
-//"use strict";
+"use strict";
 
 class BuscadorMercado {
 	// Constructor de la clase
@@ -11,6 +11,7 @@ class BuscadorMercado {
 		console.log(this.fechaActual.toLocaleDateString());
 		//$("#fechaInicial").attr("max", this.fechaActual.toLocaleDateString());
 		$("#fechaInicial").attr("max", "2021-06-10");
+		$("#fechaFinal").attr("max", "2021-06-10");
 		console.log($("#fechaInicial"));
 		console.log($("#fechaInicial").attr('max'));
 		console.log($("#fechaFinal").attr('max'));
