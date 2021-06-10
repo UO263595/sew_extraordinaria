@@ -7,7 +7,7 @@
 class BuscadorNoticias {
 	// Constructor de la clase
 	constructor() {
-		this.apikey = "8244169070c7a2fada685c65ea3a54c";
+		this.apikey = "8244169070c7a2fada685c65ea3a54c9";
 		this.idioma = "&languages=es";
 		this.orden = "&orden=published_desc"; // ordena las noticias por fecha de publicación
 	}
@@ -19,6 +19,8 @@ class BuscadorNoticias {
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
+				$("#advertencia").remove();
+				
 				var stringArticulos = "";
 				for (let i = 0; i < datos.data.length; i++) {
 					stringArticulos += "<section class='buscadorNoticias'>";
@@ -42,7 +44,7 @@ class BuscadorNoticias {
 			},
 			error: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
 				stringDatos += "<p>Error: " + datos.responseJSON.error.message + "</p>";
 
 				$("div").html(stringDatos);

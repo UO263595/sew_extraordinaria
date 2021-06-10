@@ -22,6 +22,8 @@ class BuscadorMercado {
 			url: this.url,
 			method: 'GET',
 			success: function(datos) {
+				$("#advertencia").remove();
+				
 				var stringDatos = "";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].date);
@@ -40,7 +42,7 @@ class BuscadorMercado {
 			},
 			error: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
+				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://marketstack.com/'>Marketstack</a></h3>";
 				stringDatos += "<p>Error: " + datos.responseJSON.error.message + "</p>";
 
 				$("div").html(stringDatos);
