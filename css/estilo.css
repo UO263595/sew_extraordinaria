@@ -193,3 +193,9 @@ section.mercado {
 	display: inline-block;
 	margin: 2em 3em;
 }
+
+/* a=0 b=0 c=1 especificidad: 001 */
+section.informacion {
+	display: inline-block;
+	margin: 2em 3em;
+}
