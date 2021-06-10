@@ -7,6 +7,10 @@
 class BuscadorMercado {
 	// Constructor de la clase
 	constructor() {
+		this.fechaActual = new Date();
+		console.log(this.fechaActual.toLocaleDateString());
+		console.log();
+		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
 	}
