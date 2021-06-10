@@ -238,11 +238,6 @@ section.cine {
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
-section.actor {
-	display: inline-block;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
 section.premio {
 	display: inline-block;
 	margin: 0.5em 3em;
