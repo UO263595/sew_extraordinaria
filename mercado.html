@@ -32,9 +32,9 @@
 	
 	<main>
 	<h2>Buscador de datos de mercado</h2>
-	<label for="inputBusqueda">Stock Ticker: </label><input type="text" id="inputBusqueda" placeholder="Ejemplo: MSFT"/>
-	<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial">
-	<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal">
+	<label for="inputBusqueda">Stock Ticker: </label><input type="text" id="inputBusqueda" placeholder="Ejemplo: MSFT" required="true"/>
+	<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" required="true">
+	<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" required="true">
 	<button id="bBuscar" onclick = "buscadorMercado.buscar()">Buscar</button>
 	<section class='advertencia' id='advertencia'>
 	<h3>¡Advertencia!</h3>
