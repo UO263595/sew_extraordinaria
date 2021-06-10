@@ -39,8 +39,7 @@ class BuscadorMercado {
 				$("div").html(stringDatos);
 			},
 			error:function() {
-				$("h3").html("¡Tenemos problemas! No puedo obtener JSON de <a href='https://marketstack.com/'>Marketstack</a>"); 
-
+				$("h3").html(datos.error.message); 
 			}
 		});
 	}
