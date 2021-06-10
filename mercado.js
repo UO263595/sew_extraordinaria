@@ -61,7 +61,6 @@ class BuscadorMercado {
 		var busqueda = $("#inputBusqueda").val();
 		var fechaInicial = $("#fechaInicial").val();
 		var fechaFinal = $("#fechaFinal").val();
-		console.log( $("#fechaInicial").low);
 		// http://api.marketstack.com/v1/eod?symbols=example&access_key=API-Token
 		this.url = "http://api.marketstack.com/v1/eod?symbols=" + busqueda + "&date_from=" + fechaInicial + "&date_to=" + fechaFinal + "&access_key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
