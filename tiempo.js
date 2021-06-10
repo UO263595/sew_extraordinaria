@@ -171,6 +171,15 @@ class InfoTiempo {
 		return param;
 	}
 	
+	// Crea un nuevo elemento modificando el árbol DOM
+	// El elemento creado es de 'tipoElemento' con un 'texto'
+	// El elemento se coloca después del elemnto 'insertarDespuesDe'	
+	crearElemento(tipoElemento, texto, insertarDespuesDe) {
+		var elemento = document.createElement(tipoElemento); 
+		elemento.innerHTML = texto;
+		$(insertarDespuesDe).after(elemento);
+	}
+	
 	// Muestra los datos del tiempo actual
 	tiempoActual() {
 		// https://api.weatherbit.io/v2.0/current
