@@ -48,7 +48,7 @@ class ArchivoXML {
 						stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
 						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("calle")+", "+$('direccion', datosCine).get(0).getAttribute("ciudad")+"</p>";
 						let fechaProgramacion = new Date($('programacion', datosCine).get(0).getAttribute("fecha"));
-						stringDatos += "<p>Programación: "+fecha.toLocaleDateString()+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
+						stringDatos += "<p>Programación: "+fechaProgramacion.toLocaleDateString()+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
 						stringDatos += "</section>";
 					}
 					
@@ -84,7 +84,7 @@ class ArchivoXML {
 						stringDatos += "<section class='actor'>";
 						stringDatos += "<p><b>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</b></p>";
 						let fechaNacimiento = new Date($('nacimiento', datosActor).get(0).getAttribute("fecha"));
-						stringDatos += "<p>Fecha de nacimiento: "+fecha.toLocaleDateString()+"</p>";
+						stringDatos += "<p>Fecha de nacimiento: "+fechaNacimiento.toLocaleDateString()+"</p>";
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
 					
 						stringDatos += "<h5>Premios</h5>";
