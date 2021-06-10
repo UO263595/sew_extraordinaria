@@ -21,8 +21,8 @@ class InfoTiempo {
 				console.log("El valor actual del icono es " + icono);
 				
 				var stringDatos = "";
-				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Actual</h3>";
+				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<img src='"+icono+"'/>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
@@ -55,12 +55,12 @@ class InfoTiempo {
 			method: 'GET',
 			success: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Previsto</h3>";
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
+					stringDatos += "<section class='tiempo'>";
 					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
 					stringDatos += "<img src='"+icono+"'/>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
@@ -70,8 +70,8 @@ class InfoTiempo {
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
 					stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
+					stringDatos += "</section>";
 				}
-				stringDatos += "</section>";
 				
 				$("div").html(stringDatos);
 			},
@@ -93,19 +93,19 @@ class InfoTiempo {
 			method: 'GET',
 			success: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Historico</h3>";
 				console.log(datos);
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
+					stringDatos += "<section class='tiempo'>";
 					stringDatos += "<p><b>Fecha: "+datos.data[i].datetime+"</b></p>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
+					stringDatos += "</section>";
 				}
-				stringDatos += "</section>";
 				
 				$("div").html(stringDatos);
 			},
