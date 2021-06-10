@@ -2,7 +2,7 @@
 // Realiza una búsqueda de mercado del ticker introducido
 // Ordena los datos por fecha
 
-"use strict";
+//"use strict";
 
 class BuscadorMercado {
 	// Constructor de la clase
