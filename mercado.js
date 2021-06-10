@@ -9,7 +9,8 @@ class BuscadorMercado {
 	constructor() {
 		this.fechaActual = new Date();
 		console.log(this.fechaActual.toLocaleDateString());
-		$("#fechaInicial").attr("max", this.fechaActual.toLocaleDateString());
+		//$("#fechaInicial").attr("max", this.fechaActual.toLocaleDateString());
+		$("#fechaInicial").attr("max", "2021-06-10");
 		console.log();
 		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
