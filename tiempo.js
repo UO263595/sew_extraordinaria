@@ -99,7 +99,7 @@ class InfoTiempo {
 				console.log(datos);
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
-					let fecha = new Date(datos.data[i].valid_date);
+					let fecha = new Date(datos.data[i].datetime);
 					stringDatos += "<section class='tiempo'>";
 					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
