@@ -11,7 +11,7 @@ class BuscadorMercado {
 		console.log(this.fechaActual.toLocaleDateString());
 		//$("#fechaInicial").attr("max", this.fechaActual.toLocaleDateString());
 		$("#fechaInicial").attr("max", "2021-06-10");
-		console.log(document.getElementById("fechaInicial"));
+		console.log($("#fechaInicial"));
 		console.log($("#fechaInicial").attr('max'));
 		console.log($("#fechaFinal").attr('max'));
 		
