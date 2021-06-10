@@ -11,7 +11,7 @@
 <!ELEMENT recomendacion (critica+)>
 <!ELEMENT critica (#PCDATA)>
 <!ELEMENT actores (actor+)>
-<!ELEMENT actor (nacimiento, premios*, galeria)>
+<!ELEMENT actor (nacimiento, premios?, galeria)>
 <!ELEMENT nacimiento (#PCDATA)>
 <!ELEMENT premios (premio+)>
 <!ELEMENT premio (#PCDATA)>

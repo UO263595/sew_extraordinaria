@@ -87,9 +87,10 @@ class ArchivoXML {
 						stringDatos += "<p>Fecha de nacimiento: "+fechaNacimiento.toLocaleDateString()+"</p>";
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
 					
-						stringDatos += "<h5>Premios</h5>";
 						let datosPremios =  $('premios', datosActor).get(0);
 						let totalPremios = $('premio', datosPremios).length;
+						if (totalPremios>0)
+							stringDatos += "<h5>Premios</h5>";
 						//console.log(totalPremios);
 						// Se recorren los premios
 						for (let m=0; m<totalPremios; m++) {
