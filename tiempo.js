@@ -40,7 +40,7 @@ class InfoTiempo {
 			error:function(datos) {
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
-				stringDatos += "<p>Error: " + datos.error + "</p>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
 
 				$("div").html(stringDatos);
 			}
@@ -80,7 +80,7 @@ class InfoTiempo {
 				console.log(datos);
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
-				stringDatos += "<p>Error: " + datos.error + "</p>";
+				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
 
 				$("div").html(stringDatos);
 			}
@@ -99,8 +99,9 @@ class InfoTiempo {
 				console.log(datos);
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
+					let fecha = new Date(datos.data[i].valid_date);
 					stringDatos += "<section class='tiempo'>";
-					stringDatos += "<p><b>Fecha: "+datos.data[i].datetime+"</b></p>";
+					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
@@ -112,7 +113,6 @@ class InfoTiempo {
 				$("div").html(stringDatos);
 			},
 			error:function(datos) {
-				console.log(datos.responseJSON.error);
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
 				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
