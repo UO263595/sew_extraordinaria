@@ -40,7 +40,7 @@ class InfoTiempo {
 			error:function(datos) {
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
-				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
+				stringDatos += "<p>Error: " + datos.error + "</p>";
 
 				$("div").html(stringDatos);
 			}
@@ -60,8 +60,9 @@ class InfoTiempo {
 				for (let i = 0; i < datos.data.length; i++) {
 					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
+					let fecha = new Date(datos.data[i].valid_date);
 					stringDatos += "<section class='tiempo'>";
-					stringDatos += "<p><b>Fecha: "+datos.data[i].valid_date+"</b></p>";
+					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
 					stringDatos += "<img src='"+icono+"'/>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
@@ -78,7 +79,7 @@ class InfoTiempo {
 			error:function(datos) {
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
-				stringDatos += "<p>Error: " + datos.responseJSON.error + "</p>";
+				stringDatos += "<p>Error: " + datos.error + "</p>";
 
 				$("div").html(stringDatos);
 			}
@@ -112,7 +113,7 @@ class InfoTiempo {
 			error:function(datos) {
 				var stringDatos = "";
 				stringDatos += "<h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href='https://www.weatherbit.io/'>Weatherbit</a></h3>";
-				stringDatos += "<p>Error: " + datos.responseJSON.error.message + "</p>";
+				stringDatos += "<p>Error: " + datos.error + "</p>";
 
 				$("div").html(stringDatos);
 			}
