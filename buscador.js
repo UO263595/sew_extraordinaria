@@ -24,6 +24,7 @@ class BuscadorNoticias {
 				var stringArticulos = "";
 				for (let i = 0; i < datos.data.length; i++) {
 					stringArticulos += "<section class='buscadorNoticias'>";
+					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
 					if (datos.data[i].image != null) {
 						let extension = datos.data[i].image.substring(datos.data[i].image.lastIndexOf('.') + 1).toLowerCase();
 						if (extension == "mp3")
@@ -33,7 +34,6 @@ class BuscadorNoticias {
 						else
 							stringArticulos += "<figure class='buscadorNoticias'><img class='buscadorNoticias' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/><figcaption class='buscadorNoticias'>"+datos.data[i].title+"</figcaption></figure>";
 					}
-					stringArticulos += "<h3>" + datos.data[i].title + " - " + datos.data[i].source + "</h3>";
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
 					stringArticulos += "<a href='" + datos.data[i].url + "'>Ver noticia</a>";
 					stringArticulos += "</section>";
