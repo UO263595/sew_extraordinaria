@@ -15,6 +15,7 @@ class BuscadorMercado {
 		console.log($("#fechaInicial"));
 		console.log($("#fechaInicial").attr('max'));
 		console.log($("#fechaFinal").attr('max'));
+		console.log(document.getElementById("fechaFinal"));
 		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
@@ -77,8 +78,5 @@ class BuscadorMercado {
 		this.cargarDatos();
 	}
 }
-
-console.log($("#fechaInicial").attr('max'));
-		console.log($("#fechaFinal").attr('max'));
 
 var buscadorMercado = new BuscadorMercado();
