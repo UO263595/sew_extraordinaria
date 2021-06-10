@@ -78,4 +78,7 @@ class BuscadorMercado {
 	}
 }
 
+console.log($("#fechaInicial").attr('max'));
+		console.log($("#fechaFinal").attr('max'));
+
 var buscadorMercado = new BuscadorMercado();
