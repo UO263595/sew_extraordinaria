@@ -7,16 +7,6 @@
 class BuscadorMercado {
 	// Constructor de la clase
 	constructor() {
-		this.fechaActual = new Date();
-		console.log(this.fechaActual.toLocaleDateString());
-		//$("#fechaInicial").attr("max", this.fechaActual.toLocaleDateString());
-		$("#fechaInicial").attr("max", "2021-06-10");
-		$("#fechaFinal").attr("max", "2021-06-10");
-		console.log($("#fechaInicial"));
-		console.log($("#fechaInicial").attr('max'));
-		console.log($("#fechaFinal").attr('max'));
-		console.log(document.getElementById("fechaFinal"));
-		
 		this.apikey = "04e81f6ca5cd24036c4e875f36e73d99";
 		this.orden = "&sort=ASC"; // ordena los por fecha
 	}
