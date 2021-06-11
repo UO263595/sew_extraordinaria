@@ -67,17 +67,17 @@
 				</premios>
 				<galeria>
 					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img2.jpg"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img3.jpg"/>
-					<video enlace="https://www.youtube.com/watch?v=Upwg6JMtyCg"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img2.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img3.jpg?raw=true"/>
+					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/video1.jpg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="David" apellidos="Carradine">
 				<nacimiento fecha="1936-12-08" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="http://hoyhevisto.files.wordpress.com/2008/07/kill_bill.jpg"/>
-					<fotografia enlace="https://i.pinimg.com/originals/98/ae/3e/98ae3e5184f8d4b4ee127104338ecc8e.jpg"/>
-					<video enlace="https://www.youtube.com/watch?v=eWTJIBGNId0"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/img2.jpg?raw=true"/>
+					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/video1.jpg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Chiaki" apellidos="Kuriyama">
@@ -95,8 +95,8 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://i.pinimg.com/originals/c5/06/ac/c506acd7115447f181962c03a529614c.jpg"/>
-					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/81j6n4MopcL._AC_SL1494_.jpg"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Chiaki-Kuriyama/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/video1.jpg?raw=true"/>
 				</galeria>
 			</actor>
 		</actores>
@@ -214,8 +214,8 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://img.allvipp.com/www-promipool-de/image/upload/c_fill,g_faces,h_357,w_634,q_auto:eco,f_jpg/Tim_Robbins_The_Shawshank_Redemption_que_esta_haciendo_hoy_200810_ghlr5rsjy1"/>
-					<fotografia enlace="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1530803171517-1N3BEPHH8Q8L481LFSX5/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/image-asset.jpeg?format=2500w"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Tim-Robins/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Chiaki-Kuriyama/img2.jpg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Bob" apellidos="Gunton">
