@@ -215,7 +215,7 @@
 				</premios>
 				<galeria>
 					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Tim-Robins/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Tim-Robins/img2.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Tim-Robins/img2.jpeg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Bob" apellidos="Gunton">
@@ -235,9 +235,9 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://i2.wp.com/25lists.com/wp-content/uploads/2020/07/3b6b5ed66d89e544163621534a45116f.jpg"/>
-					<fotografia enlace="https://mediad.publicbroadcasting.net/p/shared/npr/201908/752357582.jpg"/>
-					<fotografia enlace="https://static.wikia.nocookie.net/movie-villains/images/f/fb/Warden_Norton.jpg/revision/latest?cb=20140623174206"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bob-Gunton/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bob-Gunton/img2.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bob-Gunton/img3.jpg?raw=true"/>
 				</galeria>
 			</actor>
 		</actores>
@@ -318,29 +318,29 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://ep00.epimg.net/elpais/imagenes/2015/11/24/estilo/1448364038_599502_1448365835_noticia_normal.jpg"/>
-					<video enlace="https://www.youtube.com/watch?v=s00OXic4mS8"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/img1.jpeg?raw=true"/>
+					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/video1.mp4?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Ray" apellidos="Bolger">
 				<nacimiento fecha="1904-01-15" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://i.ebayimg.com/images/g/2MEAAOxy1yZSMOMn/s-l300.jpg"/>
-					<fotografia enlace="https://3.bp.blogspot.com/-kx-E8xEuaKo/WfzyyKVTjyI/AAAAAAABrWc/c0Xdmdhtf38LQE5JfGVXlSkmBQpuTjXbwCLcBGAs/s320/6a014e8b29c8c3970d01a3fcf5cefb970b-600wi.jpg"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img2.jpeg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Jack" apellidos="Haley">
 				<nacimiento fecha="1898-08-10" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://image.posterlounge.es/images/big/1873379.jpg"/>
-					<fotografia enlace="https://images-na.ssl-images-amazon.com/images/I/51AuCxOFMCL._AC_.jpg"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Jack-Haley/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Jack-Haley/img2.jpg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Bert" apellidos="Lahr">
 				<nacimiento fecha="1895-08-13" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://i.ebayimg.com/images/g/UwQAAMXQKQhRHpQ1/s-l300.jpg"/>
-					<fotografia enlace="https://www.datosfreak.org/wp-content/uploads/2019/01/Disfraz_Zeke_Bert_Lahr_Mago_de_Oz_leon_real-1.jpg"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bert-Lahr/img1.jpg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bert-Lahr/img2.jpg?raw=true"/>
 				</galeria>
 			</actor>
 		</actores>
