@@ -183,6 +183,7 @@ video.buscadorNoticias {
 /* a=0 b=0 c=1 especificidad: 001 */
 video.actor {
 	max-width: 28em;
+	max-height: 250px;
 	float: left;
 	margin: 3em;
 }

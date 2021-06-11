@@ -318,7 +318,7 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/img1.jpeg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/img1.jpg?raw=true"/>
 					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/video1.mp4?raw=true"/>
 				</galeria>
 			</actor>
@@ -326,7 +326,7 @@
 				<nacimiento fecha="1904-01-15" pais="Estados Unidos"/>
 				<galeria>
 					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img2.jpeg?raw=true"/>
+					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img2.jpg?raw=true"/>
 				</galeria>
 			</actor>
 			<actor nombre="Jack" apellidos="Haley">
