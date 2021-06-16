@@ -1,381 +1,381 @@
-﻿codigo;equipo_local;equipo_visitante;fecha;goles_local;goles_visitante
-SP11;Huesca;Valladolid;01/02/2019;4;0
-SP12;Rayo Vallecano;Girona;01/03/2019;0;2
-SP13;Celta de Vigo;Atlético de Madrid;01/09/2018;2;0
-SP14;Real Madrid;Leganés;01/09/2018;4;1
-SP15;Celta de Vigo;Getafe;01/10/2018;1;1
-SP16;Celta de Vigo;Huesca;01/12/2018;2;0
-SP17;Getafe;Espanyol;01/12/2018;3;0
-SP18;Real Madrid;Valencia;01/12/2018;2;0
-SP19;Valladolid;Leganés;01/12/2018;2;4
-SP20;Barcelona;Valencia;02/02/2019;2;2
-SP21;Celta de Vigo;Sevilla;02/02/2019;1;0
-SP22;Levante;Getafe;02/02/2019;0;0
-SP23;Real Sociedad;Athletic de Bilbao;02/02/2019;2;1
-SP24;Espanyol;Valladolid;02/03/2019;3;1
-SP25;Huesca;Sevilla;02/03/2019;2;1
-SP26;Real Madrid;Barcelona;02/03/2019;0;1
-SP27;Villarreal;Alavés;02/03/2019;1;2
-SP28;Atlético Madrid;Girona;02/04/2019;2;0
-SP29;Espanyol;Getafe;02/04/2019;1;1
-SP30;Villarreal;Barcelona;02/04/2019;4;4
-SP31;Alavés;Espanyol;02/09/2018;2;1
-SP32;Barcelona;Huesca;02/09/2018;8;2
-SP33;Betis;Sevilla;02/09/2018;1;0
-SP34;Levante;Valencia;02/09/2018;2;2
-SP35;Alavés;Sevilla;02/12/2018;1;1
-SP36;Barcelona;Villarreal;02/12/2018;2;0
-SP37;Betis;Real Sociedad;02/12/2018;1;0
-SP38;Girona;Atlético de Madrid;02/12/2018;1;1
-SP39;Villarreal;Real Madrid;03/01/2019;2;2
-SP40;Betis;Atlético de Madrid;03/02/2019;1;0
-SP41;Eibar;Girona;03/02/2019;3;0
-SP42;Real Madrid;Alavés;03/02/2019;3;0
-SP43;Villarreal;Espanyol;03/02/2019;2;2
-SP44;Betis;Getafe;03/03/2019;1;2
-SP45;Eibar;Celta de Vigo;03/03/2019;1;0
-SP46;Real Sociedad;Atlético de Madrid;03/03/2019;0;2
-SP47;Valencia;Athletic de Bilbao;03/03/2019;2;0
-SP48;Athletic Bilbao;Levante;03/04/2019;3;2
-SP49;Eibar;Rayo Vallecano;03/04/2019;2;1
-SP50;Huesca;Celta de Vigo;03/04/2019;3;3
-SP51;Valencia;Real Madrid;03/04/2019;2;1
-SP52;Sevilla;Leganés;03/05/2019;0;3
-SP53;Leganés;Atlético de Madrid;03/11/2018;1;1
-SP54;Real Madrid;Valladolid;03/11/2018;2;0
-SP55;Valencia;Girona;03/11/2018;0;1
-SP56;Rayo Vallecano;Barcelona;03/11/2018;2;3
-SP57;Levante;Athletic de Bilbao;03/12/2018;3;0
-SP58;Espanyol;Leganés;04/01/2019;1;0
-SP59;Levante;Girona;04/01/2019;2;2
-SP60;Rayo Vallecano;Leganés;04/02/2019;1;2
-SP61;Leganés;Levante;04/03/2019;1;0
-SP62;Leganés;Valladolid;04/04/2019;1;0
-SP63;Sevilla;Alavés;04/04/2019;2;0
-SP64;Real Sociedad;Betis;04/04/2019;2;1
-SP65;Alavés;Real Sociedad;04/05/2019;0;1
-SP66;Celta de Vigo;Barcelona;04/05/2019;2;0
-SP67;Espanyol;Atlético de Madrid;04/05/2019;3;0
-SP68;Levante;Rayo Vallecano;04/05/2019;4;1
-SP69;Betis;Celta de Vigo;04/11/2018;3;3
-SP70;Eibar;Alavés;04/11/2018;2;1
-SP71;Huesca;Getafe;04/11/2018;1;1
-SP72;Real Sociedad;Sevilla;04/11/2018;0;0
-SP73;Villarreal;Levante;04/11/2018;1;1
-SP74;Alavés;Valencia;05/01/2019;2;1
-SP75;Huesca;Betis;05/01/2019;2;1
-SP76;Valladolid;Rayo Vallecano;05/01/2019;0;1
-SP77;Eibar;Betis;05/05/2019;1;0
-SP78;Getafe;Girona;05/05/2019;2;0
-SP79;Huesca;Valencia;05/05/2019;2;6
-SP80;Real Madrid;Villarreal;05/05/2019;3;2
-SP81;Valladolid;Athletic de Bilbao;05/05/2019;1;0
-SP82;Athletic de Bilbao;Real Sociedad;05/10/2018;1;3
-SP83;Espanyol;Athletic de Bilbao;05/11/2018;1;0
-SP84;Eibar;Villarreal;06/01/2019;0;0
-SP85;Getafe;Barcelona;06/01/2019;1;2
-SP86;Real Madrid;Real Sociedad;06/01/2019;0;2
-SP87;Sevilla;Atlético de Madrid;06/01/2019;1;1
-SP88;Barcelona;Atlético de Madrid;06/04/2019;2;0
-SP89;Girona;Espanyol;06/04/2019;1;2
-SP90;Real Madrid;Eibar;06/04/2019;2;1
-SP91;Rayo Vallecano;Valencia;06/04/2019;2;0
-SP92;Alavés;Real Madrid;06/10/2018;1;0
-SP93;Getafe;Levante;06/10/2018;0;1
-SP94;Girona;Eibar;06/10/2018;2;3
-SP95;Leganés;Rayo Vallecano;06/10/2018;1;0
-SP96;Celta de Vigo;Athletic de Bilbao;07/01/2019;1;2
-SP97;Alavés;Leganés;07/04/2019;1;1
-SP98;Betis;Villarreal;07/04/2019;2;1
-SP99;Celta de Vigo;Real Sociedad;07/04/2019;3;1
-SP100;Getafe;Athletic de Bilbao;07/04/2019;1;0
-SP101;Levante;Huesca;07/04/2019;2;2
-SP102;Valladolid;Sevilla;07/04/2019;0;2
-SP103;Atlético de Madrid;Betis;07/10/2018;1;0
-SP104;Espanyol;Villarreal;07/10/2018;3;1
-SP105;Sevilla;Celta de Vigo;07/10/2018;2;1
-SP106;Valencia;Barcelona;07/10/2018;1;1
-SP107;Valladolid;Huesca;07/10/2018;1;0
-SP108;Leganés;Getafe;07/12/2018;1;1
-SP109;Valladolid;Villarreal;08/02/2019;0;0
-SP110;Athletic de Bilbao;Espanyol;08/03/2019;1;1
-SP111;Atlético de Madrid;Alavés;08/12/2018;3;0
-SP112;Espanyol;Barcelona;08/12/2018;0;4
-SP113;Valencia;Sevilla;08/12/2018;1;1
-SP114;Villarreal;Celta de Vigo;08/12/2018;2;3
-SP115;Atlético Madrid;Real Madrid;09/02/2019;1;3
-SP116;Espanyol;Rayo Vallecano;09/02/2019;2;1
-SP117;Getafe;Celta de Vigo;09/02/2019;3;1
-SP118;Girona;Huesca;09/02/2019;0;2
-SP119;Alavés;Eibar;09/03/2019;1;1
-SP120;Atlético de Madrid;Leganés;09/03/2019;1;0
-SP121;Barcelona;Rayo Vallecano;09/03/2019;3;1
-SP122;Getafe;Huesca;09/03/2019;2;1
-SP123;Levante;Real Sociedad;09/11/2018;1;3
-SP124;Betis;Rayo Vallecano;09/12/2018;2;0
-SP125;Eibar;Levante;09/12/2018;4;4
-SP126;Huesca;Real Madrid;09/12/2018;0;1
-SP127;Real Sociedad;Valladolid;09/12/2018;1;2
-SP128;Athletic de Bilbao;Barcelona;10/02/2019;0;0
-SP129;Leganés;Betis;10/02/2019;3;0
-SP130;Sevilla;Eibar;10/02/2019;2;2
-SP131;Valencia;Real Sociedad;10/02/2019;0;0
-SP132;Celta de Vigo;Betis;10/03/2019;0;1
-SP133;Girona;Valencia;10/03/2019;2;3
-SP134;Levante;Villarreal;10/03/2019;0;2
-SP135;Sevilla;Real Sociedad;10/03/2019;5;2
-SP136;Valladolid;Real Madrid;10/03/2019;1;4
-SP137;Atlético de Madrid;Athletic de Bilbao;10/11/2018;3;2
-SP138;Getafe;Valencia;10/11/2018;0;1
-SP139;Girona;Leganés;10/11/2018;0;0
-SP140;Valladolid;Eibar;10/11/2018;0;0
-SP141;Athletic de Bilbao;Girona;10/12/2018;1;0
-SP142;Rayo Vallecano;Celta de Vigo;11/01/2019;4;2
-SP143;Alavés;Levante;11/02/2019;2;0
-SP144;Alavés;Huesca;11/11/2018;2;1
-SP145;Barcelona;Betis;11/11/2018;3;4
-SP146;Celta de Vigo;Real Madrid;11/11/2018;2;4
-SP147;Sevilla;Espanyol;11/11/2018;2;1
-SP148;Rayo Vallecano;Villarreal;11/11/2018;2;2
-SP149;Girona;Alavés;12/01/2019;1;1
-SP150;Leganés;Huesca;12/01/2019;1;0
-SP151;Valencia;Valladolid;12/01/2019;1;1
-SP152;Villarreal;Getafe;12/01/2019;1;2
-SP153;Athletic de Bilbao;Celta de Vigo;12/05/2019;3;1
-SP154;Atlético de Madrid;Sevilla;12/05/2019;1;1
-SP155;Barcelona;Getafe;12/05/2019;2;0
-SP156;Betis;Huesca;12/05/2019;2;1
-SP157;Girona;Levante;12/05/2019;1;2
-SP158;Leganés;Espanyol;12/05/2019;0;2
-SP159;Real Sociedad;Real Madrid;12/05/2019;3;1
-SP160;Valencia;Alavés;12/05/2019;3;1
-SP161;Rayo Vallecano;Valladolid;12/05/2019;1;2
-SP162;Villarreal;Eibar;12/05/2019;1;0
-SP163;Athletic de Bilbao;Sevilla;13/01/2019;2;0
-SP164;Atlético de Madrid;Levante;13/01/2019;1;0
-SP165;Barcelona;Eibar;13/01/2019;3;0
-SP166;Betis;Real Madrid;13/01/2019;1;2
-SP167;Atlético de Madrid;Celta de Vigo;13/04/2019;2;0
-SP168;Espanyol;Alavés;13/04/2019;2;1
-SP169;Huesca;Barcelona;13/04/2019;0;0
-SP170;Sevilla;Betis;13/04/2019;3;2
-SP171;Real Sociedad;Espanyol;14/01/2019;3;2
-SP172;Athletic de Bilbao;Rayo Vallecano;14/04/2019;3;2
-SP173;Girona;Villarreal;14/04/2019;0;1
-SP174;Real Sociedad;Eibar;14/04/2019;1;1
-SP175;Valencia;Levante;14/04/2019;3;1
-SP176;Valladolid;Getafe;14/04/2019;2;2
-SP177;Huesca;Rayo Vallecano;14/09/2018;0;1
-SP178;Celta de Vigo;Leganés;14/12/2018;0;0
-SP179;Eibar;Getafe;15/02/2019;2;2
-SP180;Real Sociedad;Levante;15/03/2019;1;1
-SP181;Leganés;Real Madrid;15/04/2019;1;1
-SP182;Athletic de Bilbao;Real Madrid;15/09/2018;1;1
-SP183;Atlético de Madrid;Eibar;15/09/2018;1;1
-SP184;Real Sociedad;Barcelona;15/09/2018;1;2
-SP185;Valencia;Betis;15/09/2018;0;0
-SP186;Eibar;Valencia;15/12/2018;1;1
-SP187;Getafe;Real Sociedad;15/12/2018;1;0
-SP188;Real Madrid;Rayo Vallecano;15/12/2018;1;0
-SP189;Valladolid;Atlético de Madrid;15/12/2018;2;3
-SP190;Barcelona;Valladolid;16/02/2019;1;0
-SP191;Celta de Vigo;Levante;16/02/2019;1;4
-SP192;Real Sociedad;Leganés;16/02/2019;3;0
-SP193;Rayo Vallecano;Atlético de Madrid;16/02/2019;0;1
-SP194;Athletic de Bilbao;Atlético de Madrid;16/03/2019;2;0
-SP195;Huesca;Alavés;16/03/2019;1;3
-SP196;Leganés;Girona;16/03/2019;0;2
-SP197;Real Madrid;Celta de Vigo;16/03/2019;2;0
-SP198;Espanyol;Levante;16/09/2018;1;0
-SP199;Leganés;Villarreal;16/09/2018;0;1
-SP200;Sevilla;Getafe;16/09/2018;0;2
-SP201;Valladolid;Alavés;16/09/2018;0;1
-SP202;Espanyol;Betis;16/12/2018;1;3
-SP203;Huesca;Villarreal;16/12/2018;2;2
-SP204;Levante;Barcelona;16/12/2018;0;5
-SP205;Sevilla;Girona;16/12/2018;2;0
-SP206;Betis;Alavés;17/02/2019;1;1
-SP207;Real Madrid;Girona;17/02/2019;1;2
-SP208;Valencia;Espanyol;17/02/2019;0;0
-SP209;Villarreal;Sevilla;17/02/2019;3;0
-SP210;Betis;Barcelona;17/03/2019;1;4
-SP211;Eibar;Valladolid;17/03/2019;1;2
-SP212;Espanyol;Sevilla;17/03/2019;0;1
-SP213;Valencia;Getafe;17/03/2019;0;0
-SP214;Villarreal;Rayo Vallecano;17/03/2019;3;1
-SP215;Betis;Levante;17/08/2018;0;3
-SP216;Girona;Valladolid;17/08/2018;0;0
-SP217;Girona;Celta de Vigo;17/09/2018;3;2
-SP218;Alavés;Athletic de Bilbao;17/12/2018;0;0
-SP219;Getafe;Alavés;18/01/2019;4;0
-SP220;Huesca;Athletic de Bilbao;18/02/2019;0;1
-SP221;Alavés;Girona;18/05/2019;2;1
-SP222;Celta de Vigo;Rayo Vallecano;18/05/2019;2;2
-SP223;Espanyol;Real Sociedad;18/05/2019;2;0
-SP224;Getafe;Villarreal;18/05/2019;2;2
-SP225;Huesca;Leganés;18/05/2019;2;1
-SP226;Levante;Atlético de Madrid;18/05/2019;2;2
-SP227;Sevilla;Athletic de Bilbao;18/05/2019;2;0
-SP228;Valladolid;Valencia;18/05/2019;0;2
-SP229;Barcelona;Alavés;18/08/2018;3;0
-SP230;Celta de Vigo;Espanyol;18/08/2018;1;1
-SP231;Villarreal;Real Sociedad;18/08/2018;1;2
-SP232;Celta de Vigo;Valencia;19/01/2019;1;2
-SP233;Huesca;Atlético de Madrid;19/01/2019;0;3
-SP234;Real Madrid;Sevilla;19/01/2019;2;0
-SP235;Alavés;Valladolid;19/04/2019;2;2
-SP236;Eibar;Barcelona;19/05/2019;2;2
-SP237;Real Madrid;Betis;19/05/2019;0;2
-SP238;Eibar;Huesca;19/08/2018;1;2
-SP239;Real Madrid;Getafe;19/08/2018;2;0
-SP240;Rayo Vallecano;Sevilla;19/08/2018;1;4
-SP241;Celta de Vigo;Alavés;19/10/2018;0;1
-SP242;Barcelona;Leganés;20/01/2019;3;1
-SP243;Betis;Girona;20/01/2019;3;2
-SP244;Levante;Valladolid;20/01/2019;2;0
-SP245;Rayo Vallecano;Real Sociedad;20/01/2019;2;2
-SP246;Villarreal;Athletic de Bilbao;20/01/2019;1;1
-SP247;Barcelona;Real Sociedad;20/04/2019;2;1
-SP248;Celta de Vigo;Girona;20/04/2019;2;1
-SP249;Eibar;Atlético de Madrid;20/04/2019;0;1
-SP250;Rayo Vallecano;Huesca;20/04/2019;0;0
-SP251;Athletic de Bilbao;Leganés;20/08/2018;2;1
-SP252;Valencia;Atlético de Madrid;20/08/2018;1;1
-SP253;Barcelona;Sevilla;20/10/2018;4;2
-SP254;Real Madrid;Levante;20/10/2018;1;2
-SP255;Valencia;Leganés;20/10/2018;1;1
-SP256;Villarreal;Atlético de Madrid;20/10/2018;1;1
-SP257;Eibar;Espanyol;21/01/2019;3;0
-SP258;Betis;Valencia;21/04/2019;1;2
-SP259;Getafe;Sevilla;21/04/2019;3;0
-SP260;Levante;Espanyol;21/04/2019;2;2
-SP261;Real Madrid;Athletic de Bilbao;21/04/2019;3;0
-SP262;Villarreal;Leganés;21/04/2019;2;1
-SP263;Huesca;Real Sociedad;21/09/2018;0;1
-SP264;Betis;Valladolid;21/10/2018;0;1
-SP265;Eibar;Athletic de Bilbao;21/10/2018;1;1
-SP266;Huesca;Espanyol;21/10/2018;0;2
-SP267;Rayo Vallecano;Getafe;21/10/2018;1;2
-SP268;Girona;Getafe;21/12/2018;1;1
-SP269;Real Sociedad;Alavés;21/12/2018;0;1
-SP270;Espanyol;Huesca;22/02/2019;1;1
-SP271;Celta de Vigo;Valladolid;22/09/2018;3;3
-SP272;Eibar;Leganés;22/09/2018;1;0
-SP273;Getafe;Atlético de Madrid;22/09/2018;0;2
-SP274;Real Madrid;Espanyol;22/09/2018;1;0
-SP275;Rayo Vallecano;Alavés;22/09/2018;1;5
-SP276;Real Sociedad;Girona;22/10/2018;0;0
-SP277;Athletic de Bilbao;Valladolid;22/12/2018;1;1
-SP278;Atlético de Madrid;Espanyol;22/12/2018;1;0
-SP279;Barcelona;Celta de Vigo;22/12/2018;2;0
-SP280;Betis;Eibar;22/12/2018;1;1
-SP281;Alavés;Celta de Vigo;23/02/2019;0;0
-SP282;Athletic de Bilbao;Eibar;23/02/2019;1;0
-SP283;Getafe;Rayo Vallecano;23/02/2019;2;1
-SP284;Sevilla;Barcelona;23/02/2019;2;4
-SP285;Alavés;Barcelona;23/04/2019;0;2
-SP286;Huesca;Eibar;23/04/2019;2;0
-SP287;Valladolid;Girona;23/04/2019;1;0
-SP288;Barcelona;Girona;23/09/2018;2;2
-SP289;Betis;Athletic de Bilbao;23/09/2018;2;2
-SP290;Levante;Sevilla;23/09/2018;2;6
-SP291;Villarreal;Valencia;23/09/2018;0;0
-SP292;Leganés;Alavés;23/11/2018;1;0
-SP293;Leganés;Sevilla;23/12/2018;1;1
-SP294;Valencia;Huesca;23/12/2018;2;1
-SP295;Rayo Vallecano;Levante;23/12/2018;2;1
-SP296;Atlético de Madrid;Villarreal;24/02/2019;2;0
-SP297;Leganés;Valencia;24/02/2019;1;1
-SP298;Levante;Real Madrid;24/02/2019;1;2
-SP299;Valladolid;Betis;24/02/2019;0;2
-SP300;Atlético de Madrid;Valencia;24/04/2019;3;2
-SP301;Espanyol;Celta de Vigo;24/04/2019;1;1
-SP302;Leganés;Athletic de Bilbao;24/04/2019;0;1
-SP303;Levante;Betis;24/04/2019;4;0
-SP304;Getafe;Eibar;24/08/2018;2;0
-SP305;Leganés;Real Sociedad;24/08/2018;2;2
-SP306;Rayo Vallecano;Athletic de Bilbao;24/10/2018;1;1
-SP307;Atlético de Madrid;Barcelona;24/11/2018;1;1
-SP308;Eibar;Real Madrid;24/11/2018;3;0
-SP309;Huesca;Levante;24/11/2018;2;2
-SP310;Valencia;Rayo Vallecano;24/11/2018;3;0
-SP311;Girona;Real Sociedad;25/02/2019;0;0
-SP312;Getafe;Real Madrid;25/04/2019;0;0
-SP313;Sevilla;Rayo Vallecano;25/04/2019;5;0
-SP314;Real Sociedad;Villarreal;25/04/2019;0;1
-SP315;Alavés;Betis;25/08/2018;0;0
-SP316;Atlético de Madrid;Rayo Vallecano;25/08/2018;1;0
-SP317;Valladolid;Barcelona;25/08/2018;0;1
-SP318;Atlético de Madrid;Huesca;25/09/2018;3;0
-SP319;Espanyol;Eibar;25/09/2018;1;0
-SP320;Real Sociedad;Rayo Vallecano;25/09/2018;2;2
-SP321;Athletic de Bilbao;Getafe;25/11/2018;1;1
-SP322;Espanyol;Girona;25/11/2018;1;3
-SP323;Sevilla;Valladolid;25/11/2018;1;0
-SP324;Villarreal;Betis;25/11/2018;2;1
-SP325;Atlético de Madrid;Getafe;26/01/2019;2;0
-SP326;Leganés;Eibar;26/01/2019;2;2
-SP327;Sevilla;Levante;26/01/2019;5;0
-SP328;Valencia;Villarreal;26/01/2019;3;0
-SP329;Espanyol;Valencia;26/08/2018;2;0
-SP330;Sevilla;Villarreal;26/08/2018;0;0
-SP331;Girona;Real Madrid;26/08/2018;1;4
-SP332;Athletic de Bilbao;Villarreal;26/09/2018;0;3
-SP333;Leganés;Barcelona;26/09/2018;2;1
-SP334;Sevilla;Real Madrid;26/09/2018;3;0
-SP335;Valencia;Celta de Vigo;26/09/2018;1;1
-SP336;Valladolid;Espanyol;26/10/2018;1;1
-SP337;Real Sociedad;Celta de Vigo;26/11/2018;2;1
-SP338;Athletic de Bilbao;Betis;27/01/2019;1;0
-SP339;Espanyol;Real Madrid;27/01/2019;2;4
-SP340;Girona;Barcelona;27/01/2019;0;2
-SP341;Real Sociedad;Huesca;27/01/2019;0;0
-SP342;Valladolid;Celta de Vigo;27/01/2019;2;1
-SP343;Athletic de Bilbao;Alavés;27/04/2019;1;1
-SP344;Atlético de Madrid;Valladolid;27/04/2019;1;0
-SP345;Barcelona;Levante;27/04/2019;1;0
-SP346;Leganés;Celta de Vigo;27/04/2019;0;0
-SP347;Athletic de Bilbao;Huesca;27/08/2018;2;2
-SP348;Levante;Celta de Vigo;27/08/2018;1;2
-SP349;Alavés;Getafe;27/09/2018;1;1
-SP350;Girona;Betis;27/09/2018;0;1
-SP351;Valladolid;Levante;27/09/2018;2;1
-SP352;Athletic de Bilbao;Valencia;27/10/2018;0;0
-SP353;Atlético de Madrid;Real Sociedad;27/10/2018;2;0
-SP354;Celta de Vigo;Eibar;27/10/2018;4;0
-SP355;Girona;Rayo Vallecano;27/10/2018;2;1
-SP356;Levante;Leganés;27/10/2018;2;0
-SP357;Alavés;Rayo Vallecano;28/01/2019;0;1
-SP358;Girona;Sevilla;28/04/2019;1;0
-SP359;Real Sociedad;Getafe;28/04/2019;2;1
-SP360;Valencia;Eibar;28/04/2019;0;1
-SP361;Rayo Vallecano;Real Madrid;28/04/2019;1;0
-SP362;Villarreal;Huesca;28/04/2019;1;1
-SP363;Rayo Vallecano;Espanyol;28/09/2018;2;2
-SP364;Alavés;Villarreal;28/10/2018;2;1
-SP365;Barcelona;Real Madrid;28/10/2018;5;1
-SP366;Getafe;Betis;28/10/2018;2;0
-SP367;Sevilla;Huesca;28/10/2018;2;1
-SP368;Girona;Athletic de Bilbao;29/03/2019;1;2
-SP369;Betis;Espanyol;29/04/2019;1;1
-SP370;Barcelona;Athletic de Bilbao;29/09/2018;1;1
-SP371;Eibar;Sevilla;29/09/2018;1;3
-SP372;Real Madrid;Atlético de Madrid;29/09/2018;0;0
-SP373;Real Sociedad;Valencia;29/09/2018;0;1
-SP374;Alavés;Atlético de Madrid;30/03/2019;0;4
-SP375;Barcelona;Espanyol;30/03/2019;2;0
-SP376;Celta de Vigo;Villarreal;30/03/2019;3;2
-SP377;Getafe;Leganés;30/03/2019;0;2
-SP378;Betis;Leganés;30/09/2018;1;0
-SP379;Huesca;Girona;30/09/2018;1;1
-SP380;Levante;Alavés;30/09/2018;2;1
-SP381;Villarreal;Valladolid;30/09/2018;0;1
-SP382;Rayo Vallecano;Eibar;30/11/2018;1;0
-SP383;Levante;Eibar;31/03/2019;2;2
-SP384;Real Madrid;Huesca;31/03/2019;3;2
-SP385;Sevilla;Valencia;31/03/2019;0;1
-SP386;Valladolid;Real Sociedad;31/03/2019;1;1
-SP387;Rayo Vallecano;Betis;31/03/2019;1;1
-SP388;Eibar;Real Sociedad;31/08/2018;2;1
-SP389;Getafe;Valladolid;31/08/2018;0;0
-SP390;Villarreal;Girona;31/08/2018;0;1
+﻿codigo;equipo_local;equipo_visitante;fecha;goles_local;goles_visitante;;
+SP11;Huesca;Valladolid;2019-02-01;4;0;;
+SP12;Rayo Vallecano;Girona;2019-03-01;0;2;;
+SP13;Celta de Vigo;Atlético de Madrid;2018-09-01;2;0;;
+SP14;Real Madrid;Leganés;2018-09-01;4;1;;
+SP15;Celta de Vigo;Getafe;2018-10-01;1;1;;
+SP16;Celta de Vigo;Huesca;2018-12-01;2;0;;
+SP17;Getafe;Espanyol;2018-12-01;3;0;;
+SP18;Real Madrid;Valencia;2018-12-01;2;0;;
+SP19;Valladolid;Leganés;2018-12-01;2;4;;
+SP20;Barcelona;Valencia;2019-02-02;2;2;;
+SP21;Celta de Vigo;Sevilla;2019-02-02;1;0;;
+SP22;Levante;Getafe;2019-02-02;0;0;;
+SP23;Real Sociedad;Athletic de Bilbao;2019-02-02;2;1;;
+SP24;Espanyol;Valladolid;2019-03-02;3;1;;
+SP25;Huesca;Sevilla;2019-03-02;2;1;;
+SP26;Real Madrid;Barcelona;2019-03-02;0;1;;
+SP27;Villarreal;Alavés;2019-03-02;1;2;;
+SP28;Atlético Madrid;Girona;2019-04-02;2;0;;
+SP29;Espanyol;Getafe;2019-04-02;1;1;;
+SP30;Villarreal;Barcelona;2019-04-02;4;4;;
+SP31;Alavés;Espanyol;2018-09-02;2;1;;
+SP32;Barcelona;Huesca;2018-09-02;8;2;;
+SP33;Betis;Sevilla;2018-09-02;1;0;;
+SP34;Levante;Valencia;2018-09-02;2;2;;
+SP35;Alavés;Sevilla;2018-12-02;1;1;;
+SP36;Barcelona;Villarreal;2018-12-02;2;0;;
+SP37;Betis;Real Sociedad;2018-12-02;1;0;;
+SP38;Girona;Atlético de Madrid;2018-12-02;1;1;;
+SP39;Villarreal;Real Madrid;2019-01-03;2;2;;
+SP40;Betis;Atlético de Madrid;2019-02-03;1;0;;
+SP41;Eibar;Girona;2019-02-03;3;0;;
+SP42;Real Madrid;Alavés;2019-02-03;3;0;;
+SP43;Villarreal;Espanyol;2019-02-03;2;2;;
+SP44;Betis;Getafe;2019-03-03;1;2;;
+SP45;Eibar;Celta de Vigo;2019-03-03;1;0;;
+SP46;Real Sociedad;Atlético de Madrid;2019-03-03;0;2;;
+SP47;Valencia;Athletic de Bilbao;2019-03-03;2;0;;
+SP48;Athletic Bilbao;Levante;2019-04-03;3;2;;
+SP49;Eibar;Rayo Vallecano;2019-04-03;2;1;;
+SP50;Huesca;Celta de Vigo;2019-04-03;3;3;;
+SP51;Valencia;Real Madrid;2019-04-03;2;1;;
+SP52;Sevilla;Leganés;2019-05-03;0;3;;
+SP53;Leganés;Atlético de Madrid;2018-11-03;1;1;;
+SP54;Real Madrid;Valladolid;2018-11-03;2;0;;
+SP55;Valencia;Girona;2018-11-03;0;1;;
+SP56;Rayo Vallecano;Barcelona;2018-11-03;2;3;;
+SP57;Levante;Athletic de Bilbao;2018-12-03;3;0;;
+SP58;Espanyol;Leganés;2019-01-04;1;0;;
+SP59;Levante;Girona;2019-01-04;2;2;;
+SP60;Rayo Vallecano;Leganés;2019-02-04;1;2;;
+SP61;Leganés;Levante;2019-03-04;1;0;;
+SP62;Leganés;Valladolid;2019-04-04;1;0;;
+SP63;Sevilla;Alavés;2019-04-04;2;0;;
+SP64;Real Sociedad;Betis;2019-04-04;2;1;;
+SP65;Alavés;Real Sociedad;2019-05-04;0;1;;
+SP66;Celta de Vigo;Barcelona;2019-05-04;2;0;;
+SP67;Espanyol;Atlético de Madrid;2019-05-04;3;0;;
+SP68;Levante;Rayo Vallecano;2019-05-04;4;1;;
+SP69;Betis;Celta de Vigo;2018-11-04;3;3;;
+SP70;Eibar;Alavés;2018-11-04;2;1;;
+SP71;Huesca;Getafe;2018-11-04;1;1;;
+SP72;Real Sociedad;Sevilla;2018-11-04;0;0;;
+SP73;Villarreal;Levante;2018-11-04;1;1;;
+SP74;Alavés;Valencia;2019-01-05;2;1;;
+SP75;Huesca;Betis;2019-01-05;2;1;;
+SP76;Valladolid;Rayo Vallecano;2019-01-05;0;1;;
+SP77;Eibar;Betis;2019-05-05;1;0;;
+SP78;Getafe;Girona;2019-05-05;2;0;;
+SP79;Huesca;Valencia;2019-05-05;2;6;;
+SP80;Real Madrid;Villarreal;2019-05-05;3;2;;
+SP81;Valladolid;Athletic de Bilbao;2019-05-05;1;0;;
+SP82;Athletic de Bilbao;Real Sociedad;2018-10-05;1;3;;
+SP83;Espanyol;Athletic de Bilbao;2018-11-05;1;0;;
+SP84;Eibar;Villarreal;2019-01-06;0;0;;
+SP85;Getafe;Barcelona;2019-01-06;1;2;;
+SP86;Real Madrid;Real Sociedad;2019-01-06;0;2;;
+SP87;Sevilla;Atlético de Madrid;2019-01-06;1;1;;
+SP88;Barcelona;Atlético de Madrid;2019-04-06;2;0;;
+SP89;Girona;Espanyol;2019-04-06;1;2;;
+SP90;Real Madrid;Eibar;2019-04-06;2;1;;
+SP91;Rayo Vallecano;Valencia;2019-04-06;2;0;;
+SP92;Alavés;Real Madrid;2018-10-06;1;0;;
+SP93;Getafe;Levante;2018-10-06;0;1;;
+SP94;Girona;Eibar;2018-10-06;2;3;;
+SP95;Leganés;Rayo Vallecano;2018-10-06;1;0;;
+SP96;Celta de Vigo;Athletic de Bilbao;2019-01-07;1;2;;
+SP97;Alavés;Leganés;2019-04-07;1;1;;
+SP98;Betis;Villarreal;2019-04-07;2;1;;
+SP99;Celta de Vigo;Real Sociedad;2019-04-07;3;1;;
+SP100;Getafe;Athletic de Bilbao;2019-04-07;1;0;;
+SP101;Levante;Huesca;2019-04-07;2;2;;
+SP102;Valladolid;Sevilla;2019-04-07;0;2;;
+SP103;Atlético de Madrid;Betis;2018-10-07;1;0;;
+SP104;Espanyol;Villarreal;2018-10-07;3;1;;
+SP105;Sevilla;Celta de Vigo;2018-10-07;2;1;;
+SP106;Valencia;Barcelona;2018-10-07;1;1;;
+SP107;Valladolid;Huesca;2018-10-07;1;0;;
+SP108;Leganés;Getafe;2018-12-07;1;1;;
+SP109;Valladolid;Villarreal;2019-02-08;0;0;;
+SP110;Athletic de Bilbao;Espanyol;2019-03-08;1;1;;
+SP111;Atlético de Madrid;Alavés;2018-12-08;3;0;;
+SP112;Espanyol;Barcelona;2018-12-08;0;4;;
+SP113;Valencia;Sevilla;2018-12-08;1;1;;
+SP114;Villarreal;Celta de Vigo;2018-12-08;2;3;;
+SP115;Atlético Madrid;Real Madrid;2019-02-09;1;3;;
+SP116;Espanyol;Rayo Vallecano;2019-02-09;2;1;;
+SP117;Getafe;Celta de Vigo;2019-02-09;3;1;;
+SP118;Girona;Huesca;2019-02-09;0;2;;
+SP119;Alavés;Eibar;2019-03-09;1;1;;
+SP120;Atlético de Madrid;Leganés;2019-03-09;1;0;;
+SP121;Barcelona;Rayo Vallecano;2019-03-09;3;1;;
+SP122;Getafe;Huesca;2019-03-09;2;1;;
+SP123;Levante;Real Sociedad;2018-11-09;1;3;;
+SP124;Betis;Rayo Vallecano;2018-12-09;2;0;;
+SP125;Eibar;Levante;2018-12-09;4;4;;
+SP126;Huesca;Real Madrid;2018-12-09;0;1;;
+SP127;Real Sociedad;Valladolid;2018-12-09;1;2;;
+SP128;Athletic de Bilbao;Barcelona;2019-02-10;0;0;;
+SP129;Leganés;Betis;2019-02-10;3;0;;
+SP130;Sevilla;Eibar;2019-02-10;2;2;;
+SP131;Valencia;Real Sociedad;2019-02-10;0;0;;
+SP132;Celta de Vigo;Betis;2019-03-10;0;1;;
+SP133;Girona;Valencia;2019-03-10;2;3;;
+SP134;Levante;Villarreal;2019-03-10;0;2;;
+SP135;Sevilla;Real Sociedad;2019-03-10;5;2;;
+SP136;Valladolid;Real Madrid;2019-03-10;1;4;;
+SP137;Atlético de Madrid;Athletic de Bilbao;2018-11-10;3;2;;
+SP138;Getafe;Valencia;2018-11-10;0;1;;
+SP139;Girona;Leganés;2018-11-10;0;0;;
+SP140;Valladolid;Eibar;2018-11-10;0;0;;
+SP141;Athletic de Bilbao;Girona;2018-12-10;1;0;;
+SP142;Rayo Vallecano;Celta de Vigo;2019-01-11;4;2;;
+SP143;Alavés;Levante;2019-02-11;2;0;;
+SP144;Alavés;Huesca;2018-11-11;2;1;;
+SP145;Barcelona;Betis;2018-11-11;3;4;;
+SP146;Celta de Vigo;Real Madrid;2018-11-11;2;4;;
+SP147;Sevilla;Espanyol;2018-11-11;2;1;;
+SP148;Rayo Vallecano;Villarreal;2018-11-11;2;2;;
+SP149;Girona;Alavés;2019-01-12;1;1;;
+SP150;Leganés;Huesca;2019-01-12;1;0;;
+SP151;Valencia;Valladolid;2019-01-12;1;1;;
+SP152;Villarreal;Getafe;2019-01-12;1;2;;
+SP153;Athletic de Bilbao;Celta de Vigo;2019-05-12;3;1;;
+SP154;Atlético de Madrid;Sevilla;2019-05-12;1;1;;
+SP155;Barcelona;Getafe;2019-05-12;2;0;;
+SP156;Betis;Huesca;2019-05-12;2;1;;
+SP157;Girona;Levante;2019-05-12;1;2;;
+SP158;Leganés;Espanyol;2019-05-12;0;2;;
+SP159;Real Sociedad;Real Madrid;2019-05-12;3;1;;
+SP160;Valencia;Alavés;2019-05-12;3;1;;
+SP161;Rayo Vallecano;Valladolid;2019-05-12;1;2;;
+SP162;Villarreal;Eibar;2019-05-12;1;0;;
+SP163;Athletic de Bilbao;Sevilla;2019-01-13;2;0;;
+SP164;Atlético de Madrid;Levante;2019-01-13;1;0;;
+SP165;Barcelona;Eibar;2019-01-13;3;0;;
+SP166;Betis;Real Madrid;2019-01-13;1;2;;
+SP167;Atlético de Madrid;Celta de Vigo;2019-04-13;2;0;;
+SP168;Espanyol;Alavés;2019-04-13;2;1;;
+SP169;Huesca;Barcelona;2019-04-13;0;0;;
+SP170;Sevilla;Betis;2019-04-13;3;2;;
+SP171;Real Sociedad;Espanyol;2019-01-14;3;2;;
+SP172;Athletic de Bilbao;Rayo Vallecano;2019-04-14;3;2;;
+SP173;Girona;Villarreal;2019-04-14;0;1;;
+SP174;Real Sociedad;Eibar;2019-04-14;1;1;;
+SP175;Valencia;Levante;2019-04-14;3;1;;
+SP176;Valladolid;Getafe;2019-04-14;2;2;;
+SP177;Huesca;Rayo Vallecano;2018-09-14;0;1;;
+SP178;Celta de Vigo;Leganés;2018-12-14;0;0;;
+SP179;Eibar;Getafe;2019-02-15;2;2;;
+SP180;Real Sociedad;Levante;2019-03-15;1;1;;
+SP181;Leganés;Real Madrid;2019-04-15;1;1;;
+SP182;Athletic de Bilbao;Real Madrid;2018-09-15;1;1;;
+SP183;Atlético de Madrid;Eibar;2018-09-15;1;1;;
+SP184;Real Sociedad;Barcelona;2018-09-15;1;2;;
+SP185;Valencia;Betis;2018-09-15;0;0;;
+SP186;Eibar;Valencia;2018-12-15;1;1;;
+SP187;Getafe;Real Sociedad;2018-12-15;1;0;;
+SP188;Real Madrid;Rayo Vallecano;2018-12-15;1;0;;
+SP189;Valladolid;Atlético de Madrid;2018-12-15;2;3;;
+SP190;Barcelona;Valladolid;2019-02-16;1;0;;
+SP191;Celta de Vigo;Levante;2019-02-16;1;4;;
+SP192;Real Sociedad;Leganés;2019-02-16;3;0;;
+SP193;Rayo Vallecano;Atlético de Madrid;2019-02-16;0;1;;
+SP194;Athletic de Bilbao;Atlético de Madrid;2019-03-16;2;0;;
+SP195;Huesca;Alavés;2019-03-16;1;3;;
+SP196;Leganés;Girona;2019-03-16;0;2;;
+SP197;Real Madrid;Celta de Vigo;2019-03-16;2;0;;
+SP198;Espanyol;Levante;2018-09-16;1;0;;
+SP199;Leganés;Villarreal;2018-09-16;0;1;;
+SP200;Sevilla;Getafe;2018-09-16;0;2;;
+SP201;Valladolid;Alavés;2018-09-16;0;1;;
+SP202;Espanyol;Betis;2018-12-16;1;3;;
+SP203;Huesca;Villarreal;2018-12-16;2;2;;
+SP204;Levante;Barcelona;2018-12-16;0;5;;
+SP205;Sevilla;Girona;2018-12-16;2;0;;
+SP206;Betis;Alavés;2019-02-17;1;1;;
+SP207;Real Madrid;Girona;2019-02-17;1;2;;
+SP208;Valencia;Espanyol;2019-02-17;0;0;;
+SP209;Villarreal;Sevilla;2019-02-17;3;0;;
+SP210;Betis;Barcelona;2019-03-17;1;4;;
+SP211;Eibar;Valladolid;2019-03-17;1;2;;
+SP212;Espanyol;Sevilla;2019-03-17;0;1;;
+SP213;Valencia;Getafe;2019-03-17;0;0;;
+SP214;Villarreal;Rayo Vallecano;2019-03-17;3;1;;
+SP215;Betis;Levante;2018-08-17;0;3;;
+SP216;Girona;Valladolid;2018-08-17;0;0;;
+SP217;Girona;Celta de Vigo;2018-09-17;3;2;;
+SP218;Alavés;Athletic de Bilbao;2018-12-17;0;0;;
+SP219;Getafe;Alavés;2019-01-18;4;0;;
+SP220;Huesca;Athletic de Bilbao;2019-02-18;0;1;;
+SP221;Alavés;Girona;2019-05-18;2;1;;
+SP222;Celta de Vigo;Rayo Vallecano;2019-05-18;2;2;;
+SP223;Espanyol;Real Sociedad;2019-05-18;2;0;;
+SP224;Getafe;Villarreal;2019-05-18;2;2;;
+SP225;Huesca;Leganés;2019-05-18;2;1;;
+SP226;Levante;Atlético de Madrid;2019-05-18;2;2;;
+SP227;Sevilla;Athletic de Bilbao;2019-05-18;2;0;;
+SP228;Valladolid;Valencia;2019-05-18;0;2;;
+SP229;Barcelona;Alavés;2018-08-18;3;0;;
+SP230;Celta de Vigo;Espanyol;2018-08-18;1;1;;
+SP231;Villarreal;Real Sociedad;2018-08-18;1;2;;
+SP232;Celta de Vigo;Valencia;2019-01-19;1;2;;
+SP233;Huesca;Atlético de Madrid;2019-01-19;0;3;;
+SP234;Real Madrid;Sevilla;2019-01-19;2;0;;
+SP235;Alavés;Valladolid;2019-04-19;2;2;;
+SP236;Eibar;Barcelona;2019-05-19;2;2;;
+SP237;Real Madrid;Betis;2019-05-19;0;2;;
+SP238;Eibar;Huesca;2018-08-19;1;2;;
+SP239;Real Madrid;Getafe;2018-08-19;2;0;;
+SP240;Rayo Vallecano;Sevilla;2018-08-19;1;4;;
+SP241;Celta de Vigo;Alavés;2018-10-19;0;1;;
+SP242;Barcelona;Leganés;2019-01-20;3;1;;
+SP243;Betis;Girona;2019-01-20;3;2;;
+SP244;Levante;Valladolid;2019-01-20;2;0;;
+SP245;Rayo Vallecano;Real Sociedad;2019-01-20;2;2;;
+SP246;Villarreal;Athletic de Bilbao;2019-01-20;1;1;;
+SP247;Barcelona;Real Sociedad;2019-04-20;2;1;;
+SP248;Celta de Vigo;Girona;2019-04-20;2;1;;
+SP249;Eibar;Atlético de Madrid;2019-04-20;0;1;;
+SP250;Rayo Vallecano;Huesca;2019-04-20;0;0;;
+SP251;Athletic de Bilbao;Leganés;2018-08-20;2;1;;
+SP252;Valencia;Atlético de Madrid;2018-08-20;1;1;;
+SP253;Barcelona;Sevilla;2018-10-20;4;2;;
+SP254;Real Madrid;Levante;2018-10-20;1;2;;
+SP255;Valencia;Leganés;2018-10-20;1;1;;
+SP256;Villarreal;Atlético de Madrid;2018-10-20;1;1;;
+SP257;Eibar;Espanyol;2019-01-21;3;0;;
+SP258;Betis;Valencia;2019-04-21;1;2;;
+SP259;Getafe;Sevilla;2019-04-21;3;0;;
+SP260;Levante;Espanyol;2019-04-21;2;2;;
+SP261;Real Madrid;Athletic de Bilbao;2019-04-21;3;0;;
+SP262;Villarreal;Leganés;2019-04-21;2;1;;
+SP263;Huesca;Real Sociedad;2018-09-21;0;1;;
+SP264;Betis;Valladolid;2018-10-21;0;1;;
+SP265;Eibar;Athletic de Bilbao;2018-10-21;1;1;;
+SP266;Huesca;Espanyol;2018-10-21;0;2;;
+SP267;Rayo Vallecano;Getafe;2018-10-21;1;2;;
+SP268;Girona;Getafe;2018-12-21;1;1;;
+SP269;Real Sociedad;Alavés;2018-12-21;0;1;;
+SP270;Espanyol;Huesca;2019-02-22;1;1;;
+SP271;Celta de Vigo;Valladolid;2018-09-22;3;3;;
+SP272;Eibar;Leganés;2018-09-22;1;0;;
+SP273;Getafe;Atlético de Madrid;2018-09-22;0;2;;
+SP274;Real Madrid;Espanyol;2018-09-22;1;0;;
+SP275;Rayo Vallecano;Alavés;2018-09-22;1;5;;
+SP276;Real Sociedad;Girona;2018-10-22;0;0;;
+SP277;Athletic de Bilbao;Valladolid;2018-12-22;1;1;;
+SP278;Atlético de Madrid;Espanyol;2018-12-22;1;0;;
+SP279;Barcelona;Celta de Vigo;2018-12-22;2;0;;
+SP280;Betis;Eibar;2018-12-22;1;1;;
+SP281;Alavés;Celta de Vigo;2019-02-23;0;0;;
+SP282;Athletic de Bilbao;Eibar;2019-02-23;1;0;;
+SP283;Getafe;Rayo Vallecano;2019-02-23;2;1;;
+SP284;Sevilla;Barcelona;2019-02-23;2;4;;
+SP285;Alavés;Barcelona;2019-04-23;0;2;;
+SP286;Huesca;Eibar;2019-04-23;2;0;;
+SP287;Valladolid;Girona;2019-04-23;1;0;;
+SP288;Barcelona;Girona;2018-09-23;2;2;;
+SP289;Betis;Athletic de Bilbao;2018-09-23;2;2;;
+SP290;Levante;Sevilla;2018-09-23;2;6;;
+SP291;Villarreal;Valencia;2018-09-23;0;0;;
+SP292;Leganés;Alavés;2018-11-23;1;0;;
+SP293;Leganés;Sevilla;2018-12-23;1;1;;
+SP294;Valencia;Huesca;2018-12-23;2;1;;
+SP295;Rayo Vallecano;Levante;2018-12-23;2;1;;
+SP296;Atlético de Madrid;Villarreal;2019-02-24;2;0;;
+SP297;Leganés;Valencia;2019-02-24;1;1;;
+SP298;Levante;Real Madrid;2019-02-24;1;2;;
+SP299;Valladolid;Betis;2019-02-24;0;2;;
+SP300;Atlético de Madrid;Valencia;2019-04-24;3;2;;
+SP301;Espanyol;Celta de Vigo;2019-04-24;1;1;;
+SP302;Leganés;Athletic de Bilbao;2019-04-24;0;1;;
+SP303;Levante;Betis;2019-04-24;4;0;;
+SP304;Getafe;Eibar;2018-08-24;2;0;;
+SP305;Leganés;Real Sociedad;2018-08-24;2;2;;
+SP306;Rayo Vallecano;Athletic de Bilbao;2018-10-24;1;1;;
+SP307;Atlético de Madrid;Barcelona;2018-11-24;1;1;;
+SP308;Eibar;Real Madrid;2018-11-24;3;0;;
+SP309;Huesca;Levante;2018-11-24;2;2;;
+SP310;Valencia;Rayo Vallecano;2018-11-24;3;0;;
+SP311;Girona;Real Sociedad;2019-02-25;0;0;;
+SP312;Getafe;Real Madrid;2019-04-25;0;0;;
+SP313;Sevilla;Rayo Vallecano;2019-04-25;5;0;;
+SP314;Real Sociedad;Villarreal;2019-04-25;0;1;;
+SP315;Alavés;Betis;2018-08-25;0;0;;
+SP316;Atlético de Madrid;Rayo Vallecano;2018-08-25;1;0;;
+SP317;Valladolid;Barcelona;2018-08-25;0;1;;
+SP318;Atlético de Madrid;Huesca;2018-09-25;3;0;;
+SP319;Espanyol;Eibar;2018-09-25;1;0;;
+SP320;Real Sociedad;Rayo Vallecano;2018-09-25;2;2;;
+SP321;Athletic de Bilbao;Getafe;2018-11-25;1;1;;
+SP322;Espanyol;Girona;2018-11-25;1;3;;
+SP323;Sevilla;Valladolid;2018-11-25;1;0;;
+SP324;Villarreal;Betis;2018-11-25;2;1;;
+SP325;Atlético de Madrid;Getafe;2019-01-26;2;0;;
+SP326;Leganés;Eibar;2019-01-26;2;2;;
+SP327;Sevilla;Levante;2019-01-26;5;0;;
+SP328;Valencia;Villarreal;2019-01-26;3;0;;
+SP329;Espanyol;Valencia;2018-08-26;2;0;;
+SP330;Sevilla;Villarreal;2018-08-26;0;0;;
+SP331;Girona;Real Madrid;2018-08-26;1;4;;
+SP332;Athletic de Bilbao;Villarreal;2018-09-26;0;3;;
+SP333;Leganés;Barcelona;2018-09-26;2;1;;
+SP334;Sevilla;Real Madrid;2018-09-26;3;0;;
+SP335;Valencia;Celta de Vigo;2018-09-26;1;1;;
+SP336;Valladolid;Espanyol;2018-10-26;1;1;;
+SP337;Real Sociedad;Celta de Vigo;2018-11-26;2;1;;
+SP338;Athletic de Bilbao;Betis;2019-01-27;1;0;;
+SP339;Espanyol;Real Madrid;2019-01-27;2;4;;
+SP340;Girona;Barcelona;2019-01-27;0;2;;
+SP341;Real Sociedad;Huesca;2019-01-27;0;0;;
+SP342;Valladolid;Celta de Vigo;2019-01-27;2;1;;
+SP343;Athletic de Bilbao;Alavés;2019-04-27;1;1;;
+SP344;Atlético de Madrid;Valladolid;2019-04-27;1;0;;
+SP345;Barcelona;Levante;2019-04-27;1;0;;
+SP346;Leganés;Celta de Vigo;2019-04-27;0;0;;
+SP347;Athletic de Bilbao;Huesca;2018-08-27;2;2;;
+SP348;Levante;Celta de Vigo;2018-08-27;1;2;;
+SP349;Alavés;Getafe;2018-09-27;1;1;;
+SP350;Girona;Betis;2018-09-27;0;1;;
+SP351;Valladolid;Levante;2018-09-27;2;1;;
+SP352;Athletic de Bilbao;Valencia;2018-10-27;0;0;;
+SP353;Atlético de Madrid;Real Sociedad;2018-10-27;2;0;;
+SP354;Celta de Vigo;Eibar;2018-10-27;4;0;;
+SP355;Girona;Rayo Vallecano;2018-10-27;2;1;;
+SP356;Levante;Leganés;2018-10-27;2;0;;
+SP357;Alavés;Rayo Vallecano;2019-01-28;0;1;;
+SP358;Girona;Sevilla;2019-04-28;1;0;;
+SP359;Real Sociedad;Getafe;2019-04-28;2;1;;
+SP360;Valencia;Eibar;2019-04-28;0;1;;
+SP361;Rayo Vallecano;Real Madrid;2019-04-28;1;0;;
+SP362;Villarreal;Huesca;2019-04-28;1;1;;
+SP363;Rayo Vallecano;Espanyol;2018-09-28;2;2;;
+SP364;Alavés;Villarreal;2018-10-28;2;1;;
+SP365;Barcelona;Real Madrid;2018-10-28;5;1;;
+SP366;Getafe;Betis;2018-10-28;2;0;;
+SP367;Sevilla;Huesca;2018-10-28;2;1;;
+SP368;Girona;Athletic de Bilbao;2019-03-29;1;2;;
+SP369;Betis;Espanyol;2019-04-29;1;1;;
+SP370;Barcelona;Athletic de Bilbao;2018-09-29;1;1;;
+SP371;Eibar;Sevilla;2018-09-29;1;3;;
+SP372;Real Madrid;Atlético de Madrid;2018-09-29;0;0;;
+SP373;Real Sociedad;Valencia;2018-09-29;0;1;;
+SP374;Alavés;Atlético de Madrid;2019-03-30;0;4;;
+SP375;Barcelona;Espanyol;2019-03-30;2;0;;
+SP376;Celta de Vigo;Villarreal;2019-03-30;3;2;;
+SP377;Getafe;Leganés;2019-03-30;0;2;;
+SP378;Betis;Leganés;2018-09-30;1;0;;
+SP379;Huesca;Girona;2018-09-30;1;1;;
+SP380;Levante;Alavés;2018-09-30;2;1;;
+SP381;Villarreal;Valladolid;2018-09-30;0;1;;
+SP382;Rayo Vallecano;Eibar;2018-11-30;1;0;;
+SP383;Levante;Eibar;2019-03-31;2;2;;
+SP384;Real Madrid;Huesca;2019-03-31;3;2;;
+SP385;Sevilla;Valencia;2019-03-31;0;1;;
+SP386;Valladolid;Real Sociedad;2019-03-31;1;1;;
+SP387;Rayo Vallecano;Betis;2019-03-31;1;1;;
+SP388;Eibar;Real Sociedad;2018-08-31;2;1;;
+SP389;Getafe;Valladolid;2018-08-31;0;0;;
+SP390;Villarreal;Girona;2018-08-31;0;1;;

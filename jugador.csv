@@ -1,598 +1,598 @@
-﻿dni;nombre;nacionalidad;equipo;puesto;
-1;Álex Domínguez;España;Alavés;Portero;
-2;Antonio Sivera;España;Alavés;Portero;
-3;Pacheco;España;Alavés;Portero;
-4;Adrián Marín;España;Alavés;Defensa;
-5;Duarte;España;Alavés;Defensa;
-6;Rodrigo Ely;Italia;Alavés;Defensa;
-7;Laguardia;España;Alavés;Defensa;
-8;Guillermo Maripán;Chile;Alavés;Defensa;
-9;Martín;España;Alavés;Defensa;
-10;Vigaray;España;Alavés;Defensa;
-11;Ximo Navarro;España;Alavés;Defensa;
-12;Antonio Perera;España;Alavés;Centrocampista;
-13;Darko Brasanac;Serbia;Alavés;Centrocampista;
-14;Takashi Inui;Japón;Alavés;Centrocampista;
-15;Jony;España;Alavés;Centrocampista;
-16;Manu García;España;Alavés;Centrocampista;
-17;Paulino de la Fuente;España;Alavés;Centrocampista;
-18;Pina;España;Alavés;Centrocampista;
-19;Mubarak Wakaso;Ghana;Alavés;Centrocampista;
-20;Álex Blanco;España;Alavés;Delantero;
-21;Borja Bastón;España;Alavés;Delantero;
-22;Burgui;España;Alavés;Delantero;
-23;Jonathan Calleri;Argentina;Alavés;Delantero;
-24;John Guidetti;Suecia;Alavés;Delantero;
-25;Andrei Lupu;Rumania;Alavés;Delantero;
-26;Diego Rolán;Uruguay;Alavés;Delantero;
-27;Patrick Twumasi;Ghana;Alavés;Delantero;
-28;Iago Herrerín;España;Athletic de Bilbao;Portero;
-29;Oleaga;España;Athletic de Bilbao;Portero;
-30;Remiro;España;Athletic de Bilbao;Portero;
-31;Unai Simón;España;Athletic de Bilbao;Portero;
-32;Balenziaga;España;Athletic de Bilbao;Defensa;
-33;Capa;España;Athletic de Bilbao;Defensa;
-34;De Marcos;España;Athletic de Bilbao;Defensa;
-35;Iñigo Lekue;España;Athletic de Bilbao;Defensa;
-36;Iñigo Martínez;España;Athletic de Bilbao;Defensa;
-37;Nolaskoain;España;Athletic de Bilbao;Defensa;
-38;Unai Nuñez;España;Athletic de Bilbao;Defensa;
-39;Vivian;España;Athletic de Bilbao;Defensa;
-40;Yeray;España;Athletic de Bilbao;Defensa;
-41;Yuri;España;Athletic de Bilbao;Defensa;
-42;Beñat;España;Athletic de Bilbao;Centrocampista;
-43;Córdoba;España;Athletic de Bilbao;Centrocampista;
-44;Dani García;España;Athletic de Bilbao;Centrocampista;
-45;Iturraspe;España;Athletic de Bilbao;Centrocampista;
-46;Markel Susaeta;España;Athletic de Bilbao;Centrocampista;
-47;Mikel Rico;España;Athletic de Bilbao;Centrocampista;
-48;Raúl García;España;Athletic de Bilbao;Centrocampista;
-49;Mikel San José;España;Athletic de Bilbao;Centrocampista;
-50;Unai López;España;Athletic de Bilbao;Centrocampista;
-51;Aduriz;España;Athletic de Bilbao;Delantero;
-52;Guruzeta;España;Athletic de Bilbao;Delantero;
-53;Ibai;España;Athletic de Bilbao;Delantero;
-54;Iñigo Vicente;España;Athletic de Bilbao;Delantero;
-55;Kenan Kodro;Bosnia y Herzegovina;Athletic de Bilbao;Delantero;
-56;Muniain;España;Athletic de Bilbao;Delantero;
-57;Williams;España;Athletic de Bilbao;Delantero;
-58;Antonio Adán;España;Atlético de Madrid;Portero;
-59;Dos Santos;Brasil;Atlético de Madrid;Portero;
-60;Miguel San Román;España;Atlético de Madrid;Portero;
-61;Jan Oblak;Eslovenia;Atlético de Madrid;Portero;
-62;Álvaro García;España;Atlético de Madrid;Defensa;
-63;Santiago Arias;Colombia;Atlético de Madrid;Defensa;
-64;Carlos Isaac;España;Atlético de Madrid;Defensa;
-65;Filipe Luís;Brasil;Atlético de Madrid;Defensa;
-66;José Giménez;Uruguay;Atlético de Madrid;Defensa;
-67;Diego Godín;Uruguay;Atlético de Madrid;Defensa;
-68;Lucas Hernández;Francia;Atlético de Madrid;Defensa;
-69;Juanfran;España;Atlético de Madrid;Defensa;
-70;Manu Sánchez;España;Atlético de Madrid;Defensa;
-71;Montero;España;Atlético de Madrid;Defensa;
-72;Nehuén Pérez;Argentina;Atlético de Madrid;Defensa;
-73;Stefan Savić;Montenegro;Atlético de Madrid;Defensa;
-74;Andrés Solano;Colombia;Atlético de Madrid;Defensa;
-75;Tachi;España;Atlético de Madrid;Defensa;
-76;Cristian Rodríguez;España;Atlético de Madrid;Centrocampista;
-77;Gustavo Assuncao;Brasil;Atlético de Madrid;Centrocampista;
-78;Koke;España;Atlético de Madrid;Centrocampista;
-79;Thomas Lemar;Francia;Atlético de Madrid;Centrocampista;
-80;Mikel Carro;España;Atlético de Madrid;Centrocampista;
-81;Thomas Partey;Ghana;Atlético de Madrid;Centrocampista;
-82;Rodri;España;Atlético de Madrid;Centrocampista;
-83;Saúl;España;Atlético de Madrid;Centrocampista;
-84;Toni Moya;España;Atlético de Madrid;Centrocampista;
-85;Borja Garcés;España;Atlético de Madrid;Delantero;
-86;Ángel Correa;Argentina;Atlético de Madrid;Delantero;
-87;Diego Costa;España;Atlético de Madrid;Delantero;
-88;Antoine Griezmann;Francia;Atlético de Madrid;Delantero;
-89;Joaquín Muñoz;España;Atlético de Madrid;Delantero;
-90;Nikola Kalinić;Croacia;Atlético de Madrid;Delantero;
-91;Morata;España;Atlético de Madrid;Delantero;
-92;Sergio Camello;España;Atlético de Madrid;Delantero;
-93;Víctor Mollejo;España;Atlético de Madrid;Delantero;
-94;Vitolo;España;Atlético de Madrid;Delantero;
-95;Jasper Cillessen;Países Bajos;Barcelona;Portero;
-96;Iñaki Peña;España;Barcelona;Portero;
-97;Jokin Ezkieta;España;Barcelona;Portero;
-98;Marc-André ter Stegen;Alemania;Barcelona;Portero;
-99;Chumi;España;Barcelona;Defensa;
-100;Guillem Jaime;España;Barcelona;Defensa;
-101;Jordi Alba;España;Barcelona;Defensa;
-102;Jorge Cuenca;España;Barcelona;Defensa;
-103;Juan Miranda;España;Barcelona;Defensa;
-104;Clément Lenglet;Francia;Barcelona;Defensa;
-105;Jeison Murillo;Colombia;Barcelona;Defensa;
-106;Nélson Semedo;Portugal;Barcelona;Defensa;
-107;Piqué;España;Barcelona;Defensa;
-108;Sergi Roberto;España;Barcelona;Defensa;
-109;Jean-Clair Todibo;Francia;Barcelona;Defensa;
-110;Samuel Umtiti;Francia;Barcelona;Defensa;
-111;Thomas Vermaelen;Bélgica;Barcelona;Defensa;
-112;Moussa Wagué;Senegal;Barcelona;Defensa;
-113;Arthur;Brasil;Barcelona;Centrocampista;
-114;Kevin-Prince Boateng;Ghana;Barcelona;Centrocampista;
-115;Busquets;España;Barcelona;Centrocampista;
-116;Carles Aleñá;España;Barcelona;Centrocampista;
-117;Coutinho;Brasil;Barcelona;Centrocampista;
-118;Denis Suárez;España;Barcelona;Centrocampista;
-119;Oriol Busquets;España;Barcelona;Centrocampista;
-120;Rafinha;Brasil;Barcelona;Centrocampista;
-121;Ivan Rakitić;Croacia;Barcelona;Centrocampista;
-122;Riqui Puig;España;Barcelona;Centrocampista;
-123;Arturo Vidal;Chile;Barcelona;Centrocampista;
-124;Abel Ruiz;España;Barcelona;Delantero;
-125;Álex Collado;España;Barcelona;Delantero;
-126;Carles Pérez;España;Barcelona;Delantero;
-127;Ousmane Dembélé;Francia;Barcelona;Delantero;
-128;Malcom;Brasil;Barcelona;Delantero;
-129;Lionel Messi;Argentina;Barcelona;Delantero;
-130;Luis Suárez;Uruguay;Barcelona;Delantero;
-131;Joel;España;Betis;Portero;
-132;Pau López;España;Betis;Portero;
-133;Barragán;España;Betis;Defensa;
-134;Bartra;España;Betis;Defensa;
-135;Emerson;Brasil;Betis;Defensa;
-136;Zouhair Feddal;Marruecos;Betis;Defensa;
-137;Francis Guerrero;España;Betis;Defensa;
-138;Julio Alonso;España;Betis;Defensa;
-139;Junior Firpo;España;Betis;Defensa;
-140;Aïssa Mandi;Argelia;Betis;Defensa;
-141;Sidnei;Brasil;Betis;Defensa;
-142;Adrián Tellado;España;Betis;Centrocampista;
-143;Paul Akouokou;Costa de Marfil;Betis;Centrocampista;
-144;Canales;España;Betis;Centrocampista;
-145;Édgar González;España;Betis;Centrocampista;
-146;Andrés Guardado;México;Betis;Centrocampista;
-147;Jaime Garijo;España;Betis;Centrocampista;
-148;Javi García;España;Betis;Centrocampista;
-149;José Irizo;España;Betis;Centrocampista;
-150;Wilfrid Kaptoum;Camerún;Betis;Centrocampista;
-151;Giovani Lo Celso;Argentina;Betis;Centrocampista;
-152;William Carvalho;Portugal;Betis;Centrocampista;
-153;Cristian Tello;España;Betis;Delantero;
-154;Diego;España;Betis;Delantero;
-155;Jesé;España;Betis;Delantero;
-156;Joaquín;España;Betis;Delantero;
-157;Diego Lainez;México;Betis;Delantero;
-158;Loren;España;Betis;Delantero;
-159;Nieto;España;Betis;Delantero;
-160;Rober;España;Betis;Delantero;
-161;Sergio León;España;Betis;Delantero;
-162;Iván Villar;España;Celta de Vigo;Portero;
-163;Rubén Blanco;España;Celta de Vigo;Portero;
-164;Sergio Álvarez;España;Celta de Vigo;Portero;
-165;Néstor Araujo;México;Celta de Vigo;Defensa;
-166;Gustavo Cabral;Argentina;Celta de Vigo;Defensa;
-167;David Costas;España;Celta de Vigo;Defensa;
-168;Diego Alende;España;Celta de Vigo;Defensa;
-169;Wesley Hoedt;Países Bajos;Celta de Vigo;Defensa;
-170;Hugo Mallo;España;Celta de Vigo;Defensa;
-171;Juncà;España;Celta de Vigo;Defensa;
-172;Kevin;España;Celta de Vigo;Defensa;
-173;Lucas Olaza;Uruguay;Celta de Vigo;Defensa;
-174;Ryad Boudebouz;Argelia;Celta de Vigo;Centrocampista;
-175;Sofiane Boufal;Marruecos;Celta de Vigo;Centrocampista;
-176;Fran Beltrán;España;Celta de Vigo;Centrocampista;
-177;Mathias Jensen;Dinamarca;Celta de Vigo;Centrocampista;
-178;Jozabed;España;Celta de Vigo;Centrocampista;
-179;Stanislav Lobotka;Eslovaquia;Celta de Vigo;Centrocampista;
-180;Nemanja Radoja;Serbia;Celta de Vigo;Centrocampista;
-181;Okay Yokuslu;Turquía;Celta de Vigo;Centrocampista;
-182;Emmanuel Apeh;Nigeria;Celta de Vigo;Delantero;
-183;Brais Méndez;España;Celta de Vigo;Delantero;
-184;Dennis Eckert Ayensa;Alemania;Celta de Vigo;Delantero;
-185;Maximiliano Gómez;Uruguay;Celta de Vigo;Delantero;
-186;Andrew Hjulsager;Dinamarca;Celta de Vigo;Delantero;
-187;Iago Aspas;España;Celta de Vigo;Delantero;
-188;Emre Mor;Turquía;Celta de Vigo;Delantero;
-189;Pione Sisto;Dinamarca;Celta de Vigo;Delantero;
-190;Areitio;España;Eibar;Portero;
-191;Marko Dmitrović;Serbia;Eibar;Portero;
-192;Riesgo;España;Eibar;Portero;
-193;Arbilla;España;Eibar;Defensa;
-194;Bigas;España;Eibar;Defensa;
-195;Cote;España;Eibar;Defensa;
-196;Iván Ramis;España;Eibar;Defensa;
-197;Jordi Calavera;España;Eibar;Defensa;
-198;Kaiser Lázaro;España;Eibar;Defensa;
-199;Paulo Oliveira;Portugal;Eibar;Defensa;
-200;Rubén Peña;España;Eibar;Defensa;
-201;Cucurella;España;Eibar;Centrocampista;
-202;Pape Diop;Senegal;Eibar;Centrocampista;
-203;Gonzalo Escalante;Argentina;Eibar;Centrocampista;
-204;Joan Jordán;España;Eibar;Centrocampista;
-205;Pedro León;España;Eibar;Centrocampista;
-206;Sergio Álvarez;España;Eibar;Centrocampista;
-207;Charles;Brasil;Eibar;Delantero;
-208;Pablo de Blasis;Argentina;Eibar;Delantero;
-209;Kike García;España;Eibar;Delantero;
-210;Miguel Mari;España;Eibar;Delantero;
-211;Fabián Orellana;Chile;Eibar;Delantero;
-212;Pere Milla;España;Eibar;Delantero;
-213;Sergi Enrich;España;Eibar;Delantero;
-214;Diego López;España;Espanyol;Portero;
-215;Roberto;España;Espanyol;Portero;
-216;Adrià Pedrosa;España;Espanyol;Defensa;
-217;David López;España;Espanyol;Defensa;
-218;Dídac Vilà;España;Espanyol;Defensa;
-219;Óscar Duarte;Costa Rica;Espanyol;Defensa;
-220;Iago Indias;España;Espanyol;Defensa;
-221;Javi López;España;Espanyol;Defensa;
-222;Lluís López;España;Espanyol;Defensa;
-223;Mario Hermoso;España;Espanyol;Defensa;
-224;Naldo;Brasil;Espanyol;Defensa;
-225;Roberto Rosales;Venezuela;Espanyol;Defensa;
-226;Álex López;España;Espanyol;Centrocampista;
-227;Alfa Semedo;Guinea-Bissau;Espanyol;Centrocampista;
-228;Carlos Doncel;España;Espanyol;Centrocampista;
-229;Granero;España;Espanyol;Centrocampista;
-230;Marc Roca;España;Espanyol;Centrocampista;
-231;Melendo;España;Espanyol;Centrocampista;
-232;Hernán Pérez;Paraguay;Espanyol;Centrocampista;
-233;Sergi Darder;España;Espanyol;Centrocampista;
-234;Víctor Sánchez;España;Espanyol;Centrocampista;
-235;Borja Iglesias;España;Espanyol;Delantero;
-236;Campuzano;España;Espanyol;Delantero;
-237;Facundo Ferreyra;Argentina;Espanyol;Delantero;
-238;Pablo Piatti;Argentina;Espanyol;Delantero;
-239;Puado;España;Espanyol;Delantero;
-240;Sergio García;España;Espanyol;Delantero;
-241;Lei Wu;China;Espanyol;Delantero;
-242;Leandro Chichizola;Argentina;Getafe;Portero;
-243;David Soria;España;Getafe;Portero;
-244;Rubén Yáñez;España;Getafe;Portero;
-245;Antunes;Portugal;Getafe;Defensa;
-246;Bruno;España;Getafe;Defensa;
-247;Leandro Cabrera;Uruguay;Getafe;Defensa;
-248;Dakonam Djené;Togo;Getafe;Defensa;
-249;Dimitri Foulquier;Guadalupe;Getafe;Defensa;
-250;Ignasi Miquel;España;Getafe;Defensa;
-251;Mathías Olivera;Uruguay;Getafe;Defensa;
-252;Damián Suárez;Uruguay;Getafe;Defensa;
-253;Mauro Arambarri;Uruguay;Getafe;Centrocampista;
-254;Sebastián Cristóforo;Uruguay;Getafe;Centrocampista;
-255;Mathieu Flamini;Francia;Getafe;Centrocampista;
-256;Nemanja Maksimović;Serbia;Getafe;Centrocampista;
-257;Markel Bergara;España;Getafe;Centrocampista;
-258;Miguel Rubio;España;Getafe;Centrocampista;
-259;Portillo;España;Getafe;Centrocampista;
-260;Gaku Shibasaki;Japón;Getafe;Centrocampista;
-261;Ángel;España;Getafe;Delantero;
-262;Amath Diedhiou;Senegal;Getafe;Delantero;
-263;Hugo Duro;España;Getafe;Delantero;
-264;Mata;España;Getafe;Delantero;
-265;Jorge Molina;España;Getafe;Delantero;
-266;Samu Sáiz;España;Getafe;Delantero;
-267;Yassine Bounou;Marruecos;Girona;Portero;
-268;Iraizoz;España;Girona;Portero;
-269;José Suárez;España;Girona;Portero;
-270;Carles Planas;España;Girona;Defensa;
-271;Eric Montes;España;Girona;Defensa;
-272;Bernardo Espinosa;Colombia;Girona;Defensa;
-273;Juanpe;España;Girona;Defensa;
-274;Johan Mojica;Colombia;Girona;Defensa;
-275;Muniesa;España;Girona;Defensa;
-276;Pedro Alcalá;España;Girona;Defensa;
-277;Pedro Porro;España;Girona;Defensa;
-278;Ramalho;España;Girona;Defensa;
-279;Raúl Carnero;España;Girona;Defensa;
-280;Aday;España;Girona;Centrocampista;
-281;Aleix García;España;Girona;Centrocampista;
-282;Álex Granell;España;Girona;Centrocampista;
-283;Borja García;España;Girona;Centrocampista;
-284;Douglas Luiz;Brasil;Girona;Centrocampista;
-285;Seung-ho Paik;Corea del Sur;Girona;Centrocampista;
-286;Pere Pons;España;Girona;Centrocampista;
-287;Portu;España;Girona;Centrocampista;
-288;Valery;España;Girona;Centrocampista;
-289;Álex Pachón;España;Girona;Delantero;
-290;Yhoan Andzouana;Congo;Girona;Delantero;
-291;Seydou Doumbia;Costa de Marfil;Girona;Delantero;
-292;Anthony Lozano;Honduras;Girona;Delantero;
-293;Patrick Roberts;Inglaterra;Girona;Delantero;
-294;Kévin Soni;Camerún;Girona;Delantero;
-295;Cristhian Stuani;Uruguay;Girona;Delantero;
-296;Javi Varas;España;Huesca;Portero;
-297;Aleksandar Jovanović;Serbia;Huesca;Portero;
-298;Santamaría;España;Huesca;Portero;
-299;Adrian Diéguez;España;Huesca;Defensa;
-300;Carlos Akapo;Guinea Ecuatorial;Huesca;Defensa;
-301;Etxeita;España;Huesca;Defensa;
-302;Javi Galán;España;Huesca;Defensa;
-303;Javier Almerge;España;Huesca;Defensa;
-304;Javito;España;Huesca;Defensa;
-305;Luisinho;Portugal;Huesca;Defensa;
-306;Martín Mantovani;Argentina;Huesca;Defensa;
-307;Miramón;España;Huesca;Defensa;
-308;Pablo Insua;España;Huesca;Defensa;
-309;Pulido;España;Huesca;Defensa;
-310;Juanpi Añor;Venezuela;Huesca;Centrocampista;
-311;Camacho;España;Huesca;Centrocampista;
-312;Christian Rivera;España;Huesca;Centrocampista;
-313;David Ferreiro;España;Huesca;Centrocampista;
-314;Yangel Herrera;Venezuela;Huesca;Centrocampista;
-315;Juan Aguilera;España;Huesca;Centrocampista;
-316;Melero;España;Huesca;Centrocampista;
-317;Moi Gómez;España;Huesca;Centrocampista;
-318;Damián Musto;Argentina;Huesca;Centrocampista;
-319;Uche;España;Huesca;Centrocampista;
-320;Álex Gallar;España;Huesca;Delantero;
-321;Enric Gallego;España;Huesca;Delantero;
-322;Cucho Hernández;Colombia;Huesca;Delantero;
-323;André Grandi;Brasil;Leganés;Portero;
-324;Andrés Prieto;España;Leganés;Portero;
-325;Cuéllar;España;Leganés;Portero;
-326;Andriy Lunin;Ucrania;Leganés;Portero;
-327;Tejero;España;Leganés;Portero;
-328;Bustinza;España;Leganés;Defensa;
-329;Juanfran;España;Leganés;Defensa;
-330;Vasyl Kravets;Ucrania;Leganés;Defensa;
-331;Ezequiel Muñoz;Argentina;Leganés;Defensa;
-332;Allan Nyom;Camerún;Leganés;Defensa;
-333;Kenneth Omeruo;Nigeria;Leganés;Defensa;
-334;Diego Reyes;México;Leganés;Defensa;
-335;Rodrigo Tarín;España;Leganés;Defensa;
-336;Jonathan Silva;Argentina;Leganés;Defensa;
-337;Dimitrios Siovas;Grecia;Leganés;Defensa;
-338;Eraso;España;Leganés;Centrocampista;
-339;Gumbau;España;Leganés;Centrocampista;
-340;José Arnáiz;España;Leganés;Centrocampista;
-341;Óscar;España;Leganés;Centrocampista;
-342;Recio;España;Leganés;Centrocampista;
-343;Rubén Pérez;España;Leganés;Centrocampista;
-344;Vesga;España;Leganés;Centrocampista;
-345;Martin Braithwaite;Dinamarca;Leganés;Delantero;
-346;Guido Carrillo;Argentina;Leganés;Delantero;
-347;Youssef En-Nesyri;Marruecos;Leganés;Delantero;
-348;Javier Avilés;España;Leganés;Delantero;
-349;Sabin;España;Leganés;Delantero;
-350;Michael Santos;Uruguay;Leganés;Delantero;
-351;Alexander Szymanowski;Argentina;Leganés;Delantero;
-352;Aitor Fernández;España;Levante;Portero;
-353;Koke Vegas;España;Levante;Portero;
-354;Oier;España;Levante;Portero;
-355;Antonio Luna;España;Levante;Defensa;
-356;Erick Cabaco;Uruguay;Levante;Defensa;
-357;Chema;España;Levante;Defensa;
-358;Coke;España;Levante;Defensa;
-359;Genís Montolio;España;Levante;Defensa;
-360;Shaq Moore;Estados Unidos;Levante;Defensa;
-361;Pedro López;España;Levante;Defensa;
-362;Róber;España;Levante;Defensa;
-363;Rúben Vezo;Portugal;Levante;Defensa;
-364;Sergio Postigo;España;Levante;Defensa;
-365;Toño García;España;Levante;Defensa;
-366;Arturo Molina;España;Levante;Centrocampista;
-367;Enis Bardhi;Macedonia del Norte;Levante;Centrocampista;
-368;Campaña;España;Levante;Centrocampista;
-369;Cheick Doukouré;Costa de Marfil;Levante;Centrocampista;
-370;Fran Manzanara;España;Levante;Centrocampista;
-371;Jason;España;Levante;Centrocampista;
-372;Pepelu;España;Levante;Centrocampista;
-373;Rubén Rochina;España;Levante;Centrocampista;
-374;Nikola Vukcevic;Montenegro;Levante;Centrocampista;
-375;Borja Mayoral;España;Levante;Delantero;
-376;Raphael Dwamena;Ghana;Levante;Delantero;
-377;Morales;España;Levante;Delantero;
-378;Roger;España;Levante;Delantero;
-379;Moses Simon;Nigeria;Levante;Delantero;
-380;Alberto;España;Rayo Vallecano;Portero;
-381;Stole Dimitrievski;Macedonia del Norte;Rayo Vallecano;Portero;
-382;Morro;España;Rayo Vallecano;Portero;
-383;Akieme;Guinea Ecuatorial;Rayo Vallecano;Defensa;
-384;Abdoulaye Ba;Senegal;Rayo Vallecano;Defensa;
-385;Catena;España;Rayo Vallecano;Defensa;
-386;Gálvez;España;Rayo Vallecano;Defensa;
-387;Jordi Amat;España;Rayo Vallecano;Defensa;
-388;Martín Pascual;España;Rayo Vallecano;Defensa;
-389;Meseguer;Guinea Ecuatorial;Rayo Vallecano;Defensa;
-390;Tito;España;Rayo Vallecano;Defensa;
-391;Emiliano Velázquez;Uruguay;Rayo Vallecano;Defensa;
-392;Luis Advíncula;Perú;Rayo Vallecano;Centrocampista;
-393;Uche Agbo;Nigeria;Rayo Vallecano;Centrocampista;
-394;Álex Moreno;España;Rayo Vallecano;Centrocampista;
-395;Álvaro García;España;Rayo Vallecano;Centrocampista;
-396;Ángel Algobia;España;Rayo Vallecano;Centrocampista;
-397;Elustondo;España;Rayo Vallecano;Centrocampista;
-398;Giannelli Imbula;Francia;Rayo Vallecano;Centrocampista;
-399;Manu Navarro;España;Rayo Vallecano;Centrocampista;
-400;Mario Suárez;España;Rayo Vallecano;Centrocampista;
-401;Medrán;España;Rayo Vallecano;Centrocampista;
-402;Santi Comesaña;España;Rayo Vallecano;Centrocampista;
-403;Bebé;Portugal;Rayo Vallecano;Delantero;
-404;Franco Di Santo;Argentina;Rayo Vallecano;Delantero;
-405;Embarba;España;Rayo Vallecano;Delantero;
-406;Javi Guerra;España;Rayo Vallecano;Delantero;
-407;José Pozo;España;Rayo Vallecano;Delantero;
-408;Gael Kakuta;R.D. Congo;Rayo Vallecano;Delantero;
-409;Raúl de Tomás;España;Rayo Vallecano;Delantero;
-410;Sergio Moreno;España;Rayo Vallecano;Delantero;
-411;Óscar Trejo;Argentina;Rayo Vallecano;Delantero;
-412;Altube;España;Real Madrid;Portero;
-413;Thibaut Courtois;Bélgica;Real Madrid;Portero;
-414;Keylor Navas;Costa Rica;Real Madrid;Portero;
-415;Luca Zidane;Francia;Real Madrid;Portero;
-416;Dani Carvajal;España;Real Madrid;Defensa;
-417;De la Fuente;España;Real Madrid;Defensa;
-418;Javi Sánchez;España;Real Madrid;Defensa;
-419;Jesús Vallejo;España;Real Madrid;Defensa;
-420;Marcelo;Brasil;Real Madrid;Defensa;
-421;Nacho;España;Real Madrid;Defensa;
-422;Odriozola;España;Real Madrid;Defensa;
-423;Reguilón;España;Real Madrid;Defensa;
-424;Sergio Ramos;España;Real Madrid;Defensa;
-425;Raphael Varane;Francia;Real Madrid;Defensa;
-426;Brahim Díaz;España;Real Madrid;Centrocampista;
-427;Casemiro;Brasil;Real Madrid;Centrocampista;
-428;Dani Ceballos;España;Real Madrid;Centrocampista;
-429;Francisco Feuillassier;Argentina;Real Madrid;Centrocampista;
-430;Fidalgo;España;Real Madrid;Centrocampista;
-431;Fran García;España;Real Madrid;Centrocampista;
-432;Isco;España;Real Madrid;Centrocampista;
-433;Jaume Grau;España;Real Madrid;Centrocampista;
-434;Toni Kroos;Alemania;Real Madrid;Centrocampista;
-435;Marco Asensio;España;Real Madrid;Centrocampista;
-436;Marcos Llorente;España;Real Madrid;Centrocampista;
-437;Luka Modrić;Croacia;Real Madrid;Centrocampista;
-438;Seoane;España;Real Madrid;Centrocampista;
-439;Federico Valverde;Uruguay;Real Madrid;Centrocampista;
-440;Gareth Bale;Gales;Real Madrid;Delantero;
-441;Karim Benzema;Francia;Real Madrid;Delantero;
-442;Cristo;España;Real Madrid;Delantero;
-443;Lucas Vázquez;España;Real Madrid;Delantero;
-444;Mariano;Rep. Dominicana;Real Madrid;Delantero;
-445;Vinicius Júnior;Brasil;Real Madrid;Delantero;
-446;Moyá;España;Real Sociedad;Portero;
-447;Gerónimo Rulli;Argentina;Real Sociedad;Portero;
-448;Zubiaurre;España;Real Sociedad;Portero;
-449;Aihen Muñoz;España;Real Sociedad;Defensa;
-450;Álex Sola;España;Real Sociedad;Defensa;
-451;Andoni Gorosabel;España;Real Sociedad;Defensa;
-452;Aritz Elustondo;España;Real Sociedad;Defensa;
-453;Theo Hernández;Francia;Real Sociedad;Defensa;
-454;Joseba Zaldúa;España;Real Sociedad;Defensa;
-455;Robin Le Normand;Francia;Real Sociedad;Defensa;
-456;Llorente;España;Real Sociedad;Defensa;
-457;Héctor Moreno;México;Real Sociedad;Defensa;
-458;Raúl Navas;España;Real Sociedad;Defensa;
-459;Kévin Rodrigues;Portugal;Real Sociedad;Defensa;
-460;Guevara;España;Real Sociedad;Centrocampista;
-461;Illarra;España;Real Sociedad;Centrocampista;
-462;Adnan Januzaj;Bélgica;Real Sociedad;Centrocampista;
-463;Luca Sangalli;España;Real Sociedad;Centrocampista;
-464;Martín Merquelanz;España;Real Sociedad;Centrocampista;
-465;Martín Zubimendi;España;Real Sociedad;Centrocampista;
-466;Mikel Merino;España;Real Sociedad;Centrocampista;
-467;Rubén Pardo;España;Real Sociedad;Centrocampista;
-468;Zubeldía;España;Real Sociedad;Centrocampista;
-469;David Zurutuza;España;Real Sociedad;Centrocampista;
-470;Ander Barrenetxea;España;Real Sociedad;Delantero;
-471;Naïs Djouahra;Francia;Real Sociedad;Delantero;
-472;Jon Bautista;España;Real Sociedad;Delantero;
-473;Mikel Oyarzabal;España;Real Sociedad;Delantero;
-474;Roberto López;España;Real Sociedad;Delantero;
-475;Sandro;España;Real Sociedad;Delantero;
-476;Zourdine Thior;Senegal;Real Sociedad;Delantero;
-477;Willian José;Brasil;Real Sociedad;Delantero;
-478;Lucho García;Colombia;Sevilla;Portero;
-479;Javi Díaz;España;Sevilla;Portero;
-480;Juan Soriano;España;Sevilla;Portero;
-481;Tomás Vaclík;República Checa;Sevilla;Portero;
-482;Daniel Carrico;Portugal;Sevilla;Defensa;
-483;Escudero;España;Sevilla;Defensa;
-484;Joris Gnagnon;Francia;Sevilla;Defensa;
-485;Guilherme Arana;Brasil;Sevilla;Defensa;
-486;Juan Berrocal;España;Sevilla;Defensa;
-487;Simon Kjaer;Dinamarca;Sevilla;Defensa;
-488;Gabriel Mercado;Argentina;Sevilla;Defensa;
-489;Sergi Gómez;España;Sevilla;Defensa;
-490;Max Wober;Austria;Sevilla;Defensa;
-491;Ibrahim Amadou;Francia;Sevilla;Centrocampista;
-492;Éver Banega;Argentina;Sevilla;Centrocampista;
-493;Maxime Gonalons;Francia;Sevilla;Centrocampista;
-494;Jesús Navas;España;Sevilla;Centrocampista;
-495;Pablo Sarabia;España;Sevilla;Centrocampista;
-496;Pejiño;España;Sevilla;Centrocampista;
-497;Pepe Mena;España;Sevilla;Centrocampista;
-498;Marko Rog;Croacia;Sevilla;Centrocampista;
-499;Roque Mesa;España;Sevilla;Centrocampista;
-500;Franco Vázquez;Argentina;Sevilla;Centrocampista;
-501;Aleix Vidal;España;Sevilla;Centrocampista;
-502;André Silva;Portugal;Sevilla;Delantero;
-503;Wissam Ben Yedder;Francia;Sevilla;Delantero;
-504;Bryan Gil;España;Sevilla;Delantero;
-505;Javi Vázquez;España;Sevilla;Delantero;
-506;José Lara;España;Sevilla;Delantero;
-507;Munir;España;Sevilla;Delantero;
-508;Nolito;España;Sevilla;Delantero;
-509;Quincy Promes;Países Bajos;Sevilla;Delantero;
-510;Cristian Rivero;España;Valencia;Portero;
-511;Jaume;España;Valencia;Portero;
-512;Neto;Brasil;Valencia;Portero;
-513;Álex Centelles;España;Valencia;Defensa;
-514;Mouctar Diakhaby;Francia;Valencia;Defensa;
-515;Gabriel Paulista;Brasil;Valencia;Defensa;
-516;Ezequiel Garay;Argentina;Valencia;Defensa;
-517;Gayà;España;Valencia;Defensa;
-518;Hugo Guillamón;España;Valencia;Defensa;
-519;Cristiano Piccini;Italia;Valencia;Defensa;
-520;Facundo Roncaglia;Argentina;Valencia;Defensa;
-521;Toni Lato;España;Valencia;Defensa;
-522;Carlos Soler;España;Valencia;Centrocampista;
-523;Francis Coquelin;Francia;Valencia;Centrocampista;
-524;Dani Parejo;España;Valencia;Centrocampista;
-525;Geoffrey Kondogbia;República Centroafricana;Valencia;Centrocampista;
-526;Kang-in Lee;Corea del Sur;Valencia;Centrocampista;
-527;Sito;España;Valencia;Centrocampista;
-528;Daniel Wass;Dinamarca;Valencia;Centrocampista;
-529;Ferrán Torres;España;Valencia;Delantero;
-530;Fran Navarro;España;Valencia;Delantero;
-531;Kevin Gameiro;Francia;Valencia;Delantero;
-532;Gonçalo Guedes;Portugal;Valencia;Delantero;
-533;Rodrigo;España;Valencia;Delantero;
-534;Rubén Sobrino;España;Valencia;Delantero;
-535;Santi Mina;España;Valencia;Delantero;
-536;Jordi Masip;España;Valladolid;Portero;
-537;Samuel Pérez;España;Valladolid;Portero;
-538;Yoel;España;Valladolid;Portero;
-539;Apa;España;Valladolid;Defensa;
-540;Fernando Calero;España;Valladolid;Defensa;
-541;Javi Moyano;España;Valladolid;Defensa;
-542;Joaquín;España;Valladolid;Defensa;
-543;Kiko Olivas;España;Valladolid;Defensa;
-544;Moi Delgado;España;Valladolid;Defensa;
-545;Nacho;España;Valladolid;Defensa;
-546;Roberto Corral;España;Valladolid;Defensa;
-547;Karim Salisú;Ghana;Valladolid;Defensa;
-548;Alcaraz;España;Valladolid;Centrocampista;
-549;Antoñito;España;Valladolid;Centrocampista;
-550;Borja;España;Valladolid;Centrocampista;
-551;El Hacen El Id;Mauritania;Valladolid;Centrocampista;
-552;Keko;España;Valladolid;Centrocampista;
-553;Luismi;España;Valladolid;Centrocampista;
-554;Míchel;España;Valladolid;Centrocampista;
-555;Pablo Muñoz;España;Valladolid;Centrocampista;
-556;Sergi Guardiola;España;Valladolid;Centrocampista;
-557;Toni Villa;España;Valladolid;Centrocampista;
-558;Anuar Tuhami;Marruecos;Valladolid;Centrocampista;
-559;Duje Cop;Croacia;Valladolid;Delantero;
-560;Jorge De Frutos;España;Valladolid;Delantero;
-561;Kuki;España;Valladolid;Delantero;
-562;Miguel;España;Valladolid;Delantero;
-563;Óscar Plano;España;Valladolid;Delantero;
-564;Pablo Hervías;España;Valladolid;Delantero;
-565;Stiven Plaza;Ecuador;Valladolid;Delantero;
-566;Enes Unal;Turquía;Valladolid;Delantero;
-567;Daniele Verde;Italia;Valladolid;Delantero;
-568;Waldo Rubio;España;Valladolid;Delantero;
-569;Andrés Fernández;España;Villarreal;Portero;
-570;Asenjo;España;Villarreal;Portero;
-571;Mariano Barbosa;Argentina;Villarreal;Portero;
-572;Álvaro González;España;Villarreal;Defensa;
-573;Daniele Bonera;Italia;Villarreal;Defensa;
-574;Ramiro Funes Mori;Argentina;Villarreal;Defensa;
-575;Jaume Costa;España;Villarreal;Defensa;
-576;Mario Gaspar;España;Villarreal;Defensa;
-577;Miguelón Llambrich;España;Villarreal;Defensa;
-578;Pepe Castaño;España;Villarreal;Defensa;
-579;Andrei Ratiu;Rumania;Villarreal;Defensa;
-580;Víctor Ruiz;España;Villarreal;Defensa;
-581;Xavi Quintilla;España;Villarreal;Defensa;
-582;Bruno Soriano;España;Villarreal;Centrocampista;
-583;Santiago Cáseres;Argentina;Villarreal;Centrocampista;
-584;Dani Raba;España;Villarreal;Centrocampista;
-585;Iborra;España;Villarreal;Centrocampista;
-586;Iván Martin;España;Villarreal;Centrocampista;
-587;Javi Fuego;España;Villarreal;Centrocampista;
-588;Manu Morlanes;España;Villarreal;Centrocampista;
-589;Pablo Fornals;España;Villarreal;Centrocampista;
-590;Santi Cazorla;España;Villarreal;Centrocampista;
-591;Trigueros;España;Villarreal;Centrocampista;
-592;Carlos Bacca;Colombia;Villarreal;Delantero;
-593;Denis Cheryshev;Rusia;Villarreal;Delantero;
-594;Samuel Chukwueze;Nigeria;Villarreal;Delantero;
-595;Gerard;España;Villarreal;Delantero;
-596;Pedraza;España;Villarreal;Delantero;
-597;Karl Toko Ekambi;Camerún;Villarreal;Delantero;
+﻿id;nombre;nacionalidad;equipo;puesto
+1;Álex Domínguez;España;Alavés;Portero
+2;Antonio Sivera;España;Alavés;Portero
+3;Pacheco;España;Alavés;Portero
+4;Adrián Marín;España;Alavés;Defensa
+5;Duarte;España;Alavés;Defensa
+6;Rodrigo Ely;Italia;Alavés;Defensa
+7;Laguardia;España;Alavés;Defensa
+8;Guillermo Maripán;Chile;Alavés;Defensa
+9;Martín;España;Alavés;Defensa
+10;Vigaray;España;Alavés;Defensa
+11;Ximo Navarro;España;Alavés;Defensa
+12;Antonio Perera;España;Alavés;Centrocampista
+13;Darko Brasanac;Serbia;Alavés;Centrocampista
+14;Takashi Inui;Japón;Alavés;Centrocampista
+15;Jony;España;Alavés;Centrocampista
+16;Manu García;España;Alavés;Centrocampista
+17;Paulino de la Fuente;España;Alavés;Centrocampista
+18;Pina;España;Alavés;Centrocampista
+19;Mubarak Wakaso;Ghana;Alavés;Centrocampista
+20;Álex Blanco;España;Alavés;Delantero
+21;Borja Bastón;España;Alavés;Delantero
+22;Burgui;España;Alavés;Delantero
+23;Jonathan Calleri;Argentina;Alavés;Delantero
+24;John Guidetti;Suecia;Alavés;Delantero
+25;Andrei Lupu;Rumania;Alavés;Delantero
+26;Diego Rolán;Uruguay;Alavés;Delantero
+27;Patrick Twumasi;Ghana;Alavés;Delantero
+28;Iago Herrerín;España;Athletic de Bilbao;Portero
+29;Oleaga;España;Athletic de Bilbao;Portero
+30;Remiro;España;Athletic de Bilbao;Portero
+31;Unai Simón;España;Athletic de Bilbao;Portero
+32;Balenziaga;España;Athletic de Bilbao;Defensa
+33;Capa;España;Athletic de Bilbao;Defensa
+34;De Marcos;España;Athletic de Bilbao;Defensa
+35;Iñigo Lekue;España;Athletic de Bilbao;Defensa
+36;Iñigo Martínez;España;Athletic de Bilbao;Defensa
+37;Nolaskoain;España;Athletic de Bilbao;Defensa
+38;Unai Nuñez;España;Athletic de Bilbao;Defensa
+39;Vivian;España;Athletic de Bilbao;Defensa
+40;Yeray;España;Athletic de Bilbao;Defensa
+41;Yuri;España;Athletic de Bilbao;Defensa
+42;Beñat;España;Athletic de Bilbao;Centrocampista
+43;Córdoba;España;Athletic de Bilbao;Centrocampista
+44;Dani García;España;Athletic de Bilbao;Centrocampista
+45;Iturraspe;España;Athletic de Bilbao;Centrocampista
+46;Markel Susaeta;España;Athletic de Bilbao;Centrocampista
+47;Mikel Rico;España;Athletic de Bilbao;Centrocampista
+48;Raúl García;España;Athletic de Bilbao;Centrocampista
+49;Mikel San José;España;Athletic de Bilbao;Centrocampista
+50;Unai López;España;Athletic de Bilbao;Centrocampista
+51;Aduriz;España;Athletic de Bilbao;Delantero
+52;Guruzeta;España;Athletic de Bilbao;Delantero
+53;Ibai;España;Athletic de Bilbao;Delantero
+54;Iñigo Vicente;España;Athletic de Bilbao;Delantero
+55;Kenan Kodro;Bosnia y Herzegovina;Athletic de Bilbao;Delantero
+56;Muniain;España;Athletic de Bilbao;Delantero
+57;Williams;España;Athletic de Bilbao;Delantero
+58;Antonio Adán;España;Atlético de Madrid;Portero
+59;Dos Santos;Brasil;Atlético de Madrid;Portero
+60;Miguel San Román;España;Atlético de Madrid;Portero
+61;Jan Oblak;Eslovenia;Atlético de Madrid;Portero
+62;Álvaro García;España;Atlético de Madrid;Defensa
+63;Santiago Arias;Colombia;Atlético de Madrid;Defensa
+64;Carlos Isaac;España;Atlético de Madrid;Defensa
+65;Filipe Luís;Brasil;Atlético de Madrid;Defensa
+66;José Giménez;Uruguay;Atlético de Madrid;Defensa
+67;Diego Godín;Uruguay;Atlético de Madrid;Defensa
+68;Lucas Hernández;Francia;Atlético de Madrid;Defensa
+69;Juanfran;España;Atlético de Madrid;Defensa
+70;Manu Sánchez;España;Atlético de Madrid;Defensa
+71;Montero;España;Atlético de Madrid;Defensa
+72;Nehuén Pérez;Argentina;Atlético de Madrid;Defensa
+73;Stefan Savić;Montenegro;Atlético de Madrid;Defensa
+74;Andrés Solano;Colombia;Atlético de Madrid;Defensa
+75;Tachi;España;Atlético de Madrid;Defensa
+76;Cristian Rodríguez;España;Atlético de Madrid;Centrocampista
+77;Gustavo Assuncao;Brasil;Atlético de Madrid;Centrocampista
+78;Koke;España;Atlético de Madrid;Centrocampista
+79;Thomas Lemar;Francia;Atlético de Madrid;Centrocampista
+80;Mikel Carro;España;Atlético de Madrid;Centrocampista
+81;Thomas Partey;Ghana;Atlético de Madrid;Centrocampista
+82;Rodri;España;Atlético de Madrid;Centrocampista
+83;Saúl;España;Atlético de Madrid;Centrocampista
+84;Toni Moya;España;Atlético de Madrid;Centrocampista
+85;Borja Garcés;España;Atlético de Madrid;Delantero
+86;Ángel Correa;Argentina;Atlético de Madrid;Delantero
+87;Diego Costa;España;Atlético de Madrid;Delantero
+88;Antoine Griezmann;Francia;Atlético de Madrid;Delantero
+89;Joaquín Muñoz;España;Atlético de Madrid;Delantero
+90;Nikola Kalinić;Croacia;Atlético de Madrid;Delantero
+91;Morata;España;Atlético de Madrid;Delantero
+92;Sergio Camello;España;Atlético de Madrid;Delantero
+93;Víctor Mollejo;España;Atlético de Madrid;Delantero
+94;Vitolo;España;Atlético de Madrid;Delantero
+95;Jasper Cillessen;Países Bajos;Barcelona;Portero
+96;Iñaki Peña;España;Barcelona;Portero
+97;Jokin Ezkieta;España;Barcelona;Portero
+98;Marc-André ter Stegen;Alemania;Barcelona;Portero
+99;Chumi;España;Barcelona;Defensa
+100;Guillem Jaime;España;Barcelona;Defensa
+101;Jordi Alba;España;Barcelona;Defensa
+102;Jorge Cuenca;España;Barcelona;Defensa
+103;Juan Miranda;España;Barcelona;Defensa
+104;Clément Lenglet;Francia;Barcelona;Defensa
+105;Jeison Murillo;Colombia;Barcelona;Defensa
+106;Nélson Semedo;Portugal;Barcelona;Defensa
+107;Piqué;España;Barcelona;Defensa
+108;Sergi Roberto;España;Barcelona;Defensa
+109;Jean-Clair Todibo;Francia;Barcelona;Defensa
+110;Samuel Umtiti;Francia;Barcelona;Defensa
+111;Thomas Vermaelen;Bélgica;Barcelona;Defensa
+112;Moussa Wagué;Senegal;Barcelona;Defensa
+113;Arthur;Brasil;Barcelona;Centrocampista
+114;Kevin-Prince Boateng;Ghana;Barcelona;Centrocampista
+115;Busquets;España;Barcelona;Centrocampista
+116;Carles Aleñá;España;Barcelona;Centrocampista
+117;Coutinho;Brasil;Barcelona;Centrocampista
+118;Denis Suárez;España;Barcelona;Centrocampista
+119;Oriol Busquets;España;Barcelona;Centrocampista
+120;Rafinha;Brasil;Barcelona;Centrocampista
+121;Ivan Rakitić;Croacia;Barcelona;Centrocampista
+122;Riqui Puig;España;Barcelona;Centrocampista
+123;Arturo Vidal;Chile;Barcelona;Centrocampista
+124;Abel Ruiz;España;Barcelona;Delantero
+125;Álex Collado;España;Barcelona;Delantero
+126;Carles Pérez;España;Barcelona;Delantero
+127;Ousmane Dembélé;Francia;Barcelona;Delantero
+128;Malcom;Brasil;Barcelona;Delantero
+129;Lionel Messi;Argentina;Barcelona;Delantero
+130;Luis Suárez;Uruguay;Barcelona;Delantero
+131;Joel;España;Betis;Portero
+132;Pau López;España;Betis;Portero
+133;Barragán;España;Betis;Defensa
+134;Bartra;España;Betis;Defensa
+135;Emerson;Brasil;Betis;Defensa
+136;Zouhair Feddal;Marruecos;Betis;Defensa
+137;Francis Guerrero;España;Betis;Defensa
+138;Julio Alonso;España;Betis;Defensa
+139;Junior Firpo;España;Betis;Defensa
+140;Aïssa Mandi;Argelia;Betis;Defensa
+141;Sidnei;Brasil;Betis;Defensa
+142;Adrián Tellado;España;Betis;Centrocampista
+143;Paul Akouokou;Costa de Marfil;Betis;Centrocampista
+144;Canales;España;Betis;Centrocampista
+145;Édgar González;España;Betis;Centrocampista
+146;Andrés Guardado;México;Betis;Centrocampista
+147;Jaime Garijo;España;Betis;Centrocampista
+148;Javi García;España;Betis;Centrocampista
+149;José Irizo;España;Betis;Centrocampista
+150;Wilfrid Kaptoum;Camerún;Betis;Centrocampista
+151;Giovani Lo Celso;Argentina;Betis;Centrocampista
+152;William Carvalho;Portugal;Betis;Centrocampista
+153;Cristian Tello;España;Betis;Delantero
+154;Diego;España;Betis;Delantero
+155;Jesé;España;Betis;Delantero
+156;Joaquín;España;Betis;Delantero
+157;Diego Lainez;México;Betis;Delantero
+158;Loren;España;Betis;Delantero
+159;Nieto;España;Betis;Delantero
+160;Rober;España;Betis;Delantero
+161;Sergio León;España;Betis;Delantero
+162;Iván Villar;España;Celta de Vigo;Portero
+163;Rubén Blanco;España;Celta de Vigo;Portero
+164;Sergio Álvarez;España;Celta de Vigo;Portero
+165;Néstor Araujo;México;Celta de Vigo;Defensa
+166;Gustavo Cabral;Argentina;Celta de Vigo;Defensa
+167;David Costas;España;Celta de Vigo;Defensa
+168;Diego Alende;España;Celta de Vigo;Defensa
+169;Wesley Hoedt;Países Bajos;Celta de Vigo;Defensa
+170;Hugo Mallo;España;Celta de Vigo;Defensa
+171;Juncà;España;Celta de Vigo;Defensa
+172;Kevin;España;Celta de Vigo;Defensa
+173;Lucas Olaza;Uruguay;Celta de Vigo;Defensa
+174;Ryad Boudebouz;Argelia;Celta de Vigo;Centrocampista
+175;Sofiane Boufal;Marruecos;Celta de Vigo;Centrocampista
+176;Fran Beltrán;España;Celta de Vigo;Centrocampista
+177;Mathias Jensen;Dinamarca;Celta de Vigo;Centrocampista
+178;Jozabed;España;Celta de Vigo;Centrocampista
+179;Stanislav Lobotka;Eslovaquia;Celta de Vigo;Centrocampista
+180;Nemanja Radoja;Serbia;Celta de Vigo;Centrocampista
+181;Okay Yokuslu;Turquía;Celta de Vigo;Centrocampista
+182;Emmanuel Apeh;Nigeria;Celta de Vigo;Delantero
+183;Brais Méndez;España;Celta de Vigo;Delantero
+184;Dennis Eckert Ayensa;Alemania;Celta de Vigo;Delantero
+185;Maximiliano Gómez;Uruguay;Celta de Vigo;Delantero
+186;Andrew Hjulsager;Dinamarca;Celta de Vigo;Delantero
+187;Iago Aspas;España;Celta de Vigo;Delantero
+188;Emre Mor;Turquía;Celta de Vigo;Delantero
+189;Pione Sisto;Dinamarca;Celta de Vigo;Delantero
+190;Areitio;España;Eibar;Portero
+191;Marko Dmitrović;Serbia;Eibar;Portero
+192;Riesgo;España;Eibar;Portero
+193;Arbilla;España;Eibar;Defensa
+194;Bigas;España;Eibar;Defensa
+195;Cote;España;Eibar;Defensa
+196;Iván Ramis;España;Eibar;Defensa
+197;Jordi Calavera;España;Eibar;Defensa
+198;Kaiser Lázaro;España;Eibar;Defensa
+199;Paulo Oliveira;Portugal;Eibar;Defensa
+200;Rubén Peña;España;Eibar;Defensa
+201;Cucurella;España;Eibar;Centrocampista
+202;Pape Diop;Senegal;Eibar;Centrocampista
+203;Gonzalo Escalante;Argentina;Eibar;Centrocampista
+204;Joan Jordán;España;Eibar;Centrocampista
+205;Pedro León;España;Eibar;Centrocampista
+206;Sergio Álvarez;España;Eibar;Centrocampista
+207;Charles;Brasil;Eibar;Delantero
+208;Pablo de Blasis;Argentina;Eibar;Delantero
+209;Kike García;España;Eibar;Delantero
+210;Miguel Mari;España;Eibar;Delantero
+211;Fabián Orellana;Chile;Eibar;Delantero
+212;Pere Milla;España;Eibar;Delantero
+213;Sergi Enrich;España;Eibar;Delantero
+214;Diego López;España;Espanyol;Portero
+215;Roberto;España;Espanyol;Portero
+216;Adrià Pedrosa;España;Espanyol;Defensa
+217;David López;España;Espanyol;Defensa
+218;Dídac Vilà;España;Espanyol;Defensa
+219;Óscar Duarte;Costa Rica;Espanyol;Defensa
+220;Iago Indias;España;Espanyol;Defensa
+221;Javi López;España;Espanyol;Defensa
+222;Lluís López;España;Espanyol;Defensa
+223;Mario Hermoso;España;Espanyol;Defensa
+224;Naldo;Brasil;Espanyol;Defensa
+225;Roberto Rosales;Venezuela;Espanyol;Defensa
+226;Álex López;España;Espanyol;Centrocampista
+227;Alfa Semedo;Guinea-Bissau;Espanyol;Centrocampista
+228;Carlos Doncel;España;Espanyol;Centrocampista
+229;Granero;España;Espanyol;Centrocampista
+230;Marc Roca;España;Espanyol;Centrocampista
+231;Melendo;España;Espanyol;Centrocampista
+232;Hernán Pérez;Paraguay;Espanyol;Centrocampista
+233;Sergi Darder;España;Espanyol;Centrocampista
+234;Víctor Sánchez;España;Espanyol;Centrocampista
+235;Borja Iglesias;España;Espanyol;Delantero
+236;Campuzano;España;Espanyol;Delantero
+237;Facundo Ferreyra;Argentina;Espanyol;Delantero
+238;Pablo Piatti;Argentina;Espanyol;Delantero
+239;Puado;España;Espanyol;Delantero
+240;Sergio García;España;Espanyol;Delantero
+241;Lei Wu;China;Espanyol;Delantero
+242;Leandro Chichizola;Argentina;Getafe;Portero
+243;David Soria;España;Getafe;Portero
+244;Rubén Yáñez;España;Getafe;Portero
+245;Antunes;Portugal;Getafe;Defensa
+246;Bruno;España;Getafe;Defensa
+247;Leandro Cabrera;Uruguay;Getafe;Defensa
+248;Dakonam Djené;Togo;Getafe;Defensa
+249;Dimitri Foulquier;Guadalupe;Getafe;Defensa
+250;Ignasi Miquel;España;Getafe;Defensa
+251;Mathías Olivera;Uruguay;Getafe;Defensa
+252;Damián Suárez;Uruguay;Getafe;Defensa
+253;Mauro Arambarri;Uruguay;Getafe;Centrocampista
+254;Sebastián Cristóforo;Uruguay;Getafe;Centrocampista
+255;Mathieu Flamini;Francia;Getafe;Centrocampista
+256;Nemanja Maksimović;Serbia;Getafe;Centrocampista
+257;Markel Bergara;España;Getafe;Centrocampista
+258;Miguel Rubio;España;Getafe;Centrocampista
+259;Portillo;España;Getafe;Centrocampista
+260;Gaku Shibasaki;Japón;Getafe;Centrocampista
+261;Ángel;España;Getafe;Delantero
+262;Amath Diedhiou;Senegal;Getafe;Delantero
+263;Hugo Duro;España;Getafe;Delantero
+264;Mata;España;Getafe;Delantero
+265;Jorge Molina;España;Getafe;Delantero
+266;Samu Sáiz;España;Getafe;Delantero
+267;Yassine Bounou;Marruecos;Girona;Portero
+268;Iraizoz;España;Girona;Portero
+269;José Suárez;España;Girona;Portero
+270;Carles Planas;España;Girona;Defensa
+271;Eric Montes;España;Girona;Defensa
+272;Bernardo Espinosa;Colombia;Girona;Defensa
+273;Juanpe;España;Girona;Defensa
+274;Johan Mojica;Colombia;Girona;Defensa
+275;Muniesa;España;Girona;Defensa
+276;Pedro Alcalá;España;Girona;Defensa
+277;Pedro Porro;España;Girona;Defensa
+278;Ramalho;España;Girona;Defensa
+279;Raúl Carnero;España;Girona;Defensa
+280;Aday;España;Girona;Centrocampista
+281;Aleix García;España;Girona;Centrocampista
+282;Álex Granell;España;Girona;Centrocampista
+283;Borja García;España;Girona;Centrocampista
+284;Douglas Luiz;Brasil;Girona;Centrocampista
+285;Seung-ho Paik;Corea del Sur;Girona;Centrocampista
+286;Pere Pons;España;Girona;Centrocampista
+287;Portu;España;Girona;Centrocampista
+288;Valery;España;Girona;Centrocampista
+289;Álex Pachón;España;Girona;Delantero
+290;Yhoan Andzouana;Congo;Girona;Delantero
+291;Seydou Doumbia;Costa de Marfil;Girona;Delantero
+292;Anthony Lozano;Honduras;Girona;Delantero
+293;Patrick Roberts;Inglaterra;Girona;Delantero
+294;Kévin Soni;Camerún;Girona;Delantero
+295;Cristhian Stuani;Uruguay;Girona;Delantero
+296;Javi Varas;España;Huesca;Portero
+297;Aleksandar Jovanović;Serbia;Huesca;Portero
+298;Santamaría;España;Huesca;Portero
+299;Adrian Diéguez;España;Huesca;Defensa
+300;Carlos Akapo;Guinea Ecuatorial;Huesca;Defensa
+301;Etxeita;España;Huesca;Defensa
+302;Javi Galán;España;Huesca;Defensa
+303;Javier Almerge;España;Huesca;Defensa
+304;Javito;España;Huesca;Defensa
+305;Luisinho;Portugal;Huesca;Defensa
+306;Martín Mantovani;Argentina;Huesca;Defensa
+307;Miramón;España;Huesca;Defensa
+308;Pablo Insua;España;Huesca;Defensa
+309;Pulido;España;Huesca;Defensa
+310;Juanpi Añor;Venezuela;Huesca;Centrocampista
+311;Camacho;España;Huesca;Centrocampista
+312;Christian Rivera;España;Huesca;Centrocampista
+313;David Ferreiro;España;Huesca;Centrocampista
+314;Yangel Herrera;Venezuela;Huesca;Centrocampista
+315;Juan Aguilera;España;Huesca;Centrocampista
+316;Melero;España;Huesca;Centrocampista
+317;Moi Gómez;España;Huesca;Centrocampista
+318;Damián Musto;Argentina;Huesca;Centrocampista
+319;Uche;España;Huesca;Centrocampista
+320;Álex Gallar;España;Huesca;Delantero
+321;Enric Gallego;España;Huesca;Delantero
+322;Cucho Hernández;Colombia;Huesca;Delantero
+323;André Grandi;Brasil;Leganés;Portero
+324;Andrés Prieto;España;Leganés;Portero
+325;Cuéllar;España;Leganés;Portero
+326;Andriy Lunin;Ucrania;Leganés;Portero
+327;Tejero;España;Leganés;Portero
+328;Bustinza;España;Leganés;Defensa
+329;Juanfran;España;Leganés;Defensa
+330;Vasyl Kravets;Ucrania;Leganés;Defensa
+331;Ezequiel Muñoz;Argentina;Leganés;Defensa
+332;Allan Nyom;Camerún;Leganés;Defensa
+333;Kenneth Omeruo;Nigeria;Leganés;Defensa
+334;Diego Reyes;México;Leganés;Defensa
+335;Rodrigo Tarín;España;Leganés;Defensa
+336;Jonathan Silva;Argentina;Leganés;Defensa
+337;Dimitrios Siovas;Grecia;Leganés;Defensa
+338;Eraso;España;Leganés;Centrocampista
+339;Gumbau;España;Leganés;Centrocampista
+340;José Arnáiz;España;Leganés;Centrocampista
+341;Óscar;España;Leganés;Centrocampista
+342;Recio;España;Leganés;Centrocampista
+343;Rubén Pérez;España;Leganés;Centrocampista
+344;Vesga;España;Leganés;Centrocampista
+345;Martin Braithwaite;Dinamarca;Leganés;Delantero
+346;Guido Carrillo;Argentina;Leganés;Delantero
+347;Youssef En-Nesyri;Marruecos;Leganés;Delantero
+348;Javier Avilés;España;Leganés;Delantero
+349;Sabin;España;Leganés;Delantero
+350;Michael Santos;Uruguay;Leganés;Delantero
+351;Alexander Szymanowski;Argentina;Leganés;Delantero
+352;Aitor Fernández;España;Levante;Portero
+353;Koke Vegas;España;Levante;Portero
+354;Oier;España;Levante;Portero
+355;Antonio Luna;España;Levante;Defensa
+356;Erick Cabaco;Uruguay;Levante;Defensa
+357;Chema;España;Levante;Defensa
+358;Coke;España;Levante;Defensa
+359;Genís Montolio;España;Levante;Defensa
+360;Shaq Moore;Estados Unidos;Levante;Defensa
+361;Pedro López;España;Levante;Defensa
+362;Róber;España;Levante;Defensa
+363;Rúben Vezo;Portugal;Levante;Defensa
+364;Sergio Postigo;España;Levante;Defensa
+365;Toño García;España;Levante;Defensa
+366;Arturo Molina;España;Levante;Centrocampista
+367;Enis Bardhi;Macedonia del Norte;Levante;Centrocampista
+368;Campaña;España;Levante;Centrocampista
+369;Cheick Doukouré;Costa de Marfil;Levante;Centrocampista
+370;Fran Manzanara;España;Levante;Centrocampista
+371;Jason;España;Levante;Centrocampista
+372;Pepelu;España;Levante;Centrocampista
+373;Rubén Rochina;España;Levante;Centrocampista
+374;Nikola Vukcevic;Montenegro;Levante;Centrocampista
+375;Borja Mayoral;España;Levante;Delantero
+376;Raphael Dwamena;Ghana;Levante;Delantero
+377;Morales;España;Levante;Delantero
+378;Roger;España;Levante;Delantero
+379;Moses Simon;Nigeria;Levante;Delantero
+380;Alberto;España;Rayo Vallecano;Portero
+381;Stole Dimitrievski;Macedonia del Norte;Rayo Vallecano;Portero
+382;Morro;España;Rayo Vallecano;Portero
+383;Akieme;Guinea Ecuatorial;Rayo Vallecano;Defensa
+384;Abdoulaye Ba;Senegal;Rayo Vallecano;Defensa
+385;Catena;España;Rayo Vallecano;Defensa
+386;Gálvez;España;Rayo Vallecano;Defensa
+387;Jordi Amat;España;Rayo Vallecano;Defensa
+388;Martín Pascual;España;Rayo Vallecano;Defensa
+389;Meseguer;Guinea Ecuatorial;Rayo Vallecano;Defensa
+390;Tito;España;Rayo Vallecano;Defensa
+391;Emiliano Velázquez;Uruguay;Rayo Vallecano;Defensa
+392;Luis Advíncula;Perú;Rayo Vallecano;Centrocampista
+393;Uche Agbo;Nigeria;Rayo Vallecano;Centrocampista
+394;Álex Moreno;España;Rayo Vallecano;Centrocampista
+395;Álvaro García;España;Rayo Vallecano;Centrocampista
+396;Ángel Algobia;España;Rayo Vallecano;Centrocampista
+397;Elustondo;España;Rayo Vallecano;Centrocampista
+398;Giannelli Imbula;Francia;Rayo Vallecano;Centrocampista
+399;Manu Navarro;España;Rayo Vallecano;Centrocampista
+400;Mario Suárez;España;Rayo Vallecano;Centrocampista
+401;Medrán;España;Rayo Vallecano;Centrocampista
+402;Santi Comesaña;España;Rayo Vallecano;Centrocampista
+403;Bebé;Portugal;Rayo Vallecano;Delantero
+404;Franco Di Santo;Argentina;Rayo Vallecano;Delantero
+405;Embarba;España;Rayo Vallecano;Delantero
+406;Javi Guerra;España;Rayo Vallecano;Delantero
+407;José Pozo;España;Rayo Vallecano;Delantero
+408;Gael Kakuta;R.D. Congo;Rayo Vallecano;Delantero
+409;Raúl de Tomás;España;Rayo Vallecano;Delantero
+410;Sergio Moreno;España;Rayo Vallecano;Delantero
+411;Óscar Trejo;Argentina;Rayo Vallecano;Delantero
+412;Altube;España;Real Madrid;Portero
+413;Thibaut Courtois;Bélgica;Real Madrid;Portero
+414;Keylor Navas;Costa Rica;Real Madrid;Portero
+415;Luca Zidane;Francia;Real Madrid;Portero
+416;Dani Carvajal;España;Real Madrid;Defensa
+417;De la Fuente;España;Real Madrid;Defensa
+418;Javi Sánchez;España;Real Madrid;Defensa
+419;Jesús Vallejo;España;Real Madrid;Defensa
+420;Marcelo;Brasil;Real Madrid;Defensa
+421;Nacho;España;Real Madrid;Defensa
+422;Odriozola;España;Real Madrid;Defensa
+423;Reguilón;España;Real Madrid;Defensa
+424;Sergio Ramos;España;Real Madrid;Defensa
+425;Raphael Varane;Francia;Real Madrid;Defensa
+426;Brahim Díaz;España;Real Madrid;Centrocampista
+427;Casemiro;Brasil;Real Madrid;Centrocampista
+428;Dani Ceballos;España;Real Madrid;Centrocampista
+429;Francisco Feuillassier;Argentina;Real Madrid;Centrocampista
+430;Fidalgo;España;Real Madrid;Centrocampista
+431;Fran García;España;Real Madrid;Centrocampista
+432;Isco;España;Real Madrid;Centrocampista
+433;Jaume Grau;España;Real Madrid;Centrocampista
+434;Toni Kroos;Alemania;Real Madrid;Centrocampista
+435;Marco Asensio;España;Real Madrid;Centrocampista
+436;Marcos Llorente;España;Real Madrid;Centrocampista
+437;Luka Modrić;Croacia;Real Madrid;Centrocampista
+438;Seoane;España;Real Madrid;Centrocampista
+439;Federico Valverde;Uruguay;Real Madrid;Centrocampista
+440;Gareth Bale;Gales;Real Madrid;Delantero
+441;Karim Benzema;Francia;Real Madrid;Delantero
+442;Cristo;España;Real Madrid;Delantero
+443;Lucas Vázquez;España;Real Madrid;Delantero
+444;Mariano;Rep. Dominicana;Real Madrid;Delantero
+445;Vinicius Júnior;Brasil;Real Madrid;Delantero
+446;Moyá;España;Real Sociedad;Portero
+447;Gerónimo Rulli;Argentina;Real Sociedad;Portero
+448;Zubiaurre;España;Real Sociedad;Portero
+449;Aihen Muñoz;España;Real Sociedad;Defensa
+450;Álex Sola;España;Real Sociedad;Defensa
+451;Andoni Gorosabel;España;Real Sociedad;Defensa
+452;Aritz Elustondo;España;Real Sociedad;Defensa
+453;Theo Hernández;Francia;Real Sociedad;Defensa
+454;Joseba Zaldúa;España;Real Sociedad;Defensa
+455;Robin Le Normand;Francia;Real Sociedad;Defensa
+456;Llorente;España;Real Sociedad;Defensa
+457;Héctor Moreno;México;Real Sociedad;Defensa
+458;Raúl Navas;España;Real Sociedad;Defensa
+459;Kévin Rodrigues;Portugal;Real Sociedad;Defensa
+460;Guevara;España;Real Sociedad;Centrocampista
+461;Illarra;España;Real Sociedad;Centrocampista
+462;Adnan Januzaj;Bélgica;Real Sociedad;Centrocampista
+463;Luca Sangalli;España;Real Sociedad;Centrocampista
+464;Martín Merquelanz;España;Real Sociedad;Centrocampista
+465;Martín Zubimendi;España;Real Sociedad;Centrocampista
+466;Mikel Merino;España;Real Sociedad;Centrocampista
+467;Rubén Pardo;España;Real Sociedad;Centrocampista
+468;Zubeldía;España;Real Sociedad;Centrocampista
+469;David Zurutuza;España;Real Sociedad;Centrocampista
+470;Ander Barrenetxea;España;Real Sociedad;Delantero
+471;Naïs Djouahra;Francia;Real Sociedad;Delantero
+472;Jon Bautista;España;Real Sociedad;Delantero
+473;Mikel Oyarzabal;España;Real Sociedad;Delantero
+474;Roberto López;España;Real Sociedad;Delantero
+475;Sandro;España;Real Sociedad;Delantero
+476;Zourdine Thior;Senegal;Real Sociedad;Delantero
+477;Willian José;Brasil;Real Sociedad;Delantero
+478;Lucho García;Colombia;Sevilla;Portero
+479;Javi Díaz;España;Sevilla;Portero
+480;Juan Soriano;España;Sevilla;Portero
+481;Tomás Vaclík;República Checa;Sevilla;Portero
+482;Daniel Carrico;Portugal;Sevilla;Defensa
+483;Escudero;España;Sevilla;Defensa
+484;Joris Gnagnon;Francia;Sevilla;Defensa
+485;Guilherme Arana;Brasil;Sevilla;Defensa
+486;Juan Berrocal;España;Sevilla;Defensa
+487;Simon Kjaer;Dinamarca;Sevilla;Defensa
+488;Gabriel Mercado;Argentina;Sevilla;Defensa
+489;Sergi Gómez;España;Sevilla;Defensa
+490;Max Wober;Austria;Sevilla;Defensa
+491;Ibrahim Amadou;Francia;Sevilla;Centrocampista
+492;Éver Banega;Argentina;Sevilla;Centrocampista
+493;Maxime Gonalons;Francia;Sevilla;Centrocampista
+494;Jesús Navas;España;Sevilla;Centrocampista
+495;Pablo Sarabia;España;Sevilla;Centrocampista
+496;Pejiño;España;Sevilla;Centrocampista
+497;Pepe Mena;España;Sevilla;Centrocampista
+498;Marko Rog;Croacia;Sevilla;Centrocampista
+499;Roque Mesa;España;Sevilla;Centrocampista
+500;Franco Vázquez;Argentina;Sevilla;Centrocampista
+501;Aleix Vidal;España;Sevilla;Centrocampista
+502;André Silva;Portugal;Sevilla;Delantero
+503;Wissam Ben Yedder;Francia;Sevilla;Delantero
+504;Bryan Gil;España;Sevilla;Delantero
+505;Javi Vázquez;España;Sevilla;Delantero
+506;José Lara;España;Sevilla;Delantero
+507;Munir;España;Sevilla;Delantero
+508;Nolito;España;Sevilla;Delantero
+509;Quincy Promes;Países Bajos;Sevilla;Delantero
+510;Cristian Rivero;España;Valencia;Portero
+511;Jaume;España;Valencia;Portero
+512;Neto;Brasil;Valencia;Portero
+513;Álex Centelles;España;Valencia;Defensa
+514;Mouctar Diakhaby;Francia;Valencia;Defensa
+515;Gabriel Paulista;Brasil;Valencia;Defensa
+516;Ezequiel Garay;Argentina;Valencia;Defensa
+517;Gayà;España;Valencia;Defensa
+518;Hugo Guillamón;España;Valencia;Defensa
+519;Cristiano Piccini;Italia;Valencia;Defensa
+520;Facundo Roncaglia;Argentina;Valencia;Defensa
+521;Toni Lato;España;Valencia;Defensa
+522;Carlos Soler;España;Valencia;Centrocampista
+523;Francis Coquelin;Francia;Valencia;Centrocampista
+524;Dani Parejo;España;Valencia;Centrocampista
+525;Geoffrey Kondogbia;República Centroafricana;Valencia;Centrocampista
+526;Kang-in Lee;Corea del Sur;Valencia;Centrocampista
+527;Sito;España;Valencia;Centrocampista
+528;Daniel Wass;Dinamarca;Valencia;Centrocampista
+529;Ferrán Torres;España;Valencia;Delantero
+530;Fran Navarro;España;Valencia;Delantero
+531;Kevin Gameiro;Francia;Valencia;Delantero
+532;Gonçalo Guedes;Portugal;Valencia;Delantero
+533;Rodrigo;España;Valencia;Delantero
+534;Rubén Sobrino;España;Valencia;Delantero
+535;Santi Mina;España;Valencia;Delantero
+536;Jordi Masip;España;Valladolid;Portero
+537;Samuel Pérez;España;Valladolid;Portero
+538;Yoel;España;Valladolid;Portero
+539;Apa;España;Valladolid;Defensa
+540;Fernando Calero;España;Valladolid;Defensa
+541;Javi Moyano;España;Valladolid;Defensa
+542;Joaquín;España;Valladolid;Defensa
+543;Kiko Olivas;España;Valladolid;Defensa
+544;Moi Delgado;España;Valladolid;Defensa
+545;Nacho;España;Valladolid;Defensa
+546;Roberto Corral;España;Valladolid;Defensa
+547;Karim Salisú;Ghana;Valladolid;Defensa
+548;Alcaraz;España;Valladolid;Centrocampista
+549;Antoñito;España;Valladolid;Centrocampista
+550;Borja;España;Valladolid;Centrocampista
+551;El Hacen El Id;Mauritania;Valladolid;Centrocampista
+552;Keko;España;Valladolid;Centrocampista
+553;Luismi;España;Valladolid;Centrocampista
+554;Míchel;España;Valladolid;Centrocampista
+555;Pablo Muñoz;España;Valladolid;Centrocampista
+556;Sergi Guardiola;España;Valladolid;Centrocampista
+557;Toni Villa;España;Valladolid;Centrocampista
+558;Anuar Tuhami;Marruecos;Valladolid;Centrocampista
+559;Duje Cop;Croacia;Valladolid;Delantero
+560;Jorge De Frutos;España;Valladolid;Delantero
+561;Kuki;España;Valladolid;Delantero
+562;Miguel;España;Valladolid;Delantero
+563;Óscar Plano;España;Valladolid;Delantero
+564;Pablo Hervías;España;Valladolid;Delantero
+565;Stiven Plaza;Ecuador;Valladolid;Delantero
+566;Enes Unal;Turquía;Valladolid;Delantero
+567;Daniele Verde;Italia;Valladolid;Delantero
+568;Waldo Rubio;España;Valladolid;Delantero
+569;Andrés Fernández;España;Villarreal;Portero
+570;Asenjo;España;Villarreal;Portero
+571;Mariano Barbosa;Argentina;Villarreal;Portero
+572;Álvaro González;España;Villarreal;Defensa
+573;Daniele Bonera;Italia;Villarreal;Defensa
+574;Ramiro Funes Mori;Argentina;Villarreal;Defensa
+575;Jaume Costa;España;Villarreal;Defensa
+576;Mario Gaspar;España;Villarreal;Defensa
+577;Miguelón Llambrich;España;Villarreal;Defensa
+578;Pepe Castaño;España;Villarreal;Defensa
+579;Andrei Ratiu;Rumania;Villarreal;Defensa
+580;Víctor Ruiz;España;Villarreal;Defensa
+581;Xavi Quintilla;España;Villarreal;Defensa
+582;Bruno Soriano;España;Villarreal;Centrocampista
+583;Santiago Cáseres;Argentina;Villarreal;Centrocampista
+584;Dani Raba;España;Villarreal;Centrocampista
+585;Iborra;España;Villarreal;Centrocampista
+586;Iván Martin;España;Villarreal;Centrocampista
+587;Javi Fuego;España;Villarreal;Centrocampista
+588;Manu Morlanes;España;Villarreal;Centrocampista
+589;Pablo Fornals;España;Villarreal;Centrocampista
+590;Santi Cazorla;España;Villarreal;Centrocampista
+591;Trigueros;España;Villarreal;Centrocampista
+592;Carlos Bacca;Colombia;Villarreal;Delantero
+593;Denis Cheryshev;Rusia;Villarreal;Delantero
+594;Samuel Chukwueze;Nigeria;Villarreal;Delantero
+595;Gerard;España;Villarreal;Delantero
+596;Pedraza;España;Villarreal;Delantero
+597;Karl Toko Ekambi;Camerún;Villarreal;Delantero
