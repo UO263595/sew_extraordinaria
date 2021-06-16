@@ -32,15 +32,17 @@
 	
 	<main>
 	<h2>Información del tiempo</h2>
-	<h3>Busca información sobre el tiempo actual, pasado o la previsión</h3>
-	<section id="tiempoActual" class="btiempo">
+	<section id="tiempoActual" class="opciones">
+		<h3>Busca información sobre el tiempo actual, pasado o la previsión</h3>
 		<input type="button" value="Obtener el tiempo actual" onClick = "infoTiempo.tiempoActual()"/>
 	</section>
-	<section id="tiempoPrevision" class="btiempo">
+	<section id="tiempoPrevision" class="opciones">
+		<h3>Busca información sobre el tiempo actual, pasado o la previsión</h3>
 		<input type="number" id="inputDias" min="1" max="16" placeholder="días" />
 		<input type="button" value="Obtener la previsión del tiempo" onClick = "infoTiempo.tiempoPrevision()"/>
 	</section>
-	<section id="tiempoHistorico" class="btiempo">
+	<section id="tiempoHistorico" class="opciones">
+		<h3>Busca información sobre el tiempo actual, pasado o la previsión</h3>
 		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" />
 		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" />
 		<input type="button" value="Obtener el tiempo histórico" onClick = "infoTiempo.tiempoHistorico()"/>
