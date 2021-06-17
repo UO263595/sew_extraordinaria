@@ -68,7 +68,7 @@ class BuscadorNoticias {
 		// http://api.mediastack.com/v1/news?keywords=example&access_key=API-Token
 		this.url = "http://api.mediastack.com/v1/news?keywords=" + busqueda + this.idioma + this.orden + "&access_key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("div","","#bBuscar");
+		this.crearElemento("div","","#sectionBusqueda");
 		this.cargarDatos();
 	}
 }
