@@ -228,5 +228,5 @@ div.premio {
 /* a=0 b=0 c=1 especificidad: 001 */
 div {
 	display: inline-block;
-	margin: 2em 2em;
+	margin: 0.5em 2em;
 }
