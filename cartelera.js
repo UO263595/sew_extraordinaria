@@ -29,9 +29,8 @@ class ArchivoXML {
 				// Se recorren las películas
 				for (let i=0; i<totalPeliculas; i++) {
 					let datosPelicula = $('pelicula', datos).get(i);
-					
-					stringDatos += "<section class='datosPelicula'>";
 					stringDatos += "<h3>"+datosPelicula.getAttribute("nombre")+"</h3>";
+					stringDatos += "<section class='datosPelicula'>";
 					stringDatos += "<p>Género: "+datosPelicula.getAttribute("genero")+"</p>";
 					let fechaEstreno = new Date($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 					stringDatos += "<p>Fecha de estreno: "+fechaEstreno.toLocaleDateString()+"</p>";
