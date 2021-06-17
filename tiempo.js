@@ -63,7 +63,7 @@ class InfoTiempo {
 					let fecha = new Date(datos.data[i].valid_date);
 					stringDatos += "<div class='tiempo'>";
 					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
-					stringDatos += "<img src='"+icono+"'/>";
+					stringDatos += "<figure><img alt='Icono del tiempo' src='"+icono+"'/></figure>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
 					stringDatos += "<p>Descripción: "+datos.data[i].weather.description+"</p>";
