@@ -32,16 +32,18 @@
 	
 	<main>
 	<h2>Cartelera</h2>
-	<h3>Visualiza la cartelera actual, o carga una propia</h3>
 	<section class="opciones">
+		<h3>Visualiza la cartelera actual</h3>
 		<button onclick = "archivoXML.verXML()">Cargar cartelera actual</button>
 	</section>
 	<section class="opciones">
+		<h3>Carga una cartelera propia</h3>
 		<label for="archivo">Selecciona un archivo XML para visualizarlo: </label>
 		<input type="file" id="archivo" onchange="archivoXML.cargarArchivo(this.files)">
 	</section>
 	<section class="opciones">
-		<a id="descarga" download="pelicula.xml" href="peliculas.xml">Descarga la cartelera actual</a>
+		<h3>Descarga la cartelera actual</h3>
+		<a id="descarga" download="pelicula.xml" href="peliculas.xml">Pulsa para descargar</a>
 	</section>
 	</main>
 	
