@@ -166,7 +166,7 @@ class ArchivoXML {
 	// Muestra el archivo por defecto
 	verXML() {
 		$("div").remove();
-		this.crearElemento("div","","#descarga");
+		this.crearElemento("div","","#descargarCartelera");
 		//this.crearElemento("h3",this.correcto,"#descarga");
 		this.cargarDatos();
 	}
