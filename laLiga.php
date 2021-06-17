@@ -29,37 +29,47 @@
 	
 	<main>
 		<h2>Información deportiva LaLiga</h2>
-		
+
+		<section class="opcionesLiga">
 		<h3>Busca un jugador</h3>
 		<form action='#' method='GET' name='formulario'>
-		<label for="inputBuscarJugador">Jugador: </label><input type="text" id="inputBuscarJugador" name="inputBuscarJugador" placeholder="Inserta id, nombre o apellidos del jugador"/>
+		<label for="inputBuscarJugador">Jugador: </label><input type="text" id="inputBuscarJugador" name="inputBuscarJugador" class="buscadorLaLiga" placeholder="Inserta id, nombre o apellidos del jugador"/>
 		<button id='bBuscarJugador' name='bBuscarJugador' type='submit'>Buscar jugador</button>
 		</form>
+		</section>
 		
+		<section class="opcionesLiga">
 		<h3>Busca un equipo</h3>
 		<form action='#' method='GET' name='formulario'>
-		<label for="inputBuscarEquipo">Equipo: </label><input type="text" id="inputBuscarEquipo" name="inputBuscarEquipo" placeholder="Inserta el nombre de un equipo"/>
+		<label for="inputBuscarEquipo">Equipo: </label><input type="text" id="inputBuscarEquipo" name="inputBuscarEquipo" class="buscadorLaLiga" placeholder="Inserta el nombre de un equipo"/>
 		<button id='bBuscarEquipo' name='bBuscarEquipo' type='submit'>Buscar equipo</button>
 		</form>
+		</section>
 		
+		<section class="opcionesLiga">
 		<h3>Busca un partido</h3>
 		<form action='#' method='GET' name='formulario'>
-		<label for="inputBuscarPartido">Partido: </label><input type="text" id="inputBuscarPartido" name="inputBuscarPartido" placeholder="Inserta el código de un partido"/>
+		<label for="inputBuscarPartido">Partido: </label><input type="text" id="inputBuscarPartido" name="inputBuscarPartido" class="buscadorLaLiga" placeholder="Inserta el código de un partido"/>
 		<button id='bBuscarPartido' name='bBuscarPartido' type='submit'>Buscar partido</button>
 		</form>
+		</section>
 		
+		<section class="opcionesLiga">
 		<h3>Busca una rivalidad</h3>
 		<form action='#' method='GET' name='formulario'>
-		<label for="inputEquipo1">Primer equipo: </label><input type="text" id="inputEquipo1" name="inputEquipo1" placeholder="Inserta el nombre del primer equipo"/>
-		<label for="inputEquipo2">Segundo equipo: </label><input type="text" id="inputEquipo2" name="inputEquipo2" placeholder="Inserta el nombre del segundo equipo"/>
+		<label for="inputEquipo1">Primer equipo: </label><input type="text" id="inputEquipo1" name="inputEquipo1" class="buscadorLaLiga" placeholder="Inserta el nombre del primer equipo"/>
+		<label for="inputEquipo2">Segundo equipo: </label><input type="text" id="inputEquipo2" name="inputEquipo2" class="buscadorLaLiga" placeholder="Inserta el nombre del segundo equipo"/>
 		<button id='bBuscarRivalidad' name='bBuscarRivalidad' type='submit'>Buscar rivalidad</button>
 		</form>
+		</section>
 		
+		<section class="opcionesLiga">
 		<h3>Busca los equipos de una ciudad</h3>
 		<form action='#' method='GET' name='formulario'>
-		<label for="inputBuscarCiudad">Ciudad: </label><input type="text" id="inputBuscarCiudad" name="inputBuscarCiudad" placeholder="Inserta el nombre de una ciudad"/>
+		<label for="inputBuscarCiudad">Ciudad: </label><input type="text" id="inputBuscarCiudad" name="inputBuscarCiudad" class="buscadorLaLiga" placeholder="Inserta el nombre de una ciudad"/>
 		<button id='bBuscarCiudad' name='bBuscarCiudad' type='submit'>Buscar ciudad</button>
 		</form>
+		</section>
 	</main>
 	
 	<?php
@@ -165,24 +175,25 @@
 				} //else {echo "<p>Conexión establecida</p>";}
 				
 				try {
-					$consultaPre = $this->db->prepare("SELECT * FROM Jugador WHERE id = ? or nombre = ?");   
-					$consultaPre->bind_param('ss', $_GET["inputBuscarJugador"], $_GET["inputBuscarJugador"]);   	
+					$consultaPre = $this->db->prepare("SELECT * FROM Jugador WHERE id = ? or nombre LIKE ?"); 				
+					$nombreJugador = $_GET["inputBuscarJugador"]."%";
+					$consultaPre->bind_param('ss', $_GET["inputBuscarJugador"], $nombreJugador);   	
 					$consultaPre->execute();
 				
 					$resultado = $consultaPre->get_result();
 					if ($resultado->fetch_assoc()!=NULL) {
-						echo "<p>Datos del jugador:</p>";
 						$resultado->data_seek(0);
 						while($fila = $resultado->fetch_assoc()) {
-							echo "<p>--------------------------------------</p>";
-							echo "<p>ID = " . $fila['id'] . "</p>";
-							echo "<p>Nombre = " . $fila['nombre'] . "</p>";
-							echo "<p>Nacionalidad = " . $fila['nacionalidad'] . "</p>";
-							echo "<p>Equipo = ". $fila['equipo'] . "</p>";
-							echo "<p>Puesto = ". $fila['puesto'] . "</p>";
-							echo "<p>--------------------------------------</p>";
+							echo "<section class='laLiga'>";
+							echo "<h3>Datos del jugador</h3>";
+							echo "<p><b>" . $fila['nombre'] . "</b></p>";
+							echo "<p>ID: " . $fila['id'] . "</p>";
+							echo "<p>Nacionalidad: " . $fila['nacionalidad'] . "</p>";
+							echo "<p>Equipo: ". $fila['equipo'] . "</p>";
+							echo "<p>Puesto: ". $fila['puesto'] . "</p>";
+							echo "</section>";
 						}
-					} else {echo "<p>Búsqueda sin resultados.</p>";}
+					} else {echo "<div><p>Búsqueda sin resultados.</p></div>";}
 					$consultaPre->close();
 				} catch (Error $e) {
 					echo "<p>ERROR: " . $e->getMessage() . "</p>";
@@ -197,13 +208,13 @@
 				} //else {echo "<p>Conexión establecida</p>";}
 				
 				try {
-					$consultaPre = $this->db->prepare("SELECT * FROM Equipo WHERE nombre = ?");   
-					$consultaPre->bind_param('s', $_GET["inputBuscarEquipo"]);   	
+					$consultaPre = $this->db->prepare("SELECT * FROM Equipo WHERE nombre LIKE ?");   
+					$nombreEquipo = $_GET["inputBuscarEquipo"]."%";
+					$consultaPre->bind_param('s', $nombreEquipo);   	
 					$consultaPre->execute();
 				
 					$resultado = $consultaPre->get_result();
 					if ($resultado->fetch_assoc()!=NULL) {
-						echo "<p>Datos del equipo:</p>";
 						$resultado->data_seek(0);
 						while($fila = $resultado->fetch_assoc()) {
 							$goles = 0;
@@ -229,14 +240,15 @@
 							}
 							$consultaGoles->close();
 							
-							echo "<p>--------------------------------------</p>";
-							echo "<p>Nombre = " . $fila['nombre'] . "</p>";
-							echo "<p>Localización sede = " . $fila['sede'] . "</p>";
-							if ($fila['posicion']!=NULL) echo "<p>Posición = ". $fila['posicion'] . "</p>";
-							echo "<p>Goles totales = " . $goles . "</p>";
-							echo "<p>--------------------------------------</p>";
-						}
-					} else {echo "<p>Búsqueda sin resultados.</p>";}
+							echo "<section class='laLiga'>";
+							echo "<h3>Datos del equipo:</h3>";
+							echo "<p><b>" . $fila['nombre'] . "</b></p>";
+							echo "<p>Localización sede: " . $fila['sede'] . "</p>";
+							if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
+							echo "<p>Goles totales: " . $goles . "</p>";
+							echo "</section>";
+						}						
+					} else {echo "<div><p>Búsqueda sin resultados.</p></div>";}
 					$consultaPre->close();
 				} catch (Error $e) {
 					echo "<p>ERROR: " . $e->getMessage() . "</p>";
@@ -257,18 +269,18 @@
 				
 					$resultado = $consultaPre->get_result();
 					if ($resultado->fetch_assoc()!=NULL) {
-						echo "<p>Datos del partido:</p>";
 						$resultado->data_seek(0);
 						while($fila = $resultado->fetch_assoc()) {
-							echo "<p>--------------------------------------</p>";
-							echo "<p>Código = " . $fila['codigo'] . "</p>";
-							echo "<p>Equipo local = " . $fila['equipo_local'] . "</p>";
-							echo "<p>Equipo visitante = " . $fila['equipo_visitante'] . "</p>";
-							echo "<p>Fecha = ". $fila['fecha'] . "</p>";
-							if ($fila['goles_local']!=NULL && $fila['goles_visitante']!=NULL) echo "<p>Resultado = " . $fila['goles_local'] . " - " . $fila['goles_visitante'] . "</p>";
-							echo "<p>--------------------------------------</p>";
+							echo "<section class='laLiga'>";
+							echo "<h3>Datos del partido</h3>";
+							echo "<p><b>" . $fila['codigo'] . "</b></p>";
+							echo "<p>Equipo local: " . $fila['equipo_local'] . "</p>";
+							echo "<p>Equipo visitante: " . $fila['equipo_visitante'] . "</p>";
+							echo "<p>Fecha: ". $fila['fecha'] . "</p>";
+							if ($fila['goles_local']!=NULL && $fila['goles_visitante']!=NULL) echo "<p>Resultado: " . $fila['goles_local'] . " - " . $fila['goles_visitante'] . "</p>";
+							echo "</section>";
 						}
-					} else {echo "<p>Búsqueda sin resultados.</p>";}
+					} else {echo "<div><p>Búsqueda sin resultados.</p></div>";}
 					$consultaPre->close();
 				} catch (Error $e) {
 					echo "<p>ERROR: " . $e->getMessage() . "</p>";
@@ -283,22 +295,23 @@
 				} //else {echo "<p>Conexión establecida</p>";}
 				
 				try {
-					$consultaPre = $this->db->prepare("SELECT * FROM Equipo WHERE sede = ?");   
-					$consultaPre->bind_param('s', $_GET["inputBuscarCiudad"]);   	
+					$consultaPre = $this->db->prepare("SELECT * FROM Equipo WHERE sede LIKE ?");  
+					$nombreEquipo = $_GET["inputBuscarCiudad"]."%";					
+					$consultaPre->bind_param('s', $nombreEquipo);   	
 					$consultaPre->execute();
 				
 					$resultado = $consultaPre->get_result();
 					if ($resultado->fetch_assoc()!=NULL) {
-						echo "<p>Datos del equipo:</p>";
 						$resultado->data_seek(0);
 						while($fila = $resultado->fetch_assoc()) {
-							echo "<p>--------------------------------------</p>";
-							echo "<p>Nombre = " . $fila['nombre'] . "</p>";
-							echo "<p>Localización sede = " . $fila['sede'] . "</p>";
-							if ($fila['posicion']!=NULL) echo "<p>Posición = ". $fila['posicion'] . "</p>";
-							echo "<p>--------------------------------------</p>";
+							echo "<section class='laLiga'>";
+							echo "<h3>Datos del equipo:</h3>";
+							echo "<p><b>" . $fila['nombre'] . "</b></p>";
+							echo "<p>Localización sede: " . $fila['sede'] . "</p>";
+							if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
+							echo "</section>";
 						}
-					} else {echo "<p>No hay ninguna sede en esta localización.</p>";}
+					} else {echo "<section class='laLiga'><p>No hay ninguna sede en esta localización.</p></section>";}
 					$consultaPre->close();
 				} catch (Error $e) {
 					echo "<p>ERROR: " . $e->getMessage() . "</p>";
@@ -322,16 +335,16 @@
 				
 					$resultado = $consultaPre->get_result();
 					if ($resultado->fetch_assoc()!=NULL) {
-						echo "<p>Datos del equipo 1:</p>";
+						echo "<section class='laLiga'>";
+						echo "<h3>Datos del equipo 1</h3>";
 						$resultado->data_seek(0);
 						$fila = $resultado->fetch_assoc();
 						$equipo1 = $fila['nombre'];
-						echo "<p>--------------------------------------</p>";
-						echo "<p>Nombre = " . $fila['nombre'] . "</p>";
-						echo "<p>Localización sede = " . $fila['sede'] . "</p>";
-						if ($fila['posicion']!=NULL) echo "<p>Posición = ". $fila['posicion'] . "</p>";
-						echo "<p>--------------------------------------</p>";
-					} else {echo "<p>Búsqueda sin resultados.</p>";}
+						echo "<p><b>" . $fila['nombre'] . "</b></p>";
+						echo "<p>Localización sede: " . $fila['sede'] . "</p>";
+						if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
+						echo "</section>";
+					}
 					$consultaPre->close();
 
 					$consultaPre = $this->db->prepare("SELECT * FROM Equipo WHERE nombre = ?");   
@@ -340,19 +353,19 @@
 				
 					$resultado = $consultaPre->get_result();
 					if ($resultado->fetch_assoc()!=NULL) {
-						echo "<p>Datos del equipo 2:</p>";
+						echo "<section class='laLiga'>";
+						echo "<h3>Datos del equipo 2</h3>";
 						$resultado->data_seek(0);
 						$fila = $resultado->fetch_assoc();
 						$equipo2 = $fila['nombre'];
-						echo "<p>--------------------------------------</p>";
-						echo "<p>Nombre = " . $fila['nombre'] . "</p>";
-						echo "<p>Localización sede = " . $fila['sede'] . "</p>";
-						if ($fila['posicion']!=NULL) echo "<p>Posición = ". $fila['posicion'] . "</p>";
-						echo "<p>--------------------------------------</p>";
-					} else {echo "<p>Búsqueda sin resultados.</p>";}
+						echo "<p><b>" . $fila['nombre'] . "</b></p>";
+						echo "<p>Localización sede: " . $fila['sede'] . "</p>";
+						if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
+						echo "</section>";
+					}
 					$consultaPre->close();
 					
-					if ($equipo1=="Sin datos" or $equipo2=="Sin datos") echo "<p>Asegurate de introducir los nombres de los equipos correctamente.</p>";
+					if ($equipo1=="Sin datos" or $equipo2=="Sin datos") echo "<section class='laLiga'><p>No se han encontrado resultados.</p><p>Asegurate de introducir los nombres de los equipos correctamente.</p></section>";
 					else {
 						$victoriasEquipo1 = 0;
 						$victoriasEquipo2 = 0;
@@ -369,7 +382,7 @@
 								else if ($fila['goles_local']<$fila['goles_visitante']) $victoriasEquipo2++;
 								else $empates++;
 							}
-						} else {echo "<p>No existen datos.</p>";}
+						}
 						$consultaPre->close();
 						
 						$consultaPre = $this->db->prepare("SELECT * FROM Partido WHERE equipo_local = ? and equipo_visitante = ?");   
@@ -384,11 +397,14 @@
 								else if ($fila['goles_local']<$fila['goles_visitante']) $victoriasEquipo1++;
 								else $empates++;
 							}
-						} else {echo "<p>No existen datos.</p>";}
+						}
 						$consultaPre->close();
+						echo "<section class='laLiga'>";
+						echo "<h3>Estadísticas</h3>";
 						echo "<p>Total victorias del ". $equipo1 .": ". $victoriasEquipo1 ."</p>";
 						echo "<p>Total victorias del ". $equipo2 .": ". $victoriasEquipo2 ."</p>";
 						echo "<p>Total empates: ". $empates ."</p>";
+						echo "</section>";
 					}
 				} catch (Error $e) {
 					echo "<p>ERROR: " . $e->getMessage() . "</p>";

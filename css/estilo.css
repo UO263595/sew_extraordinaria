@@ -179,6 +179,11 @@ section.buscadorNoticias, section.advertencia {
 	display: inline-block;
 }
 
+section.laLiga {
+	display: inline-block;
+	margin: 2em 3.5em 0.2em;
+}
+
 /* a=0 b=0 c=1 especificidad: 001 */
 div.actor {
 	display: inline;
@@ -202,7 +207,13 @@ section.informacion {
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
-div.tiempo {
+div {
+	display: inline-block;
+	margin: 0.5em 2em;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+div.tiempo, div.cine, div.premio {
 	display: inline-block;
 	margin: 0.5em 3em;
 }
@@ -213,24 +224,22 @@ section.opciones {
 	margin: 0.5em 3em;
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
+section.opcionesLiga {
+	display: block;
+	margin: 0.5em 3em;
+}
+
+/* a=1 b=0 c=0 especificidad: 100 */
 #tiempoActual {
 	display: block;
 }
 
-/* a=0 b=0 c=1 especificidad: 001 */
-div.cine {
-	display: inline-block;
-	margin: 0.5em 3em;
+input.buscadorLaLiga {
+	width: 40%;
 }
 
-/* a=0 b=0 c=1 especificidad: 001 */
-div.premio {
-	display: inline-block;
-	margin: 0.5em 3em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-div {
-	display: inline-block;
-	margin: 0.5em 2em;
+#inputEquipo1, #inputEquipo2 {
+	display: block;
+	margin: 2em 2em;
 }
