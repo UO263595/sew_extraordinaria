@@ -30,11 +30,11 @@ class ArchivoXML {
 				for (let i=0; i<totalPeliculas; i++) {
 					let datosPelicula = $('pelicula', datos).get(i);
 					stringDatos += "<h3>"+datosPelicula.getAttribute("nombre")+"</h3>";
-					stringDatos += "<section class='datosPelicula'>";
+					stringDatos += "<div class='datosPelicula'>";
 					stringDatos += "<p>Género: "+datosPelicula.getAttribute("genero")+"</p>";
 					let fechaEstreno = new Date($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 					stringDatos += "<p>Fecha de estreno: "+fechaEstreno.toLocaleDateString()+"</p>";
-					stringDatos += "</section>";
+					stringDatos += "</div>";
 					
 					stringDatos += "<h4>Cines</h4>";
 					let datosCines = $('cines', datosPelicula).get(0);
@@ -43,13 +43,13 @@ class ArchivoXML {
 					//console.log(totalCines);
 					// Se recorren los cines
 					for (let j=0; j<totalCines; j++) {
-						stringDatos += "<section class='cine'>";
+						stringDatos += "<div class='cine'>";
 						let datosCine = $('cine', datosCines).get(j);
 						stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
 						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("calle")+", "+$('direccion', datosCine).get(0).getAttribute("ciudad")+"</p>";
 						let fechaProgramacion = new Date($('programacion', datosCine).get(0).getAttribute("fecha"));
 						stringDatos += "<p>Programación: "+fechaProgramacion.toLocaleDateString()+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
-						stringDatos += "</section>";
+						stringDatos += "</div>";
 					}
 					
 					stringDatos += "<h4>Descripción</h4>";
