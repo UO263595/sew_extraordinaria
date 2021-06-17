@@ -64,7 +64,7 @@ class BuscadorMercado {
 		// http://api.marketstack.com/v1/eod?symbols=example&access_key=API-Token
 		this.url = "http://api.marketstack.com/v1/eod?symbols=" + busqueda + "&date_from=" + fechaInicial + "&date_to=" + fechaFinal + "&access_key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("div","","#bBuscar");
+		this.crearElemento("div","","#opcionesMercado");
 		this.cargarDatos();
 	}
 }
