@@ -8,7 +8,7 @@ class ArchivoXML {
 	// Constructor de la clase
 	constructor(nombre) {
 		this.nombre = nombre;
-		this.correcto = "¡Todo correcto! archivo XML cargado"
+		//this.correcto = "¡Todo correcto! archivo XML cargado"
 	}
 	
 	// Carga y muestra la cartelera
@@ -20,7 +20,7 @@ class ArchivoXML {
 			success: function(datos) {
 				// Pasar el archivo XML a un string
 				//var str = (new XMLSerializer()).serializeToString(datos);
-				console.log(datos);
+				//console.log(datos);
 				// Cadena con todos los datos recogidos del XML
 				var stringDatos = "";
 				
@@ -29,8 +29,9 @@ class ArchivoXML {
 				// Se recorren las películas
 				for (let i=0; i<totalPeliculas; i++) {
 					let datosPelicula = $('pelicula', datos).get(i);
-					stringDatos += "<h3>"+datosPelicula.getAttribute("nombre")+"</h3>";
+					
 					stringDatos += "<section class='datosPelicula'>";
+					stringDatos += "<h3>"+datosPelicula.getAttribute("nombre")+"</h3>";
 					stringDatos += "<p>Género: "+datosPelicula.getAttribute("genero")+"</p>";
 					let fechaEstreno = new Date($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 					stringDatos += "<p>Fecha de estreno: "+fechaEstreno.toLocaleDateString()+"</p>";
@@ -166,8 +167,8 @@ class ArchivoXML {
 	// Muestra el archivo por defecto
 	verXML() {
 		$("div").remove();
-		this.crearElemento("div","","h2");
-		//this.crearElemento("h3",this.correcto,"h2");
+		this.crearElemento("div","","#descarga");
+		//this.crearElemento("h3",this.correcto,"#descarga");
 		this.cargarDatos();
 	}
 	
@@ -177,7 +178,7 @@ class ArchivoXML {
 		console.log(archivo);
 		
 		$("div").remove();
-		this.crearElemento("div","","h2");
+		this.crearElemento("div","","#descarga");
 		
 		var lector = new FileReader();
 		lector.onload = function (evento) {
