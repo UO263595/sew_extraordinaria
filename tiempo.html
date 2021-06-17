@@ -34,13 +34,13 @@
 	<h2>Información del tiempo</h2>
 	<section id="tiempoPrevision" class="opciones">
 		<h3>Busca información sobre la previsión del tiempo</h3>
-		<input type="number" id="inputDias" min="1" max="16" placeholder="días" />
+		<label for="inputDias">Stock Ticker: </label><input type="number" id="inputDias" name="inputDias" min="1" max="16" placeholder="días" />
 		<input type="button" value="Obtener la previsión del tiempo" onClick = "infoTiempo.tiempoPrevision()"/>
 	</section>
 	<section id="tiempoHistorico" class="opciones">
 		<h3>Busca información sobre el tiempo pasado</h3>
-		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" />
-		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" />
+		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" name="fechaInicial" />
+		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" name="fechaFinal" />
 		<input type="button" value="Obtener el tiempo histórico" onClick = "infoTiempo.tiempoHistorico()"/>
 	</section>
 	<section id="tiempoActual" class="opciones">
