@@ -213,6 +213,10 @@ section.opciones {
 	margin: 0.5em 3em;
 }
 
+#tiempoActual {
+	display: block;
+}
+
 /* a=0 b=0 c=1 especificidad: 001 */
 div.cine {
 	display: inline-block;
