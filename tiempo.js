@@ -23,7 +23,7 @@ class InfoTiempo {
 				var stringDatos = "";
 				stringDatos += "<h3>Tiempo Actual</h3>";
 				stringDatos += "<div class='tiempo'>";
-				stringDatos += "<img src='"+icono+"'/>";
+				stringDatos += "<figure><img alt='Icono del tiempo' src='"+icono+"'/></figure>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
 				stringDatos += "<p>Descripción: "+datos.data[0].weather.description+"</p>";
