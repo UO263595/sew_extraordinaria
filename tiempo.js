@@ -22,7 +22,7 @@ class InfoTiempo {
 				
 				var stringDatos = "";
 				stringDatos += "<h3>Tiempo Actual</h3>";
-				stringDatos += "<section class='tiempo'>";
+				stringDatos += "<div class='tiempo'>";
 				stringDatos += "<img src='"+icono+"'/>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
@@ -33,7 +33,7 @@ class InfoTiempo {
 				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir_full+"</p>";
 				stringDatos += "<p>Salida del sol: "+datos.data[0].sunrise+"</p>";
 				stringDatos += "<p>Puesta de sol: "+datos.data[0].sunset+"</p>";
-				stringDatos += "</section>";
+				stringDatos += "</div>";
 
 				$("div").html(stringDatos);
 			},
@@ -61,7 +61,7 @@ class InfoTiempo {
 					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
 					let fecha = new Date(datos.data[i].valid_date);
-					stringDatos += "<section class='tiempo'>";
+					stringDatos += "<div class='tiempo'>";
 					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
 					stringDatos += "<img src='"+icono+"'/>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
@@ -71,7 +71,7 @@ class InfoTiempo {
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
 					stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
-					stringDatos += "</section>";
+					stringDatos += "</div>";
 				}
 				
 				$("div").html(stringDatos);
@@ -100,14 +100,14 @@ class InfoTiempo {
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].datetime);
-					stringDatos += "<section class='tiempo'>";
+					stringDatos += "<div class='tiempo'>";
 					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
-					stringDatos += "</section>";
+					stringDatos += "</div>";
 				}
 				
 				$("div").html(stringDatos);
@@ -189,7 +189,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/current
 		this.url = "https://api.weatherbit.io/v2.0/current?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("div","","#tiempoHistorico");
+		this.crearElemento("div","","#tiempoActual");
 		this.cargarDatosActuales();
 	}
 	
@@ -200,7 +200,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/forecast
 		this.url = "https://api.weatherbit.io/v2.0/forecast/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&days=" + dias + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("div","","#tiempoHistorico");
+		this.crearElemento("div","","#tiempoActual");
 		this.cargarDatosPrevistos();
 	}
 	
@@ -212,7 +212,7 @@ class InfoTiempo {
 		// https://api.weatherbit.io/v2.0/history/daily
 		this.url = "https://api.weatherbit.io/v2.0/history/daily?lang=es&lat=" + this.getLatitud() + "&lon=" + this.getLongitud() + "&start_date=" + fechaInicial + "&end_date=" + fechaFinal + "&key=" + this.apikey;
 		console.log("El valor actual de la url es " + this.url);
-		this.crearElemento("div","","#tiempoHistorico");
+		this.crearElemento("div","","#tiempoActual");
 		this.cargarDatosHistoricos();
 	}
 }
