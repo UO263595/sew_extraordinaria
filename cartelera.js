@@ -304,8 +304,12 @@ class ArchivoXML {
 			}	
 			// Mostrar todos los datos
 			$("div").html(stringDatos);			
-		}      
-		lector.readAsText(archivo);		
+		}
+		try {
+			lector.readAsText(archivo);		
+		} catch (error) {
+			console.log(error);
+		}
 	}
 }
 
