@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+	<title>Periódico digital</title>
+    <meta charset="UTF-8">
+	<base href="https://uo263595.github.io/sew_extraordinaria/">
+	<meta name="author" content="María Fernández Rojo">
+	<meta name="description" content="Periódico digital con información sobre noticias, el mercado actual y el tiempo"> 
+	
+	<link rel="shortcut icon" type="image/x-icon" href="multimedia/icono.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--hoja de estilo por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/posicionamiento.css"> <!--hoja de estilo adicional-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="tiempo.js"></script>
+</head>
+
+<body>
+	<nav>
+		<ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+			<li><a href="buscador.html">Buscador de noticias</a></li>
+			<li><a href="laLiga.php">LaLiga</a></li>
+			<li><a href="tiempo.html">El tiempo</a></li>
+        </ul>
+	</nav>
+	<header>
+        <h1>Periódico Digital</h1>
+    </header>
+	
+	<main>
+	<h2>Información del tiempo</h2>
+	<section id="tiempoPrevision" class="opciones">
+		<h3>Busca información sobre la previsión del tiempo</h3>
+		<label for="inputDias">Introduce el nº de días: </label><input type="number" id="inputDias" name="inputDias" min="1" max="16" placeholder="días">
+		<input type="button" value="Obtener la previsión del tiempo" onclick="infoTiempo.tiempoPrevision()">
+	</section>
+	<section id="tiempoHistorico" class="opciones">
+		<h3>Busca información sobre el tiempo pasado</h3>
+		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" name="fechaInicial">
+		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" name="fechaFinal">
+		<input type="button" value="Obtener el tiempo histórico" onclick="infoTiempo.tiempoHistorico()">
+	</section>
+	<section id="tiempoActual" class="opciones">
+		<h3>Busca información sobre el tiempo actual</h3>
+		<input type="button" value="Obtener el tiempo actual" onclick="infoTiempo.tiempoActual()">
+	</section><div><h3>Tiempo Previsto</h3><p>Localización: Cabezón de la Sal</p><div class="tiempo"><p><b>Fecha: 21/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/r03d.png"></figure><p>Temperatura mínima: 14.7 ºC</p><p>Temperatura máxima: 17.7 ºC</p><p>Descripción: Lluvia intensa</p><p>Nubes: 97 %</p><p>Precipitaciones: 14.3164 mm</p><p>Velocidad del viento: 1.8849 m/s</p><p>Dirección del viento: Oeste</p></div><div class="tiempo"><p><b>Fecha: 22/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/r02d.png"></figure><p>Temperatura mínima: 12.8 ºC</p><p>Temperatura máxima: 16.3 ºC</p><p>Descripción: Lluvia moderada</p><p>Nubes: 93 %</p><p>Precipitaciones: 11.9473 mm</p><p>Velocidad del viento: 3.09474 m/s</p><p>Dirección del viento: Oeste</p></div><div class="tiempo"><p><b>Fecha: 23/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/r03d.png"></figure><p>Temperatura mínima: 11.8 ºC</p><p>Temperatura máxima: 14.2 ºC</p><p>Descripción: Lluvia intensa</p><p>Nubes: 97 %</p><p>Precipitaciones: 26.8457 mm</p><p>Velocidad del viento: 3.10219 m/s</p><p>Dirección del viento: Oeste-Noroeste</p></div><div class="tiempo"><p><b>Fecha: 24/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/r04d.png"></figure><p>Temperatura mínima: 10.9 ºC</p><p>Temperatura máxima: 17.1 ºC</p><p>Descripción: Aguacero ligero</p><p>Nubes: 89 %</p><p>Precipitaciones: 3.5 mm</p><p>Velocidad del viento: 1.02688 m/s</p><p>Dirección del viento: Suroeste</p></div><div class="tiempo"><p><b>Fecha: 25/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/c02d.png"></figure><p>Temperatura mínima: 9.7 ºC</p><p>Temperatura máxima: 20.6 ºC</p><p>Descripción: Nubes dispersas</p><p>Nubes: 31 %</p><p>Precipitaciones: 0 mm</p><p>Velocidad del viento: 1.56651 m/s</p><p>Dirección del viento: Este-Sureste</p></div><div class="tiempo"><p><b>Fecha: 26/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/c02d.png"></figure><p>Temperatura mínima: 9.7 ºC</p><p>Temperatura máxima: 19.2 ºC</p><p>Descripción: Nubes dispersas</p><p>Nubes: 37 %</p><p>Precipitaciones: 0.125 mm</p><p>Velocidad del viento: 1.41839 m/s</p><p>Dirección del viento: Sur</p></div><div class="tiempo"><p><b>Fecha: 27/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/c04d.png"></figure><p>Temperatura mínima: 8.9 ºC</p><p>Temperatura máxima: 12.8 ºC</p><p>Descripción: Cubierto</p><p>Nubes: 93 %</p><p>Precipitaciones: 2.75 mm</p><p>Velocidad del viento: 0.760504 m/s</p><p>Dirección del viento: Oeste-Suroeste</p></div><div class="tiempo"><p><b>Fecha: 28/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/c03d.png"></figure><p>Temperatura mínima: 7.4 ºC</p><p>Temperatura máxima: 18.6 ºC</p><p>Descripción: Poco nuboso</p><p>Nubes: 48 %</p><p>Precipitaciones: 0.625 mm</p><p>Velocidad del viento: 1.83211 m/s</p><p>Dirección del viento: Oeste-Noroeste</p></div><div class="tiempo"><p><b>Fecha: 29/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/c04d.png"></figure><p>Temperatura mínima: 11.1 ºC</p><p>Temperatura máxima: 19.2 ºC</p><p>Descripción: Cubierto</p><p>Nubes: 82 %</p><p>Precipitaciones: 0.875 mm</p><p>Velocidad del viento: 1.3142 m/s</p><p>Dirección del viento: Noroeste</p></div><div class="tiempo"><p><b>Fecha: 30/6/2021</b></p><figure><img alt="Icono del tiempo" src="https://www.weatherbit.io/static/img/icons/c03d.png"></figure><p>Temperatura mínima: 9.6 ºC</p><p>Temperatura máxima: 19.1 ºC</p><p>Descripción: Poco nuboso</p><p>Nubes: 67 %</p><p>Precipitaciones: 0.4375 mm</p><p>Velocidad del viento: 1.45031 m/s</p><p>Dirección del viento: Suroeste</p></div></div>
+	</main>
+	
+	<footer>
+		<h4>Más información</h4>
+		<p>
+			Cinema:
+			<a href="cartelera.html">Ver cartelera</a>
+		</p>
+		<p>
+			Mercado:
+			<a href="mercado.html">Ver datos de mercado</a>
+		</p>
+		<p>
+			Acerca de:
+			<a href="informacion.html">Miembros del equipo</a>
+		</p>
+		<p>Autora: María Fernández Rojo - UO263595</p>
+    </footer>
+
+</body></html>
