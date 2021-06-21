@@ -25,11 +25,11 @@ class BuscadorMercado {
 					let fecha = new Date(datos.data[i].date);
 					stringDatos += "<section class='mercado'>";
 					stringDatos += "<h3>" + datos.data[i].symbol + " - " + fecha.toLocaleDateString() + "</h3>";
-					stringDatos += "<p>Open: " + datos.data[i].open + "</p>";
-					stringDatos += "<p>High: " + datos.data[i].high + "</p>";
-					stringDatos += "<p>Low: " + datos.data[i].low + "</p>";
-					stringDatos += "<p>Close: " + datos.data[i].close + "</p>";
-					stringDatos += "<p>Volume: " + datos.data[i].volume + "</p>";
+					stringDatos += "<p>Abierto: " + datos.data[i].open + "</p>";
+					stringDatos += "<p>Alto: " + datos.data[i].high + "</p>";
+					stringDatos += "<p>Bajo: " + datos.data[i].low + "</p>";
+					stringDatos += "<p>Cerrado: " + datos.data[i].close + "</p>";
+					stringDatos += "<p>Volumen: " + datos.data[i].volume + "</p>";
 					stringDatos += "</section>";
 				}
 				stringDatos += "<h4>Total resultados: "+datos.pagination.total+"</h4>";
