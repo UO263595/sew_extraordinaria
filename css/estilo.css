@@ -167,79 +167,10 @@ figcaption.buscadorNoticias {
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
-video.buscadorNoticias, video.actor {
-	max-width: 28em;
-	max-height: 250px;
-	float: left;
-	margin: 3em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-section.buscadorNoticias, section.advertencia {
-	display: inline-block;
-}
-
-section.laLiga {
-	display: inline-block;
-	margin: 2em 3.5em 0.2em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-div.actor {
-	display: inline;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
 figure.buscadorNoticias, figure.actor {
     padding: 5px;
 }
 
-/* a=0 b=0 c=1 especificidad: 001 */
-section.mercado {
-	display: inline-block;
-	margin: 2em 3em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-section.informacion {
-	display: inline-block;
-	margin: 0.5em 3em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-div {
-	display: inline-block;
-	margin: 0.5em 2em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-div.tiempo, div.cine, div.premio {
-	display: inline-block;
-	margin: 0.5em 3em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-section.opciones {
-	display: inline-block;
-	margin: 0.5em 3em;
-}
-
-/* a=0 b=0 c=1 especificidad: 001 */
-section.opcionesLiga {
-	display: block;
-	margin: 0.5em 3em;
-}
-
-/* a=1 b=0 c=0 especificidad: 100 */
-#tiempoActual {
-	display: block;
-}
-
 input.buscadorLaLiga {
 	width: 40%;
-}
-
-#inputEquipo1, #inputEquipo2 {
-	display: block;
-	margin: 2em 2em;
 }
