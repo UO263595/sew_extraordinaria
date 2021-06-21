@@ -263,8 +263,9 @@
 				} //else {echo "<p>Conexión establecida</p>";}
 				
 				try {
-					$consultaPre = $this->db->prepare("SELECT * FROM Partido WHERE codigo = ?");   
-					$consultaPre->bind_param('s', $_GET["inputBuscarPartido"]);   	
+					$consultaPre = $this->db->prepare("SELECT * FROM Partido WHERE codigo LIKE ?");   
+					$codigoPartido = $_GET["inputBuscarPartido"]."%";		
+					$consultaPre->bind_param('s', $codigoPartido);   	
 					$consultaPre->execute();
 				
 					$resultado = $consultaPre->get_result();

@@ -66,18 +66,18 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://unioviedo-my.sharepoint.com/:i:/g/personal/uo263595_uniovi_es/EdZIpmRh5o1DgDWadlIeQk0Bg8mcNd4_4k3szcMZ-7cPHQ?e=deLOot"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img2.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/img3.jpg?raw=true"/>
-					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Uma-Thurman/video1.mp4?raw=true"/>
+					<fotografia enlace="multimedia/Uma-Thurman/img1.jpg"/>
+					<fotografia enlace="multimedia/Uma-Thurman/img2.jpg"/>
+					<fotografia enlace="multimedia/Uma-Thurman/img3.jpg"/>
+					<video enlace="multimedia/Uma-Thurman/video1.mp4"/>
 				</galeria>
 			</actor>
 			<actor nombre="David" apellidos="Carradine">
 				<nacimiento fecha="1936-12-08" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/img2.jpg?raw=true"/>
-					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/David-Carradine/video1.mp4?raw=true"/>
+					<fotografia enlace="multimedia/David-Carradine/img1.jpg"/>
+					<fotografia enlace="multimedia/David-Carradine/img2.jpg"/>
+					<video enlace="multimedia/David-Carradine/video1.mp4"/>
 				</galeria>
 			</actor>
 			<actor nombre="Chiaki" apellidos="Kuriyama">
@@ -95,8 +95,8 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Chiaki-Kuriyama/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Chiaki-Kuriyama/img2.jpg?raw=true"/>
+					<fotografia enlace="multimedia/Chiaki-Kuriyama/img1.jpg"/>
+					<fotografia enlace="multimedia/Chiaki-Kuriyama/img2.jpg"/>
 				</galeria>
 			</actor>
 		</actores>
@@ -181,8 +181,8 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Morgan-Freeman/img1.jpg?raw=true"/>
-					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Morgan-Freeman/video1.mp4?raw=true"/>
+					<fotografia enlace="multimedia/Morgan-Freeman/img1.jpg"/>
+					<video enlace="multimedia/Morgan-Freeman/video1.mp4"/>
 				</galeria>
 			</actor>
 			<actor nombre="Tim" apellidos="Robbins">
@@ -214,8 +214,8 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Tim-Robins/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Tim-Robins/img2.jpeg?raw=true"/>
+					<fotografia enlace="multimedia/Tim-Robins/img1.jpg"/>
+					<fotografia enlace="multimedia/Tim-Robins/img2.jpeg"/>
 				</galeria>
 			</actor>
 			<actor nombre="Bob" apellidos="Gunton">
@@ -235,9 +235,9 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bob-Gunton/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bob-Gunton/img2.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bob-Gunton/img3.jpg?raw=true"/>
+					<fotografia enlace="multimedia/Bob-Gunton/img1.jpg"/>
+					<fotografia enlace="multimedia/Bob-Gunton/img2.jpg"/>
+					<fotografia enlace="multimedia/Bob-Gunton/img3.jpg"/>
 				</galeria>
 			</actor>
 		</actores>
@@ -318,29 +318,29 @@
 					/>
 				</premios>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/img1.jpg?raw=true"/>
-					<video enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Judy-Garland/video1.mp4?raw=true"/>
+					<fotografia enlace="multimedia/Judy-Garland/img1.jpg"/>
+					<video enlace="multimedia/Judy-Garland/video1.mp4"/>
 				</galeria>
 			</actor>
 			<actor nombre="Ray" apellidos="Bolger">
 				<nacimiento fecha="1904-01-15" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Ray-Bolger/img2.jpg?raw=true"/>
+					<fotografia enlace="multimedia/Ray-Bolger/img1.jpg"/>
+					<fotografia enlace="multimedia/Ray-Bolger/img2.jpg"/>
 				</galeria>
 			</actor>
 			<actor nombre="Jack" apellidos="Haley">
 				<nacimiento fecha="1898-08-10" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Jack-Haley/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Jack-Haley/img2.jpg?raw=true"/>
+					<fotografia enlace="multimedia/Jack-Haley/img1.jpg"/>
+					<fotografia enlace="multimedia/Jack-Haley/img2.jpg"/>
 				</galeria>
 			</actor>
 			<actor nombre="Bert" apellidos="Lahr">
 				<nacimiento fecha="1895-08-13" pais="Estados Unidos"/>
 				<galeria>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bert-Lahr/img1.jpg?raw=true"/>
-					<fotografia enlace="https://github.com/UO263595/sew_extraordinaria/blob/gh-pages/multimedia/Bert-Lahr/img2.jpg?raw=true"/>
+					<fotografia enlace="multimedia/Bert-Lahr/img1.jpg"/>
+					<fotografia enlace="multimedia/Bert-Lahr/img2.jpg"/>
 				</galeria>
 			</actor>
 		</actores>
