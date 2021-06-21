@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+	<title>Periódico digital</title>
+    <meta charset="UTF-8">
+	<base href="https://uo263595.github.io/sew_extraordinaria/">
+	<meta name="author" content="María Fernández Rojo">
+	<meta name="description" content="Periódico digital con información sobre noticias, el mercado actual y el tiempo"> 
+	
+	<link rel="shortcut icon" type="image/x-icon" href="multimedia/icono.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--hoja de estilo por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/posicionamiento.css"> <!--hoja de estilo adicional-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="tiempo.js"></script>
+</head>
+
+<body>
+	<nav>
+		<ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+			<li><a href="buscador.html">Buscador de noticias</a></li>
+			<li><a href="laLiga.php">LaLiga</a></li>
+			<li><a href="tiempo.html">El tiempo</a></li>
+        </ul>
+	</nav>
+	<header>
+        <h1>Periódico Digital</h1>
+    </header>
+	
+	<main>
+	<h2>Información del tiempo</h2>
+	<section id="tiempoPrevision" class="opciones">
+		<h3>Busca información sobre la previsión del tiempo</h3>
+		<label for="inputDias">Introduce el nº de días: </label><input type="number" id="inputDias" name="inputDias" min="1" max="16" placeholder="días">
+		<input type="button" value="Obtener la previsión del tiempo" onclick="infoTiempo.tiempoPrevision()">
+	</section>
+	<section id="tiempoHistorico" class="opciones">
+		<h3>Busca información sobre el tiempo pasado</h3>
+		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" name="fechaInicial">
+		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" name="fechaFinal">
+		<input type="button" value="Obtener el tiempo histórico" onclick="infoTiempo.tiempoHistorico()">
+	</section>
+	<section id="tiempoActual" class="opciones">
+		<h3>Busca información sobre el tiempo actual</h3>
+		<input type="button" value="Obtener el tiempo actual" onclick="infoTiempo.tiempoActual()">
+	</section><div><h3>Tiempo Historico</h3><p>Localización: Cabezón de la Sal</p><div class="tiempo"><p><b>Fecha: 14/6/2021</b></p><p>Temperatura mínima: 19 ºC</p><p>Temperatura máxima: 27 ºC</p><p>Nubes: 70 %</p><p>Precipitaciones: 18.9 mm</p><p>Velocidad del viento: 2.8 m/s</p></div><div class="tiempo"><p><b>Fecha: 15/6/2021</b></p><p>Temperatura mínima: 17.9 ºC</p><p>Temperatura máxima: 26.5 ºC</p><p>Nubes: 33 %</p><p>Precipitaciones: 14.2 mm</p><p>Velocidad del viento: 2.9 m/s</p></div><div class="tiempo"><p><b>Fecha: 16/6/2021</b></p><p>Temperatura mínima: 18.4 ºC</p><p>Temperatura máxima: 26 ºC</p><p>Nubes: 84 %</p><p>Precipitaciones: 9.2 mm</p><p>Velocidad del viento: 3.7 m/s</p></div><div class="tiempo"><p><b>Fecha: 17/6/2021</b></p><p>Temperatura mínima: 17.3 ºC</p><p>Temperatura máxima: 19.4 ºC</p><p>Nubes: 96 %</p><p>Precipitaciones: 11.1 mm</p><p>Velocidad del viento: 2.2 m/s</p></div><div class="tiempo"><p><b>Fecha: 18/6/2021</b></p><p>Temperatura mínima: 16.1 ºC</p><p>Temperatura máxima: 21.3 ºC</p><p>Nubes: 98 %</p><p>Precipitaciones: 21.1 mm</p><p>Velocidad del viento: 2.5 m/s</p></div><div class="tiempo"><p><b>Fecha: 19/6/2021</b></p><p>Temperatura mínima: 15.5 ºC</p><p>Temperatura máxima: 21.6 ºC</p><p>Nubes: 77 %</p><p>Precipitaciones: 1.7 mm</p><p>Velocidad del viento: 2.6 m/s</p></div></div>
+	</main>
+	
+	<footer>
+		<h4>Más información</h4>
+		<p>
+			Cinema:
+			<a href="cartelera.html">Ver cartelera</a>
+		</p>
+		<p>
+			Mercado:
+			<a href="mercado.html">Ver datos de mercado</a>
+		</p>
+		<p>
+			Acerca de:
+			<a href="informacion.html">Miembros del equipo</a>
+		</p>
+		<p>Autora: María Fernández Rojo - UO263595</p>
+    </footer>
+
+</body></html>
