@@ -21,6 +21,7 @@ class BuscadorMercado {
 				$("#advertencia").remove();
 				
 				var stringDatos = "";
+				stringDatos += "<h3>Resultado de la búsqueda</h3>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].date);
 					stringDatos += "<section class='mercado'>";
