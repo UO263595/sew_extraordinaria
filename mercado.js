@@ -21,8 +21,6 @@ class BuscadorMercado {
 				$("#advertencia").remove();
 				
 				var stringDatos = "";
-				stringDatos += "<h3>Resultado de la búsqueda</h3>";
-				stringDatos += "<p>A continuación se muestra el resultado de la búsqueda correspondiente a los parámetros introducidos.</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].date);
 					stringDatos += "<section class='mercado'>";
@@ -34,7 +32,7 @@ class BuscadorMercado {
 					stringDatos += "<p>Volumen: " + datos.data[i].volume + "</p>";
 					stringDatos += "</section>";
 				}
-				stringDatos += "<div class='resultados'><h4>Total resultados: "+datos.pagination.total+"</h4></div>";
+				stringDatos += "<h4>Total resultados</h4><p>"+datos.pagination.total+"</p>";
 				
 				$("div").html(stringDatos);
 			},
