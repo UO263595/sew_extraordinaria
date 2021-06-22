@@ -131,7 +131,7 @@ class ArchivoXML {
 					let totalReferencias = $('referencia', datosBibliografia).length;
 					for (let p=0; p<totalReferencias; p++) {
 						let datosReferencia = $('referencia', datosBibliografia).get(p);
-						stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
+						stringDatos += "<p class='enlace'><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 					}
 					stringDatos += "</div>";
 

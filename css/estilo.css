@@ -174,3 +174,8 @@ figure.buscadorNoticias, figure.actor {
 input.buscadorLaLiga {
 	width: 40%;
 }
+
+p.enlace {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
