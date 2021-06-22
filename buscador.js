@@ -35,7 +35,7 @@ class BuscadorNoticias {
 							stringArticulos += "<figure class='buscadorNoticias'><img class='buscadorNoticias' alt='Imagen adjunta a la noticia' src='"+datos.data[i].image+"'/><figcaption class='buscadorNoticias'>"+datos.data[i].title+"</figcaption></figure>";
 					}
 					stringArticulos += "<p>" + datos.data[i].description + "</p>";
-					stringArticulos += "<p>Pulsa en el enlace para ver la noticia completa: <a href='" + datos.data[i].url + "'>Ver noticia</a><p>";
+					stringArticulos += "<p>Pulsa en el enlace para ver la noticia completa: <a href='" + datos.data[i].url + "'>"+datos.data[i].url+"</a><p>";
 					stringArticulos += "</div>";
 				}
 				stringArticulos += "<h4>Total resultados</h4><p>"+datos.pagination.total+"</p>";
