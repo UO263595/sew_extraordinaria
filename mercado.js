@@ -32,7 +32,7 @@ class BuscadorMercado {
 					stringDatos += "<p>Volumen: " + datos.data[i].volume + "</p>";
 					stringDatos += "</section>";
 				}
-				stringDatos += "<h4>Total resultados: "+datos.pagination.total+"</h4>";
+				stringDatos += "<div><h4>Total resultados: "+datos.pagination.total+"</h4></div>";
 				
 				$("div").html(stringDatos);
 			},
