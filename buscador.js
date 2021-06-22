@@ -38,7 +38,7 @@ class BuscadorNoticias {
 					stringArticulos += "<p>Pulsa en el enlace para ver la noticia completa: <a href='" + datos.data[i].url + "'>Ver noticia</a><p>";
 					stringArticulos += "</div>";
 				}
-				stringDatos += "<h4>Total resultados</h4><p>"+datos.pagination.total+"</p>";
+				stringArticulos += "<h4>Total resultados</h4><p>"+datos.pagination.total+"</p>";
 				
 				$("div").html(stringArticulos);
 			},
