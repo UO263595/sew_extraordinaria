@@ -173,10 +173,12 @@ figure.buscadorNoticias, figure.actor {
     padding: 5px;
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
 input.buscadorLaLiga {
 	width: 40%;
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
 p.enlace {
 	margin-top: 100px;
 	margin-bottom: 100px;

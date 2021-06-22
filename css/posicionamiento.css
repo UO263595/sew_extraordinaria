@@ -137,7 +137,7 @@ video.buscadorNoticias, video.actor {
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
-section.buscadorNoticias, section.advertencia {
+div.buscadorNoticias, section.advertencia {
 	display: inline-block;
 }
 
@@ -149,4 +149,9 @@ section.laLiga {
 /* a=0 b=0 c=1 especificidad: 001 */
 div.actor {
 	display: inline;
+}
+
+/* a=0 b=0 c=1 especificidad: 001 */
+div.resultados {
+	display: block;
 }
