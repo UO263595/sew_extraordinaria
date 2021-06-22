@@ -22,6 +22,7 @@ class BuscadorMercado {
 				
 				var stringDatos = "";
 				stringDatos += "<h3>Resultado de la búsqueda</h3>";
+				stringDatos += "<p>A continuación se muestra el resultado de la búsqueda correspondiente a los parámetros introducidos.</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].date);
 					stringDatos += "<section class='mercado'>";
