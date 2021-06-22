@@ -60,7 +60,7 @@ class ArchivoXML {
 					console.log($('sinopsis', datosDescripcion));
 					stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
-					stringDatos += "<p>Críticas</p>";
+					stringDatos += "<h5>Críticas</h5>";
 					let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 					// Se recorren las críticas
 					for (let k=0; k<totalCriticas; k++) {
@@ -90,7 +90,7 @@ class ArchivoXML {
 						let datosPremios =  $('premios', datosActor).get(0);
 						let totalPremios = $('premio', datosPremios).length;
 						if (totalPremios>0)
-							stringDatos += "<p>Premios</p>";
+							stringDatos += "<h5>Premios</h5>";
 						//console.log(totalPremios);
 						// Se recorren los premios
 						for (let m=0; m<totalPremios; m++) {
@@ -104,7 +104,7 @@ class ArchivoXML {
 							stringDatos += "</div>";
 						}
 						
-						stringDatos += "<p>Galería</p>";
+						stringDatos += "<h5>Galería</h5>";
 						stringDatos += "<div class='galeria'>";
 						let datosGaleria =  $('galeria', datosActor).get(0);
 						let totalFotografias = $('fotografia', datosGaleria).length;
@@ -131,7 +131,7 @@ class ArchivoXML {
 					let totalReferencias = $('referencia', datosBibliografia).length;
 					for (let p=0; p<totalReferencias; p++) {
 						let datosReferencia = $('referencia', datosBibliografia).get(p);
-						stringDatos += "<p>Referencia:</p>";
+						stringDatos += "<h5>Referencia:</h5>";
 						stringDatos += "<p class='enlace'><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 					}
 					stringDatos += "</div>";
@@ -223,7 +223,7 @@ class ArchivoXML {
 				console.log($('sinopsis', datosDescripcion));
 				stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 				stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
-				stringDatos += "<p>Críticas</p>";
+				stringDatos += "<h5>Críticas</h5>";
 				let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 				// Se recorren las críticas
 				for (let k=0; k<totalCriticas; k++) {
@@ -253,7 +253,7 @@ class ArchivoXML {
 					let datosPremios =  $('premios', datosActor).get(0);
 					let totalPremios = $('premio', datosPremios).length;
 					if (totalPremios>0)
-						stringDatos += "<p>Premios</p>";
+						stringDatos += "<h5>Premios</h5>";
 					//console.log(totalPremios);
 					// Se recorren los premios
 					for (let m=0; m<totalPremios; m++) {
@@ -267,7 +267,7 @@ class ArchivoXML {
 						stringDatos += "</div>";
 					}
 					
-					stringDatos += "<p>Galería</p>";
+					stringDatos += "<h5>Galería</h5>";
 					stringDatos += "<div class='galeria'>";
 					let datosGaleria =  $('galeria', datosActor).get(0);
 					let totalFotografias = $('fotografia', datosGaleria).length;
