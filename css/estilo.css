@@ -49,6 +49,7 @@ h3, h4, h5, h6 {
 	font-family: "Arial", sans-serif;
 	font-weight: bold;
 	color: #1C2833;
+	font-size: 1.3em;
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
