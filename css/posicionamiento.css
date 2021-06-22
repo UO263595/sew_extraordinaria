@@ -1,3 +1,5 @@
+@media (min-width: 600px) {
+
 /* a=0 b=0 c=2 especificidad: 002 */
 nav li {
 	float: left;
@@ -149,4 +151,6 @@ section.laLiga {
 /* a=0 b=0 c=1 especificidad: 001 */
 div.actor {
 	display: inline;
+}
+
 }
