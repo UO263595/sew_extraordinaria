@@ -55,14 +55,12 @@ class InfoTiempo {
 			method: 'GET',
 			success: function(datos) {
 				var stringDatos = "";
-				//stringDatos += "<h3>Tiempo Previsto</h3>";
-				//stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
 					let fecha = new Date(datos.data[i].valid_date);
 					stringDatos += "<section class='tiempo'>";
-					stringDatos += "<h4>Fecha: "+fecha.toLocaleDateString()+"</h4>";
+					stringDatos += "<h3>"+datos.city_name+" - "+fecha.toLocaleDateString()+"</h3>";
 					stringDatos += "<figure><img alt='Icono del tiempo' src='"+icono+"'/></figure>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";	
@@ -95,13 +93,10 @@ class InfoTiempo {
 			method: 'GET',
 			success: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<h3>Tiempo Historico</h3>";
-				console.log(datos);
-				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].datetime);
 					stringDatos += "<section class='tiempo'>";
-					stringDatos += "<h4>Fecha: "+fecha.toLocaleDateString()+"</h4>";
+					stringDatos += "<h3>"+datos.city_name+" - "+fecha.toLocaleDateString()+"</h3>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
