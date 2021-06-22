@@ -106,7 +106,7 @@ div {
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
-div.tiempo, div.cine, div.premio {
+section.tiempo, div.cine, div.premio {
 	display: inline-block;
 	margin: 0.5em 3em;
 }

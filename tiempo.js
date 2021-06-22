@@ -61,7 +61,7 @@ class InfoTiempo {
 					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
 					let fecha = new Date(datos.data[i].valid_date);
-					stringDatos += "<div class='tiempo'>";
+					stringDatos += "<section class='tiempo'>";
 					stringDatos += "<h4>Fecha: "+fecha.toLocaleDateString()+"</h4>";
 					stringDatos += "<figure><img alt='Icono del tiempo' src='"+icono+"'/></figure>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
@@ -71,7 +71,7 @@ class InfoTiempo {
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
 					stringDatos += "<p>Dirección del viento: "+datos.data[i].wind_cdir_full+"</p>";
-					stringDatos += "</div>";
+					stringDatos += "</section>";
 				}
 				
 				$("div").html(stringDatos);
