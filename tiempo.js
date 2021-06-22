@@ -21,8 +21,8 @@ class InfoTiempo {
 				console.log("El valor actual del icono es " + icono);
 				
 				var stringDatos = "";
+				stringDatos += "<section class='tiempo'>";
 				stringDatos += "<h3>Tiempo Actual</h3>";
-				stringDatos += "<div class='tiempo'>";
 				stringDatos += "<figure><img alt='Icono del tiempo' src='"+icono+"'/></figure>";
 				stringDatos += "<p>Localización: "+datos.data[0].city_name+"</p>";
 				stringDatos += "<p>Temperatura actual: "+datos.data[0].temp+" ºC</p>";
@@ -33,7 +33,7 @@ class InfoTiempo {
 				stringDatos += "<p>Dirección del viento: "+datos.data[0].wind_cdir_full+"</p>";
 				stringDatos += "<p>Salida del sol: "+datos.data[0].sunrise+"</p>";
 				stringDatos += "<p>Puesta de sol: "+datos.data[0].sunset+"</p>";
-				stringDatos += "</div>";
+				stringDatos += "</section>";
 
 				$("div").html(stringDatos);
 			},
@@ -100,14 +100,14 @@ class InfoTiempo {
 				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let fecha = new Date(datos.data[i].datetime);
-					stringDatos += "<div class='tiempo'>";
-					stringDatos += "<p><b>Fecha: "+fecha.toLocaleDateString()+"</b></p>";
+					stringDatos += "<section class='tiempo'>";
+					stringDatos += "<h4>Fecha: "+fecha.toLocaleDateString()+"</h4>";
 					stringDatos += "<p>Temperatura mínima: "+datos.data[i].min_temp+" ºC</p>";
 					stringDatos += "<p>Temperatura máxima: "+datos.data[i].max_temp+" ºC</p>";
 					stringDatos += "<p>Nubes: "+datos.data[i].clouds+" %</p>";
 					stringDatos += "<p>Precipitaciones: "+datos.data[i].precip+" mm</p>";
 					stringDatos += "<p>Velocidad del viento: "+datos.data[i].wind_spd+" m/s</p>";
-					stringDatos += "</div>";
+					stringDatos += "</section>";
 				}
 				
 				$("div").html(stringDatos);
