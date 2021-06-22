@@ -55,8 +55,8 @@ class InfoTiempo {
 			method: 'GET',
 			success: function(datos) {
 				var stringDatos = "";
-				stringDatos += "<h3>Tiempo Previsto</h3>";
-				stringDatos += "<p>Localización: "+datos.city_name+"</p>";
+				//stringDatos += "<h3>Tiempo Previsto</h3>";
+				//stringDatos += "<p>Localización: "+datos.city_name+"</p>";
 				for (let i = 0; i < datos.data.length; i++) {
 					let icono = "https://www.weatherbit.io/static/img/icons/"+datos.data[i].weather.icon+".png";
 					console.log("El valor actual del icono es " + icono);
