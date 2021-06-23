@@ -125,15 +125,15 @@ class ArchivoXML {
 					}
 					stringDatos += "</div>";
 					
-					stringDatos += "<h4>Bibliografía</h4>";
-					stringDatos += "<div class='bibliografia'>";
-					let datosBibliografia = $('bibliografia', datosPelicula).get(0);
-					let totalReferencias = $('referencia', datosBibliografia).length;
-					for (let p=0; p<totalReferencias; p++) {
-						let datosReferencia = $('referencia', datosBibliografia).get(p);
-						stringDatos += "<h5>Referencia:</h5>";
-						stringDatos += "<p class='enlace'><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
-					}
+	//				stringDatos += "<h4>Bibliografía</h4>";
+	//				stringDatos += "<div class='bibliografia'>";
+	//				let datosBibliografia = $('bibliografia', datosPelicula).get(0);
+	//				let totalReferencias = $('referencia', datosBibliografia).length;
+	//				for (let p=0; p<totalReferencias; p++) {
+	//					let datosReferencia = $('referencia', datosBibliografia).get(p);
+	//					stringDatos += "<h5>Referencia:</h5>";
+	//					stringDatos += "<p class='enlace'><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
+	//				}
 					stringDatos += "</div>";
 
 					//console.log(datos);
