@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+	<title>Periódico digital</title>
+    <meta charset="UTF-8">
+	<!-- <base href="https://uo263595.github.io/sew_extraordinaria/"> -->
+	<meta name="author" content="María Fernández Rojo">
+	<meta name="description" content="Periódico digital con información sobre noticias, el mercado actual y el tiempo">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="multimedia/icono.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--hoja de estilo por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/posicionamiento.css"> <!--hoja de estilo adicional-->
+</head>
+
+<body>
+	<nav>
+		<ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+			<li><a href="buscador.html">Buscador de noticias</a></li>
+			<li><a href="mercado.html">Mercado</a></li>
+			<li><a href="tiempo.html">El tiempo</a></li>
+        </ul>
+	</nav>
+	<header>
+        <h1>Periódico Digital</h1>
+    </header>
+	
+	<main>
+		<h2>Información deportiva LaLiga</h2>
+
+		<section class="opcionesLiga">
+		<h3>Busca un jugador</h3>
+		<form action="#" method="GET" name="formulario">
+		<label for="inputBuscarJugador">Jugador: </label><input type="text" id="inputBuscarJugador" name="inputBuscarJugador" class="buscadorLaLiga" placeholder="Inserta id, nombre o apellidos del jugador">
+		<button id="bBuscarJugador" name="bBuscarJugador" type="submit">Buscar jugador</button>
+		</form>
+		</section>
+		
+		<section class="opcionesLiga">
+		<h3>Busca un equipo</h3>
+		<form action="#" method="GET" name="formulario">
+		<label for="inputBuscarEquipo">Equipo: </label><input type="text" id="inputBuscarEquipo" name="inputBuscarEquipo" class="buscadorLaLiga" placeholder="Inserta el nombre de un equipo">
+		<button id="bBuscarEquipo" name="bBuscarEquipo" type="submit">Buscar equipo</button>
+		</form>
+		</section>
+		
+		<section class="opcionesLiga">
+		<h3>Busca un partido</h3>
+		<form action="#" method="GET" name="formulario">
+		<label for="inputBuscarPartido">Partido: </label><input type="text" id="inputBuscarPartido" name="inputBuscarPartido" class="buscadorLaLiga" placeholder="Inserta el código de un partido">
+		<button id="bBuscarPartido" name="bBuscarPartido" type="submit">Buscar partido</button>
+		</form>
+		</section>
+		
+		<section class="opcionesLiga">
+		<h3>Busca una rivalidad</h3>
+		<form action="#" method="GET" name="formulario">
+		<label for="inputEquipo1">Primer equipo: </label><input type="text" id="inputEquipo1" name="inputEquipo1" class="buscadorLaLiga" placeholder="Inserta el nombre del primer equipo">
+		<label for="inputEquipo2">Segundo equipo: </label><input type="text" id="inputEquipo2" name="inputEquipo2" class="buscadorLaLiga" placeholder="Inserta el nombre del segundo equipo">
+		<button id="bBuscarRivalidad" name="bBuscarRivalidad" type="submit">Buscar rivalidad</button>
+		</form>
+		</section>
+		
+		<section class="opcionesLiga">
+		<h3>Busca los equipos de una ciudad</h3>
+		<form action="#" method="GET" name="formulario">
+		<label for="inputBuscarCiudad">Ciudad: </label><input type="text" id="inputBuscarCiudad" name="inputBuscarCiudad" class="buscadorLaLiga" placeholder="Inserta el nombre de una ciudad">
+		<button id="bBuscarCiudad" name="bBuscarCiudad" type="submit">Buscar ciudad</button>
+		</form>
+		</section>
+	</main>
+	
+	<div><p>Búsqueda sin resultados.</p></div>	
+	<footer>
+		<h4>Más información</h4>
+		<p>
+			Cinema:
+			<a href="cartelera.html">Ver cartelera</a>
+		</p>
+		<p>
+			Acerca de:
+			<a href="informacion.html">Miembros del equipo</a>
+		</p>
+		<p>Autora: María Fernández Rojo - UO263595</p>
+    </footer>
+	
+</body></html>
