@@ -185,9 +185,12 @@ class ArchivoXML {
 		lector.onload = function (evento) {
 			console.log(lector.result);
 			let datos = lector.result;
+			// Pasar el archivo XML a un string
+			//var str = (new XMLSerializer()).serializeToString(datos);
+			//console.log(datos);
 			// Cadena con todos los datos recogidos del XML
 			var stringDatos = "";
-				
+			
 			var totalPeliculas = $('pelicula', datos).length;// cuenta el número de películas
 			//console.log(totalPeliculas);
 			// Se recorren las películas
@@ -225,6 +228,7 @@ class ArchivoXML {
 				stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 				stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
 				stringDatos += "<h5>Críticas</h5>";
+				stringDatos += "<ul>";
 				let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 				// Se recorren las críticas
 				for (let k=0; k<totalCriticas; k++) {
@@ -233,9 +237,9 @@ class ArchivoXML {
 					//console.log($('critica', $('recomendacion', datosDescripcion)));
 					//console.log(datosCritica.textContent);
 					//console.log($('critica', $('recomendacion', datosDescripcion)).text());
-					stringDatos += "<p>"+datosCritica.textContent+"</p>";
-					stringDatos += "<p><em>- "+datosCritica.getAttribute("autor")+"</em></p>";
+					stringDatos += "<li>"+datosCritica.textContent+" <em>- "+datosCritica.getAttribute("autor")+"</em></li>";
 				}
+				stringDatos += "</ul>";
 				stringDatos += "</div>";
 				
 				stringDatos += "<h4>Actores</h4>";
@@ -295,7 +299,8 @@ class ArchivoXML {
 				let totalReferencias = $('referencia', datosBibliografia).length;
 				for (let p=0; p<totalReferencias; p++) {
 					let datosReferencia = $('referencia', datosBibliografia).get(p);
-					stringDatos += "<p><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
+					stringDatos += "<h5>Referencia:</h5>";
+					stringDatos += "<p class='enlace'><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 				}
 				stringDatos += "</div>";
 
@@ -305,7 +310,7 @@ class ArchivoXML {
 				//console.log($('estreno', datosPelicula).get(0).getAttribute("fecha"));
 			}	
 			// Mostrar todos los datos
-			$("div").html(stringDatos);			
+			$("div").html(stringDatos);	
 		}      
 		lector.readAsText(archivo);		
 	}
