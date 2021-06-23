@@ -45,7 +45,7 @@ class ArchivoXML {
 					for (let j=0; j<totalCines; j++) {
 						stringDatos += "<div class='cine'>";
 						let datosCine = $('cine', datosCines).get(j);
-						stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
+						stringDatos += "<p><em>"+datosCine.getAttribute("nombre")+"</em></p>";	
 						stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("calle")+", "+$('direccion', datosCine).get(0).getAttribute("ciudad")+"</p>";
 						let fechaProgramacion = new Date($('programacion', datosCine).get(0).getAttribute("fecha"));
 						stringDatos += "<p>Programación: "+fechaProgramacion.toLocaleDateString()+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
@@ -61,6 +61,7 @@ class ArchivoXML {
 					stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
 					stringDatos += "<h5>Críticas</h5>";
+					stringDatos += "<ul>";
 					let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 					// Se recorren las críticas
 					for (let k=0; k<totalCriticas; k++) {
@@ -69,9 +70,9 @@ class ArchivoXML {
 						//console.log($('critica', $('recomendacion', datosDescripcion)));
 						//console.log(datosCritica.textContent);
 						//console.log($('critica', $('recomendacion', datosDescripcion)).text());
-						stringDatos += "<p>"+datosCritica.textContent+"</p>";
-						stringDatos += "<p><b>- "+datosCritica.getAttribute("autor")+"</b></p>";
+						stringDatos += "<li>"+datosCritica.textContent+" <em>- "+datosCritica.getAttribute("autor")+"</em></li>";
 					}
+					stringDatos += "</ul>";
 					stringDatos += "</div>";
 					
 					stringDatos += "<h4>Actores</h4>";
@@ -82,7 +83,7 @@ class ArchivoXML {
 					for (let l=0; l<totalActores; l++) {
 						let datosActor = $('actor', datosActores).get(l);
 						stringDatos += "<div class='actor'>";
-						stringDatos += "<p><b>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</b></p>";
+						stringDatos += "<p><em>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</em></p>";
 						let fechaNacimiento = new Date($('nacimiento', datosActor).get(0).getAttribute("fecha"));
 						stringDatos += "<p>Fecha de nacimiento: "+fechaNacimiento.toLocaleDateString()+"</p>";
 						stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
@@ -96,7 +97,7 @@ class ArchivoXML {
 						for (let m=0; m<totalPremios; m++) {
 							stringDatos += "<div class='premio'>";
 							let datosPremio = $('premio', datosPremios).get(m);
-							stringDatos += "<p><b>"+datosPremio.getAttribute("categoria")+"</b></p>";
+							stringDatos += "<p><em>"+datosPremio.getAttribute("categoria")+"</em></p>";
 							stringDatos += "<p>Fecha: "+datosPremio.getAttribute("fecha")+"</p>";
 							if (datosPremio.getAttribute("pelicula") != null)
 								stringDatos += "<p>Película: "+datosPremio.getAttribute("pelicula")+"</p>";
@@ -208,7 +209,7 @@ class ArchivoXML {
 				for (let j=0; j<totalCines; j++) {
 					stringDatos += "<div class='cine'>";
 					let datosCine = $('cine', datosCines).get(j);
-					stringDatos += "<p><b>"+datosCine.getAttribute("nombre")+"</b></p>";	
+					stringDatos += "<p><em>"+datosCine.getAttribute("nombre")+"</em></p>";	
 					stringDatos += "<p>Dirección: "+$('direccion', datosCine).get(0).getAttribute("calle")+", "+$('direccion', datosCine).get(0).getAttribute("ciudad")+"</p>";
 					let fechaProgramacion = new Date($('programacion', datosCine).get(0).getAttribute("fecha"));
 					stringDatos += "<p>Programación: "+fechaProgramacion.toLocaleDateString()+" - "+$('programacion', datosCine).get(0).getAttribute("hora")+"</p>";
@@ -233,7 +234,7 @@ class ArchivoXML {
 					//console.log(datosCritica.textContent);
 					//console.log($('critica', $('recomendacion', datosDescripcion)).text());
 					stringDatos += "<p>"+datosCritica.textContent+"</p>";
-					stringDatos += "<p><b>- "+datosCritica.getAttribute("autor")+"</b></p>";
+					stringDatos += "<p><em>- "+datosCritica.getAttribute("autor")+"</em></p>";
 				}
 				stringDatos += "</div>";
 				
@@ -245,7 +246,7 @@ class ArchivoXML {
 				for (let l=0; l<totalActores; l++) {
 					let datosActor = $('actor', datosActores).get(l);
 					stringDatos += "<div class='actor'>";
-					stringDatos += "<p><b>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</b></p>";
+					stringDatos += "<p><em>"+datosActor.getAttribute("nombre")+" "+datosActor.getAttribute("apellidos")+"</em></p>";
 					let fechaNacimiento = new Date($('nacimiento', datosActor).get(0).getAttribute("fecha"));
 					stringDatos += "<p>Fecha de nacimiento: "+fechaNacimiento.toLocaleDateString()+"</p>";
 					stringDatos += "<p>País de origen: "+$('nacimiento', datosActor).get(0).getAttribute("pais")+"</p>";
@@ -259,7 +260,7 @@ class ArchivoXML {
 					for (let m=0; m<totalPremios; m++) {
 						stringDatos += "<div class='premio'>";
 						let datosPremio = $('premio', datosPremios).get(m);
-						stringDatos += "<p><b>"+datosPremio.getAttribute("categoria")+"</b></p>";
+						stringDatos += "<p><em>"+datosPremio.getAttribute("categoria")+"</em></p>";
 						stringDatos += "<p>Fecha: "+datosPremio.getAttribute("fecha")+"</p>";
 						if (datosPremio.getAttribute("pelicula") != null)
 							stringDatos += "<p>Película: "+datosPremio.getAttribute("pelicula")+"</p>";
