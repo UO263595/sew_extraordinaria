@@ -60,7 +60,7 @@ class ArchivoXML {
 					console.log($('sinopsis', datosDescripcion));
 					stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 					stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
-					stringDatos += "<h5>Críticas</h5>";
+					stringDatos += "<strong>Críticas</strong>";
 					stringDatos += "<ul>";
 					let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 					// Se recorren las críticas
@@ -91,7 +91,7 @@ class ArchivoXML {
 						let datosPremios =  $('premios', datosActor).get(0);
 						let totalPremios = $('premio', datosPremios).length;
 						if (totalPremios>0)
-							stringDatos += "<h5>Premios</h5>";
+							stringDatos += "<strong>Premios</strong>";
 						//console.log(totalPremios);
 						// Se recorren los premios
 						for (let m=0; m<totalPremios; m++) {
@@ -105,7 +105,7 @@ class ArchivoXML {
 							stringDatos += "</div>";
 						}
 						
-						stringDatos += "<h5>Galería</h5>";
+						stringDatos += "<strong>Galería</strong>";
 						stringDatos += "<div class='galeria'>";
 						let datosGaleria =  $('galeria', datosActor).get(0);
 						let totalFotografias = $('fotografia', datosGaleria).length;
@@ -115,11 +115,11 @@ class ArchivoXML {
 							stringDatos += "<figure class='actor'><img class='actor' alt='Imagen del actor o actriz' src="+datosFotografia.getAttribute("enlace")+"/></figure>";
 						}
 						
-						let totalVideos = $('video', datosGaleria).length;
-						// Se recorren los videos
-						for (let o=0; o<totalVideos; o++) {
-							let datosVideo = $('video', datosGaleria).get(o);
-							stringDatos += "<video class='actor' controls preload='auto'><source src="+datosVideo.getAttribute("enlace")+"type='video/mp4'></video>";
+	//					let totalVideos = $('video', datosGaleria).length;
+	//					// Se recorren los videos
+	//					for (let o=0; o<totalVideos; o++) {
+	//						let datosVideo = $('video', datosGaleria).get(o);
+	//						stringDatos += "<video class='actor' controls preload='auto'><source src="+datosVideo.getAttribute("enlace")+"type='video/mp4'></video>";
 						}
 						stringDatos += "</div>";
 						stringDatos += "</div>";
@@ -132,7 +132,7 @@ class ArchivoXML {
 	//				let totalReferencias = $('referencia', datosBibliografia).length;
 	//				for (let p=0; p<totalReferencias; p++) {
 	//					let datosReferencia = $('referencia', datosBibliografia).get(p);
-	//					stringDatos += "<h5>Referencia:</h5>";
+	//					stringDatos += "<strong>Referencia:</strong>";
 	//					stringDatos += "<p class='enlace'><a href="+datosReferencia.getAttribute("enlace")+">"+datosReferencia.getAttribute("enlace")+"</a></p>";
 	//				}
 					stringDatos += "</div>";
@@ -224,7 +224,7 @@ class ArchivoXML {
 				console.log($('sinopsis', datosDescripcion));
 				stringDatos += "<p>Público recomendado: "+$('recomendacion', datosDescripcion).get(0).getAttribute("publico")+"</p>";
 				stringDatos += "<p>Puntuación: "+$('recomendacion', datosDescripcion).get(0).getAttribute("puntuacion")+"</p>";
-				stringDatos += "<h5>Críticas</h5>";
+				stringDatos += "<strong>Críticas</strong>";
 				let totalCriticas = $('critica', $('recomendacion', datosDescripcion)).length;
 				// Se recorren las críticas
 				for (let k=0; k<totalCriticas; k++) {
@@ -254,7 +254,7 @@ class ArchivoXML {
 					let datosPremios =  $('premios', datosActor).get(0);
 					let totalPremios = $('premio', datosPremios).length;
 					if (totalPremios>0)
-						stringDatos += "<h5>Premios</h5>";
+						stringDatos += "<strong>Premios</strong>";
 					//console.log(totalPremios);
 					// Se recorren los premios
 					for (let m=0; m<totalPremios; m++) {
@@ -268,7 +268,7 @@ class ArchivoXML {
 						stringDatos += "</div>";
 					}
 					
-					stringDatos += "<h5>Galería</h5>";
+					stringDatos += "<strong>Galería</strong>";
 					stringDatos += "<div class='galeria'>";
 					let datosGaleria =  $('galeria', datosActor).get(0);
 					let totalFotografias = $('fotografia', datosGaleria).length;
