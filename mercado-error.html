@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+	<title>Periódico digital</title>
+    <meta charset="UTF-8">
+	<base href="https://uo263595.github.io/sew_extraordinaria/">
+	<meta name="author" content="María Fernández Rojo">
+	<meta name="description" content="Periódico digital con información sobre noticias, el mercado actual y el tiempo"> 
+	
+	<link rel="shortcut icon" type="image/x-icon" href="multimedia/icono.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--hoja de estilo por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/posicionamiento.css"> <!--hoja de estilo adicional-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="mercado.js"></script>
+</head>
+
+<body>
+	<nav>
+		<ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+			<li><a href="buscador.html">Buscador de noticias</a></li>
+			<li><a href="laLiga.php">LaLiga</a></li>
+			<li><a href="tiempo.html">El tiempo</a></li>
+        </ul>
+	</nav>
+	<header>
+        <h1>Periódico Digital</h1>
+    </header>
+	
+	<main>
+	<h2>Buscador de datos de mercado</h2>
+	<section id="opcionesMercado" class="opciones">
+		<h3>Realiza una búsqueda</h3>
+		<label for="inputBusqueda">Stock Ticker: </label><input type="text" id="inputBusqueda" name="inputBusqueda" placeholder="Ejemplo: MSFT">
+		<label for="fechaInicial">Desde: </label><input type="date" id="fechaInicial" name="fechaInicial">
+		<label for="fechaFinal">Hasta: </label><input type="date" id="fechaFinal" name="fechaFinal">
+		<button id="bBuscar" onclick="buscadorMercado.buscar()">Buscar</button>
+	</section><div><h3>¡Tenemos problemas! No se pudo obtener el JSON de <a href="https://marketstack.com/">Marketstack</a></h3><p>Error: You have to specify at least one symbol and not more than 100</p></div>
+	<section class="advertencia" id="advertencia">
+	<h3>¡Advertencia!</h3>
+	<p>Es posible que para visualizar el contenido correctamente se deba conceder a la página el permiso de "contenido no seguro", esto es debido a que la API utiliza el protocolo HTTP en lugar de HTTPS.</p>
+	</section>
+	</main>
+	
+	<footer>
+		<h4>Más información</h4>
+		<p>
+			Cinema:
+			<a href="cartelera.html">Ver cartelera</a>
+		</p>
+		<p>
+			Mercado:
+			<a href="mercado.html">Ver datos de mercado</a>
+		</p>
+		<p>
+			Acerca de:
+			<a href="informacion.html">Miembros del equipo</a>
+		</p>
+		<p>Autora: María Fernández Rojo - UO263595</p>
+    </footer>
+
+</body></html>

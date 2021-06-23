@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+	<title>Periódico digital</title>
+    <meta charset="UTF-8">
+	<base href="https://uo263595.github.io/sew_extraordinaria/">
+	<meta name="author" content="María Fernández Rojo">
+	<meta name="description" content="Periódico digital con información sobre noticias, el mercado actual y el tiempo"> 
+	
+	<link rel="shortcut icon" type="image/x-icon" href="multimedia/icono.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--hoja de estilo por defecto-->
+	<link rel="stylesheet" type="text/css" href="css/posicionamiento.css"> <!--hoja de estilo adicional-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="buscador.js"></script>
+</head>
+
+<body>
+	<nav>
+		<ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+			<li><a href="buscador.html">Buscador de noticias</a></li>
+			<li><a href="laLiga.php">LaLiga</a></li>
+			<li><a href="tiempo.html">El tiempo</a></li>
+        </ul>
+	</nav>
+	<header>
+        <h1>Periódico Digital</h1>
+    </header>
+	
+	<main>
+	<h2>Buscador de noticias online</h2>
+	<section class="opciones" id="sectionBusqueda">
+		<h3>Realiza una búsqueda</h3>
+		<label for="inputBusquedaNoticias">Introduce las palabras clave: </label><input type="text" id="inputBusquedaNoticias" name="inputBusquedaNoticias" placeholder="Busca noticias...">
+		<button id="bBuscar" onclick="buscadorNoticias.buscar()">Buscar</button>
+	</section><div><h4>Total resultados</h4><p>0</p></div>
+	
+	</main>
+	
+	<footer>
+		<h4>Más información</h4>
+		<p>
+			Cinema:
+			<a href="cartelera.html">Ver cartelera</a>
+		</p>
+		<p>
+			Mercado:
+			<a href="mercado.html">Ver datos de mercado</a>
+		</p>
+		<p>
+			Acerca de:
+			<a href="informacion.html">Miembros del equipo</a>
+		</p>
+		<p>Autora: María Fernández Rojo - UO263595</p>
+    </footer>
+
+</body></html>
