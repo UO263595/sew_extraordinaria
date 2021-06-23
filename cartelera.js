@@ -120,7 +120,7 @@ class ArchivoXML {
 	//					for (let o=0; o<totalVideos; o++) {
 	//						let datosVideo = $('video', datosGaleria).get(o);
 	//						stringDatos += "<video class='actor' controls preload='auto'><source src="+datosVideo.getAttribute("enlace")+"type='video/mp4'></video>";
-						}
+	//					}
 						stringDatos += "</div>";
 						stringDatos += "</div>";
 					}
