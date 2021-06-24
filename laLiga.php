@@ -186,7 +186,7 @@
 						while($fila = $resultado->fetch_assoc()) {
 							echo "<section class='laLiga'>";
 							echo "<h3>Datos del jugador</h3>";
-							echo "<p><b>" . $fila['nombre'] . "</b></p>";
+							echo "<p><em>" . $fila['nombre'] . "</em></p>";
 							echo "<p>ID: " . $fila['id'] . "</p>";
 							echo "<p>Nacionalidad: " . $fila['nacionalidad'] . "</p>";
 							echo "<p>Equipo: ". $fila['equipo'] . "</p>";
@@ -241,8 +241,8 @@
 							$consultaGoles->close();
 							
 							echo "<section class='laLiga'>";
-							echo "<h3>Datos del equipo:</h3>";
-							echo "<p><b>" . $fila['nombre'] . "</b></p>";
+							echo "<h3>Datos del equipo</h3>";
+							echo "<p><em>" . $fila['nombre'] . "</em></p>";
 							echo "<p>Localización sede: " . $fila['sede'] . "</p>";
 							if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
 							echo "<p>Goles totales: " . $goles . "</p>";
@@ -274,7 +274,7 @@
 						while($fila = $resultado->fetch_assoc()) {
 							echo "<section class='laLiga'>";
 							echo "<h3>Datos del partido</h3>";
-							echo "<p><b>" . $fila['codigo'] . "</b></p>";
+							echo "<p><em>" . $fila['codigo'] . "</em></p>";
 							echo "<p>Equipo local: " . $fila['equipo_local'] . "</p>";
 							echo "<p>Equipo visitante: " . $fila['equipo_visitante'] . "</p>";
 							echo "<p>Fecha: ". $fila['fecha'] . "</p>";
@@ -306,8 +306,8 @@
 						$resultado->data_seek(0);
 						while($fila = $resultado->fetch_assoc()) {
 							echo "<section class='laLiga'>";
-							echo "<h3>Datos del equipo:</h3>";
-							echo "<p><b>" . $fila['nombre'] . "</b></p>";
+							echo "<h3>Datos del equipo</h3>";
+							echo "<p><em>" . $fila['nombre'] . "</em></p>";
 							echo "<p>Localización sede: " . $fila['sede'] . "</p>";
 							if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
 							echo "</section>";
@@ -341,7 +341,7 @@
 						$resultado->data_seek(0);
 						$fila = $resultado->fetch_assoc();
 						$equipo1 = $fila['nombre'];
-						echo "<p><b>" . $fila['nombre'] . "</b></p>";
+						echo "<p><em>" . $fila['nombre'] . "</em></p>";
 						echo "<p>Localización sede: " . $fila['sede'] . "</p>";
 						if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
 						echo "</section>";
@@ -359,7 +359,7 @@
 						$resultado->data_seek(0);
 						$fila = $resultado->fetch_assoc();
 						$equipo2 = $fila['nombre'];
-						echo "<p><b>" . $fila['nombre'] . "</b></p>";
+						echo "<p><em>" . $fila['nombre'] . "</em></p>";
 						echo "<p>Localización sede: " . $fila['sede'] . "</p>";
 						if ($fila['posicion']!=NULL) echo "<p>Posición: ". $fila['posicion'] . "</p>";
 						echo "</section>";
